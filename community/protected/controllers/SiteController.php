@@ -72,8 +72,9 @@ class SiteController extends Controller {
  			$this->layout = 'mainLogin';
  			$this->render('//contests/concursoFinalizado');
  			return;
- 		}
-
+		 }
+		 
+		 
 		$this->layout = 'mainLogin';
 		// Verifica que exita el concurso
 		$concurso = $this->verificarToken ( $t );
