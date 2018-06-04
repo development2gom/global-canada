@@ -1,0 +1,38 @@
+2016/07/13 19:39:08 [errors] [paypal] 
+ No existe orden de compra: oc_c6fc86b778bc527e41e619594bf302155786d3821bf77 
+2016/07/15 13:43:35 [errors] [paypal] 
+ No existe orden de compra: oc_9d605cf2ba31300e16aff40599899f47578917750e4d3 
+2016/08/31 11:28:11 [errors] [paypal] 
+ PRODUCTO Y MONTO INCORRECTO: id_product=84.75 AND num_price=-84.75
+2016/08/31 11:28:11 [errors] [paypal] 
+ PRODUCTO Y MONTO INCORRECTO: id_product=0 AND num_price=-84.75
+2016/09/02 11:56:52 [errors] [paypal] 
+ No existe orden de compra: oc_500b39e29b2caf0c63c3184f825d8f5f57c787ad3d087 
+2016/09/02 11:58:33 [errors] [paypal] 
+ No existe orden de compra: oc_6b5d40defdca05fea2474c4eba52ce1e57c4edea6b554 
+2016/09/02 11:59:23 [errors] [paypal] 
+ No existe orden de compra: oc_eb0e9c92c74cfb36f82fda12d280a9c257c7821d84214 
+2016/09/02 12:03:02 [errors] [paypal] 
+ No existe orden de compra: oc_c367303012051681e941b97409cd452b57c4d98505ed1 
+2016/09/02 12:06:02 [errors] [paypal] 
+ No existe orden de compra: oc_91a262b0c31e0d3058bb3df6e18bdbdc57ae4f3e01015 
+2016/09/02 12:07:02 [errors] [paypal] 
+ No existe orden de compra: oc_b154f7e0aa95095d934cb8b63623f0fb57c772c7f0b99 
+2016/09/02 12:12:05 [errors] [paypal] 
+ No existe orden de compra: oc_d0d7d3fe790cf5c608784f18652f81cd57bb32bb8c96b 
+2016/09/02 12:13:09 [errors] [paypal] 
+ No existe orden de compra: oc_95165e4d37a5995bdc79eb8bd003868e57c79cec544dc 
+2016/09/02 12:14:01 [errors] [paypal] 
+ No existe orden de compra: oc_82efb8c6e1906c8c22e6ca4cda2b8f0757bdd590330fa 
+2016/09/02 12:15:11 [errors] [paypal] 
+ No existe orden de compra: oc_62a68e854f53bbe1dc46acd5af74549d57c5eb5eaf0d2 
+2016/09/02 12:16:06 [errors] [paypal] 
+ No existe orden de compra: oc_43cbf03aa1531aa38c91a5acd9b3198557c4818fba901 
+2016/09/02 12:18:24 [errors] [paypal] 
+ No existe orden de compra: oc_27384b1706e0bb843180e69f2db0b97957c510525f6d3 
+2016/09/02 12:23:09 [errors] [paypal] 
+ No existe orden de compra: oc_511366df7d6022ac635a898bcc705fd657bb31e5d73b4 
+2017/06/22 16:24:00 [errors] [paypal] 
+ No existe orden de compra: oc_2d4a319604e5e1b0487bdab14637c5ff594bdf4d21877 
+2017/07/13 17:07:49 [errors] [paypal] 
+ No existe orden de compra: oc_84ac300ee453c8de7cf10e28cd044c885967a8a84e0c0 

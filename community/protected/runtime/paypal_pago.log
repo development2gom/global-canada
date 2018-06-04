@@ -1,0 +1,1520 @@
+2016/07/06 16:40:49 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :77A0830294570253J -----------
+2016/07/06 16:40:49 [pago] [paypal] 
+ id_usuario 651
+2016/07/06 16:40:49 [pago] [paypal] 
+ item_number oc_586b7c1606bdaf6f45c3224fd3cefe52577d7abf6c6b4
+2016/07/06 16:40:49 [pago] [paypal] 
+ mc_gross 200.00
+2016/07/06 16:40:49 [pago] [paypal] 
+ txn_id 77A0830294570253J
+2016/07/06 16:40:49 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=200.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=14%3A40%3A39+Jul+06%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=651&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AfzPPZH.t0ety8o.ciNBEdPv7r-OAPvj9K4VDY5mv4FG6.nhA38h3Dtg&payer_email=sandbox%402gom.com.mx&txn_id=77A0830294570253J&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Paquete+B%E1sico&mc_currency=MXN&item_number=oc_586b7c1606bdaf6f45c3224fd3cefe52577d7abf6c6b4&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=c9e64df26e73b
+2016/07/06 16:40:49 [pago] [paypal] 
+ verify_sign AfzPPZH.t0ety8o.ciNBEdPv7r-OAPvj9K4VDY5mv4FG6.nhA38h3Dtg
+2016/07/06 16:40:49 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :77A0830294570253J -----------
+2016/07/07 11:53:36 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :14T210812R234542K -----------
+2016/07/07 11:53:36 [pago] [paypal] 
+ id_usuario 649
+2016/07/07 11:53:36 [pago] [paypal] 
+ item_number oc_b45ea2c82da453928bca00bcdd766083577e80ba3e8c4
+2016/07/07 11:53:36 [pago] [paypal] 
+ mc_gross 1100.00
+2016/07/07 11:53:36 [pago] [paypal] 
+ txn_id 14T210812R234542K
+2016/07/07 11:53:36 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=1100.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A53%3A27+Jul+07%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=649&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=A70yhW2E1fJ-3GvRelFH2WSViF4fAIlbOO-gzWX9O5qUAYu4HFWw5tGF&payer_email=sandbox%402gom.com.mx&txn_id=14T210812R234542K&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Paquete+Premium+Retroalimentaci%F3n&mc_currency=MXN&item_number=oc_b45ea2c82da453928bca00bcdd766083577e80ba3e8c4&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=2cd908ebd4d72
+2016/07/07 11:53:36 [pago] [paypal] 
+ verify_sign A70yhW2E1fJ-3GvRelFH2WSViF4fAIlbOO-gzWX9O5qUAYu4HFWw5tGF
+2016/07/07 11:53:36 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :14T210812R234542K -----------
+2016/07/07 19:52:34 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :47418040AY924253U -----------
+2016/07/07 19:52:35 [pago] [paypal] 
+ id_usuario 652
+2016/07/07 19:52:35 [pago] [paypal] 
+ item_number oc_acf9e89129612b4bf23ca69386d65c1c577ef930c9091
+2016/07/07 19:52:35 [pago] [paypal] 
+ mc_gross 500.00
+2016/07/07 19:52:35 [pago] [paypal] 
+ txn_id 47418040AY924253U
+2016/07/07 19:52:35 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=500.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=17%3A52%3A27+Jul+07%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=652&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AWkT50gtrA0iXnh55b939tXXlAFYA.-Jr84Ov-JyoyeUBk78Wk9FiB7E&payer_email=sandbox%402gom.com.mx&txn_id=47418040AY924253U&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Paquete+Premium&mc_currency=MXN&item_number=oc_acf9e89129612b4bf23ca69386d65c1c577ef930c9091&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=4d9d2f4c86e53
+2016/07/07 19:52:35 [pago] [paypal] 
+ verify_sign AWkT50gtrA0iXnh55b939tXXlAFYA.-Jr84Ov-JyoyeUBk78Wk9FiB7E
+2016/07/07 19:52:35 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :47418040AY924253U -----------
+2016/07/12 19:34:37 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :5FY25390AG292072R -----------
+2016/07/12 19:34:37 [pago] [paypal] 
+ id_usuario 209
+2016/07/12 19:34:37 [pago] [paypal] 
+ item_number oc_a13df2eeb1032ddb04d2b173c4075bdf57858bb9c062e
+2016/07/12 19:34:37 [pago] [paypal] 
+ mc_gross 60.00
+2016/07/12 19:34:37 [pago] [paypal] 
+ txn_id 5FY25390AG292072R
+2016/07/12 19:34:37 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=60.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=17%3A34%3A28+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=209&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AiKZhEEPLJjSIccz.2M.tbyW5YFwAcMmxD7T9De.t0O5v-QTRAdDw1nL&payer_email=sandbox%402gom.com.mx&txn_id=5FY25390AG292072R&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_a13df2eeb1032ddb04d2b173c4075bdf57858bb9c062e&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=a7116b75a39
+2016/07/12 19:34:37 [pago] [paypal] 
+ verify_sign AiKZhEEPLJjSIccz.2M.tbyW5YFwAcMmxD7T9De.t0O5v-QTRAdDw1nL
+2016/07/12 19:34:37 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :5FY25390AG292072R -----------
+2016/07/12 20:34:09 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@comitefotomx.com transacción :46057030W8608954R -----------
+2016/07/12 20:34:09 [pago] [paypal] 
+ id_usuario 210
+2016/07/12 20:34:09 [pago] [paypal] 
+ item_number oc_280a93187511c30d0ec517f82252b43657859a605b7f2
+2016/07/12 20:34:09 [pago] [paypal] 
+ mc_gross 60.00
+2016/07/12 20:34:09 [pago] [paypal] 
+ txn_id 46057030W8608954R
+2016/07/12 20:34:09 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=60.00&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=72YSKDNJXY2AE&tax=0.00&address_street=Calle+Juarez+1&payment_date=18%3A34%3A04+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=210&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=ATFTLrXRceFz9AygDKFttAoFt3Z1ApuRR480G3l.2dO7UVcW83lcrm-i&payer_email=sandbox%40comitefotomx.com&txn_id=46057030W8608954R&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_280a93187511c30d0ec517f82252b43657859a605b7f2&residence_country=MX&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=9af025f396357
+2016/07/12 20:34:09 [pago] [paypal] 
+ verify_sign ATFTLrXRceFz9AygDKFttAoFt3Z1ApuRR480G3l.2dO7UVcW83lcrm-i
+2016/07/12 20:34:10 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@comitefotomx.com transacción :46057030W8608954R -----------
+2016/07/12 20:36:36 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :443038162R9109108 -----------
+2016/07/12 20:36:36 [pago] [paypal] 
+ id_usuario 208
+2016/07/12 20:36:36 [pago] [paypal] 
+ item_number oc_2908d01fd445efac4c7906745ca64791578599bf63fa8
+2016/07/12 20:36:36 [pago] [paypal] 
+ mc_gross 60.00
+2016/07/12 20:36:36 [pago] [paypal] 
+ txn_id 443038162R9109108
+2016/07/12 20:36:36 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=60.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A31%3A28+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AltwqOMBOeZmizsBcfNMPRMh44mKA8Lf0KvWyPHotRtvEIB-AYGLwE5o&payer_email=sandbox%402gom.com.mx&txn_id=443038162R9109108&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_2908d01fd445efac4c7906745ca64791578599bf63fa8&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=608790ed9b1c3
+2016/07/12 20:36:36 [pago] [paypal] 
+ verify_sign AltwqOMBOeZmizsBcfNMPRMh44mKA8Lf0KvWyPHotRtvEIB-AYGLwE5o
+2016/07/12 20:36:37 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :443038162R9109108 -----------
+2016/07/12 20:36:58 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :1J207974HH9156220 -----------
+2016/07/12 20:36:58 [pago] [paypal] 
+ id_usuario 208
+2016/07/12 20:36:58 [pago] [paypal] 
+ item_number oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:36:58 [pago] [paypal] 
+ mc_gross 75.00
+2016/07/12 20:36:58 [pago] [paypal] 
+ txn_id 1J207974HH9156220
+2016/07/12 20:36:58 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+2016/07/12 20:36:58 [pago] [paypal] 
+ verify_sign AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:37:10 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :1J207974HH9156220 -----------
+2016/07/12 20:37:10 [pago] [paypal] 
+ id_usuario 208
+2016/07/12 20:37:10 [pago] [paypal] 
+ item_number oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:37:10 [pago] [paypal] 
+ mc_gross 75.00
+2016/07/12 20:37:10 [pago] [paypal] 
+ txn_id 1J207974HH9156220
+2016/07/12 20:37:10 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+2016/07/12 20:37:10 [pago] [paypal] 
+ verify_sign AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:37:37 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :1J207974HH9156220 -----------
+2016/07/12 20:37:39 [pago] [paypal] 
+ id_usuario 208
+2016/07/12 20:37:39 [pago] [paypal] 
+ item_number oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:37:39 [pago] [paypal] 
+ mc_gross 75.00
+2016/07/12 20:37:39 [pago] [paypal] 
+ txn_id 1J207974HH9156220
+2016/07/12 20:37:39 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+2016/07/12 20:37:39 [pago] [paypal] 
+ verify_sign AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:38:26 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :1J207974HH9156220 -----------
+2016/07/12 20:38:26 [pago] [paypal] 
+ id_usuario 208
+2016/07/12 20:38:26 [pago] [paypal] 
+ item_number oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:38:26 [pago] [paypal] 
+ mc_gross 75.00
+2016/07/12 20:38:26 [pago] [paypal] 
+ txn_id 1J207974HH9156220
+2016/07/12 20:38:26 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+2016/07/12 20:38:26 [pago] [paypal] 
+ verify_sign AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:39:51 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :1J207974HH9156220 -----------
+2016/07/12 20:39:51 [pago] [paypal] 
+ id_usuario 208
+2016/07/12 20:39:51 [pago] [paypal] 
+ item_number oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:39:51 [pago] [paypal] 
+ mc_gross 75.00
+2016/07/12 20:39:51 [pago] [paypal] 
+ txn_id 1J207974HH9156220
+2016/07/12 20:39:51 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+2016/07/12 20:39:51 [pago] [paypal] 
+ verify_sign AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:42:37 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :1J207974HH9156220 -----------
+2016/07/12 20:42:37 [pago] [paypal] 
+ id_usuario 208
+2016/07/12 20:42:37 [pago] [paypal] 
+ item_number oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:42:37 [pago] [paypal] 
+ mc_gross 75.00
+2016/07/12 20:42:37 [pago] [paypal] 
+ txn_id 1J207974HH9156220
+2016/07/12 20:42:37 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+2016/07/12 20:42:37 [pago] [paypal] 
+ verify_sign AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:48:04 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :1J207974HH9156220 -----------
+2016/07/12 20:48:04 [pago] [paypal] 
+ id_usuario 208
+2016/07/12 20:48:04 [pago] [paypal] 
+ item_number oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:48:04 [pago] [paypal] 
+ mc_gross 75.00
+2016/07/12 20:48:04 [pago] [paypal] 
+ txn_id 1J207974HH9156220
+2016/07/12 20:48:04 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+2016/07/12 20:48:04 [pago] [paypal] 
+ verify_sign AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:58:46 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :1J207974HH9156220 -----------
+2016/07/12 20:58:46 [pago] [paypal] 
+ id_usuario 208
+2016/07/12 20:58:46 [pago] [paypal] 
+ item_number oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:58:46 [pago] [paypal] 
+ mc_gross 75.00
+2016/07/12 20:58:46 [pago] [paypal] 
+ txn_id 1J207974HH9156220
+2016/07/12 20:58:46 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+2016/07/12 20:58:46 [pago] [paypal] 
+ verify_sign AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 21:20:21 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :1J207974HH9156220 -----------
+2016/07/12 21:20:23 [pago] [paypal] 
+ id_usuario 208
+2016/07/12 21:20:23 [pago] [paypal] 
+ item_number oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 21:20:23 [pago] [paypal] 
+ mc_gross 75.00
+2016/07/12 21:20:23 [pago] [paypal] 
+ txn_id 1J207974HH9156220
+2016/07/12 21:20:23 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+2016/07/12 21:20:23 [pago] [paypal] 
+ verify_sign AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/13 15:22:28 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@comitefotomx.com transacción :2DG26294WF236060X -----------
+2016/07/13 15:22:29 [pago] [paypal] 
+ id_usuario 213
+2016/07/13 15:22:29 [pago] [paypal] 
+ item_number oc_f4f81d7db0061dd2e954ad28765e661b5786a1f1bc5d3
+2016/07/13 15:22:29 [pago] [paypal] 
+ mc_gross 60.00
+2016/07/13 15:22:29 [pago] [paypal] 
+ txn_id 2DG26294WF236060X
+2016/07/13 15:22:29 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=60.00&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=72YSKDNJXY2AE&tax=0.00&address_street=Calle+Juarez+1&payment_date=13%3A22%3A23+Jul+13%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=213&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=ANutI7bWwxLMC5JXHntVvHloYybmAKpyX2bA10.SguYKagRh7a.LdWeI&payer_email=sandbox%40comitefotomx.com&txn_id=2DG26294WF236060X&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_f4f81d7db0061dd2e954ad28765e661b5786a1f1bc5d3&residence_country=MX&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=bad62372d337f
+2016/07/13 15:22:29 [pago] [paypal] 
+ verify_sign ANutI7bWwxLMC5JXHntVvHloYybmAKpyX2bA10.SguYKagRh7a.LdWeI
+2016/07/13 15:22:29 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@comitefotomx.com transacción :2DG26294WF236060X -----------
+2016/07/13 19:39:08 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :49256777M1333383Y -----------
+2016/07/14 20:13:26 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :8JL55500YP306903D -----------
+2016/07/14 20:13:26 [pago] [paypal] 
+ id_usuario 218
+2016/07/14 20:13:26 [pago] [paypal] 
+ item_number oc_272a7edbe58fd8cb3c7c7a2f4c8c1fd25788381c19f11
+2016/07/14 20:13:26 [pago] [paypal] 
+ mc_gross 84.75
+2016/07/14 20:13:26 [pago] [paypal] 
+ txn_id 8JL55500YP306903D
+2016/07/14 20:13:26 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A13%3A20+Jul+14%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=218&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AgePMPfbDDc05TM5uouG2O9s9U74APFHQZKsmvDL-iVOHn-DWjPIKSam&payer_email=sandbox%402gom.com.mx&txn_id=8JL55500YP306903D&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_272a7edbe58fd8cb3c7c7a2f4c8c1fd25788381c19f11&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=9648b9693c340
+2016/07/14 20:13:26 [pago] [paypal] 
+ verify_sign AgePMPfbDDc05TM5uouG2O9s9U74APFHQZKsmvDL-iVOHn-DWjPIKSam
+2016/07/14 20:13:27 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :8JL55500YP306903D -----------
+2016/07/14 22:06:08 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@comitefotomx.com transacción :13U87164U4516251L -----------
+2016/07/14 22:06:08 [pago] [paypal] 
+ id_usuario 219
+2016/07/14 22:06:08 [pago] [paypal] 
+ item_number oc_4d6f7ac3ecfc874bd5e08a47c73a96a4578851c832c54
+2016/07/14 22:06:08 [pago] [paypal] 
+ mc_gross 84.75
+2016/07/14 22:06:08 [pago] [paypal] 
+ txn_id 13U87164U4516251L
+2016/07/14 22:06:08 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=72YSKDNJXY2AE&tax=0.00&address_street=Calle+Juarez+1&payment_date=20%3A05%3A59+Jul+14%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=219&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=ACKlF9BPROATqcMJPvGGq6o9hyPXAUscJw9HhJX52fIw5qPmGi-4SAhF&payer_email=sandbox%40comitefotomx.com&txn_id=13U87164U4516251L&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_4d6f7ac3ecfc874bd5e08a47c73a96a4578851c832c54&residence_country=MX&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=22fbb829df741
+2016/07/14 22:06:08 [pago] [paypal] 
+ verify_sign ACKlF9BPROATqcMJPvGGq6o9hyPXAUscJw9HhJX52fIw5qPmGi-4SAhF
+2016/07/14 22:06:08 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@comitefotomx.com transacción :13U87164U4516251L -----------
+2016/07/15 12:05:55 [pago] [paypal] 
+------------- PAGO RECIBIDO de lee.photog2015@rogers.com transacción :3K334148UH134852Y -----------
+2016/07/15 12:05:55 [pago] [paypal] 
+ id_usuario 236
+2016/07/15 12:05:55 [pago] [paypal] 
+ item_number oc_9d605cf2ba31300e16aff40599899f47578917750e4d3
+2016/07/15 12:05:55 [pago] [paypal] 
+ mc_gross 62.15
+2016/07/15 12:05:55 [pago] [paypal] 
+ txn_id 3K334148UH134852Y
+2016/07/15 12:05:55 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=VJCCNBTMSMJ4S&address_street=183+Windsor+Avenue&payment_date=10%3A05%3A44+Jul+15%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=N6C2A3&first_name=Arthur&mc_fee=1.85&address_country_code=CA&address_name=Arthur+Lee&notify_version=3.8&custom=236&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=London&quantity=1&verify_sign=Ai38-2NWNzEDBvUaYo2H33DKMOSlAiPt5vWh3b4dIwLklt7KbM8ZMRQ1&payer_email=lee.photog2015%40rogers.com&txn_id=3K334148UH134852Y&payment_type=instant&last_name=Lee&address_state=Ontario&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_9d605cf2ba31300e16aff40599899f47578917750e4d3&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=c2da674b69bfa
+2016/07/15 12:05:55 [pago] [paypal] 
+ verify_sign Ai38-2NWNzEDBvUaYo2H33DKMOSlAiPt5vWh3b4dIwLklt7KbM8ZMRQ1
+2016/07/15 12:05:55 [pago] [paypal] 
+ ------------- FIN DE PAGO de lee.photog2015@rogers.com transacción :3K334148UH134852Y -----------
+2016/07/15 13:43:35 [pago] [paypal] 
+------------- PAGO RECIBIDO de lee.photog2015@rogers.com transacción :300848475V135793U -----------
+2016/07/22 10:55:29 [pago] [paypal] 
+------------- PAGO RECIBIDO de claude@brazeauphoto.com transacción :6C527712D7016825W -----------
+2016/07/22 10:55:29 [pago] [paypal] 
+ id_usuario 243
+2016/07/22 10:55:29 [pago] [paypal] 
+ item_number oc_ccf81fa56de1f6e3e39100c7a32f7823579240bf5d61f
+2016/07/22 10:55:29 [pago] [paypal] 
+ mc_gross 62.15
+2016/07/22 10:55:29 [pago] [paypal] 
+ txn_id 6C527712D7016825W
+2016/07/22 10:55:29 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=2LCB2SY3KQYCA&address_street=104+Sunshine+Cr.&payment_date=08%3A55%3A14+Jul+22%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=K4A+0V3&first_name=Claude&mc_fee=1.85&address_country_code=CA&address_name=Claude+Brazeau&notify_version=3.8&custom=243&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Orleans&quantity=1&verify_sign=Amm.M2uQ992Rkt6Hed1rPEU7RJIEA5JVIXgM08YGf6WkVOJWDXH0Dxfe&payer_email=claude%40brazeauphoto.com&txn_id=6C527712D7016825W&payment_type=instant&last_name=Brazeau&address_state=ON&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_ccf81fa56de1f6e3e39100c7a32f7823579240bf5d61f&residence_country=CA&receipt_id=5398-3154-6299-7736&transaction_subject=&payment_gross=&ipn_track_id=5df9cd1e77766
+2016/07/22 10:55:29 [pago] [paypal] 
+ verify_sign Amm.M2uQ992Rkt6Hed1rPEU7RJIEA5JVIXgM08YGf6WkVOJWDXH0Dxfe
+2016/07/22 10:55:29 [pago] [paypal] 
+ ------------- FIN DE PAGO de claude@brazeauphoto.com transacción :6C527712D7016825W -----------
+2016/07/22 15:41:03 [pago] [paypal] 
+------------- PAGO RECIBIDO de megjess@figment.ca transacción :50D37437E5231915J -----------
+2016/07/22 15:41:03 [pago] [paypal] 
+ id_usuario 245
+2016/07/22 15:41:03 [pago] [paypal] 
+ item_number oc_01847aa5f089a30079575273019b9c9057928499eafc3
+2016/07/22 15:41:03 [pago] [paypal] 
+ mc_gross 62.15
+2016/07/22 15:41:03 [pago] [paypal] 
+ txn_id 50D37437E5231915J
+2016/07/22 15:41:03 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=4RG56L9EXWD68&address_street=Box+121%0D%0A614+Centennial+Ave&payment_date=13%3A40%3A51+Jul+22%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T0L+1S0&first_name=Megan&mc_fee=1.85&address_country_code=CA&address_name=Megan+Groenenboom&notify_version=3.8&custom=245&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Nobleford&quantity=1&verify_sign=As-AAHJq9n9yDoIgREky0In5OiR3AKdkhVudrC77Pm-dhF2SDDIWN9Pd&payer_email=megjess%40figment.ca&txn_id=50D37437E5231915J&payment_type=instant&last_name=Groenenboom&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_01847aa5f089a30079575273019b9c9057928499eafc3&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=70943469c3fba
+2016/07/22 15:41:03 [pago] [paypal] 
+ verify_sign As-AAHJq9n9yDoIgREky0In5OiR3AKdkhVudrC77Pm-dhF2SDDIWN9Pd
+2016/07/22 15:41:03 [pago] [paypal] 
+ ------------- FIN DE PAGO de megjess@figment.ca transacción :50D37437E5231915J -----------
+2016/07/28 15:26:32 [pago] [paypal] 
+------------- PAGO RECIBIDO de info@studiocandide.com transacción :9E137710GL265582P -----------
+2016/07/28 15:26:32 [pago] [paypal] 
+ id_usuario 250
+2016/07/28 15:26:32 [pago] [paypal] 
+ item_number oc_0cd1c62aaf724f7f5f654478cc913068579a680c36629
+2016/07/28 15:26:32 [pago] [paypal] 
+ mc_gross 62.15
+2016/07/28 15:26:32 [pago] [paypal] 
+ txn_id 9E137710GL265582P
+2016/07/28 15:26:32 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=QQEUZLSNZSRP4&tax=0.00&address_street=2390+Raymond%0D%0Anil&payment_date=13%3A26%3A17+Jul+28%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=j2s+5w1&first_name=Luc&mc_fee=1.85&address_country_code=CA&address_name=Luc+Charpentier&notify_version=3.8&custom=250&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=St-Hyacinthe&quantity=1&verify_sign=AI3CO7S8cQRVoojPm3x8gMjc9tc4Amtk0tpKOtExz6plctcMmfJJUtzh&payer_email=info%40studiocandide.com&txn_id=9E137710GL265582P&payment_type=instant&last_name=Charpentier&address_state=Quebec&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_0cd1c62aaf724f7f5f654478cc913068579a680c36629&residence_country=CA&receipt_id=0656-8010-8321-6034&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=856526218a56c
+2016/07/28 15:26:32 [pago] [paypal] 
+ verify_sign AI3CO7S8cQRVoojPm3x8gMjc9tc4Amtk0tpKOtExz6plctcMmfJJUtzh
+2016/07/28 15:26:32 [pago] [paypal] 
+ ------------- FIN DE PAGO de info@studiocandide.com transacción :9E137710GL265582P -----------
+2016/08/05 16:33:50 [pago] [paypal] 
+------------- PAGO RECIBIDO de michael_drapeau@hotmail.com transacción :4F35416518781833A -----------
+2016/08/05 16:33:50 [pago] [paypal] 
+ id_usuario 256
+2016/08/05 16:33:50 [pago] [paypal] 
+ item_number oc_54cd26bd0a6025ba316fd383860becf157a504c0bd0ae
+2016/08/05 16:33:50 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/05 16:33:50 [pago] [paypal] 
+ txn_id 4F35416518781833A
+2016/08/05 16:33:50 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=M3KH9E2S42JAN&tax=0.00&address_street=1505%2C+rue+des+Roses&payment_date=14%3A33%3A38+Aug+05%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=J1E+4J2&first_name=Micha%EBl&mc_fee=1.85&address_country_code=CA&address_name=Micha%EBl+Drapeau&notify_version=3.8&custom=256&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Sherbrooke&quantity=1&verify_sign=AXlv5viNs2yT2MDR7RbOqxhYiFHrAsNvwC9wfRqGfGufuLUCnoVPsB.u&payer_email=michael_drapeau%40hotmail.com&txn_id=4F35416518781833A&payment_type=instant&last_name=Drapeau&address_state=Quebec&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_54cd26bd0a6025ba316fd383860becf157a504c0bd0ae&residence_country=CA&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=a79db8d374b52
+2016/08/05 16:33:50 [pago] [paypal] 
+ verify_sign AXlv5viNs2yT2MDR7RbOqxhYiFHrAsNvwC9wfRqGfGufuLUCnoVPsB.u
+2016/08/05 16:33:50 [pago] [paypal] 
+ ------------- FIN DE PAGO de michael_drapeau@hotmail.com transacción :4F35416518781833A -----------
+2016/08/07 15:27:09 [pago] [paypal] 
+------------- PAGO RECIBIDO de ginettelaforest@gmail.com transacción :69P0631574297521S -----------
+2016/08/07 15:27:09 [pago] [paypal] 
+ id_usuario 260
+2016/08/07 15:27:09 [pago] [paypal] 
+ item_number oc_b4d662ccdf49176be2600832a6ae8a8657a798778bc92
+2016/08/07 15:27:09 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/07 15:27:09 [pago] [paypal] 
+ txn_id 69P0631574297521S
+2016/08/07 15:27:09 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=2D9Q9ELVBFDPG&address_street=8-4455+Andr%E9+Laurendeau&payment_date=13%3A26%3A58+Aug+07%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=H1Y+3R6&first_name=Ginette&mc_fee=2.42&address_country_code=CA&address_name=Ginette+Laforest&notify_version=3.8&custom=260&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Montr%E9al&quantity=1&verify_sign=AI7lmouzGlbcBNpG8d1al0v0CAvnAAVkoh-npj7RR6hKgVUZvKnbhilR&payer_email=ginettelaforest%40gmail.com&txn_id=69P0631574297521S&payment_type=instant&last_name=Laforest&address_state=QC&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_b4d662ccdf49176be2600832a6ae8a8657a798778bc92&residence_country=CA&receipt_id=1379-6671-5212-5248&transaction_subject=&payment_gross=&ipn_track_id=f342f7cae9b8e
+2016/08/07 15:27:09 [pago] [paypal] 
+ verify_sign AI7lmouzGlbcBNpG8d1al0v0CAvnAAVkoh-npj7RR6hKgVUZvKnbhilR
+2016/08/07 15:27:10 [pago] [paypal] 
+ ------------- FIN DE PAGO de ginettelaforest@gmail.com transacción :69P0631574297521S -----------
+2016/08/07 16:05:04 [pago] [paypal] 
+------------- PAGO RECIBIDO de danielsabourin@mac.com transacción :20W07903B6390874U -----------
+2016/08/07 16:05:05 [pago] [paypal] 
+ id_usuario 261
+2016/08/07 16:05:05 [pago] [paypal] 
+ item_number oc_a50de8fd44f78cdff7f8aa5942a4dc0157a7a255c353e
+2016/08/07 16:05:05 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/07 16:05:05 [pago] [paypal] 
+ txn_id 20W07903B6390874U
+2016/08/07 16:05:05 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=7YJHW6FW46SM2&address_street=8-4455+Andr%E9+Laurendeau&payment_date=14%3A04%3A51+Aug+07%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=H1Y+3R6&first_name=Daniel&mc_fee=2.42&address_country_code=CA&address_name=Daniel+Sabourin&notify_version=3.8&custom=261&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Montr%E9al&quantity=1&verify_sign=ARTWVaUGckuviK6HZ-Of6l88vDtdA06HGzwxXnQad6j7fGlsPpn2weI6&payer_email=danielsabourin%40mac.com&txn_id=20W07903B6390874U&payment_type=instant&last_name=Sabourin&address_state=QC&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_a50de8fd44f78cdff7f8aa5942a4dc0157a7a255c353e&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=22ad8bd2a4d04
+2016/08/07 16:05:05 [pago] [paypal] 
+ verify_sign ARTWVaUGckuviK6HZ-Of6l88vDtdA06HGzwxXnQad6j7fGlsPpn2weI6
+2016/08/07 16:05:06 [pago] [paypal] 
+ ------------- FIN DE PAGO de danielsabourin@mac.com transacción :20W07903B6390874U -----------
+2016/08/12 17:38:02 [pago] [paypal] 
+------------- PAGO RECIBIDO de gregblue@me.com transacción :1SV683650Y501522H -----------
+2016/08/12 17:38:03 [pago] [paypal] 
+ id_usuario 265
+2016/08/12 17:38:03 [pago] [paypal] 
+ item_number oc_91a262b0c31e0d3058bb3df6e18bdbdc57ae4f3e01015
+2016/08/12 17:38:03 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/12 17:38:03 [pago] [paypal] 
+ txn_id 1SV683650Y501522H
+2016/08/12 17:38:03 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=6JMWFREYU6RRJ&address_street=3701+-+128+West+Cordova+Street&payment_date=15%3A37%3A50+Aug+12%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=V6B+0E6&first_name=Greg&mc_fee=2.42&address_country_code=CA&address_name=Greg+Blue+Photography&notify_version=3.8&custom=265&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Vancouver&quantity=1&verify_sign=APJcBrX7qQZI2NqZoN9Bj1u5q7DdAIIM6TPCIpXiO1m8BiQQFdCi9nzj&payer_email=gregblue%40me.com&txn_id=1SV683650Y501522H&payment_type=instant&payer_business_name=Greg+Blue+Photography&last_name=Blue&address_state=British+Columbia&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_91a262b0c31e0d3058bb3df6e18bdbdc57ae4f3e01015&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=4783a96c423c4
+2016/08/12 17:38:03 [pago] [paypal] 
+ verify_sign APJcBrX7qQZI2NqZoN9Bj1u5q7DdAIIM6TPCIpXiO1m8BiQQFdCi9nzj
+2016/08/12 17:38:03 [pago] [paypal] 
+ ------------- FIN DE PAGO de gregblue@me.com transacción :1SV683650Y501522H -----------
+2016/08/14 22:48:22 [pago] [paypal] 
+------------- PAGO RECIBIDO de nfholmes@hotmail.com transacción :02B24795SM843802M -----------
+2016/08/14 22:48:22 [pago] [paypal] 
+ id_usuario 262
+2016/08/14 22:48:22 [pago] [paypal] 
+ item_number oc_fdeba93d041876cdc6cbc7e04b93e25257b139c1007b0
+2016/08/14 22:48:22 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/14 22:48:22 [pago] [paypal] 
+ txn_id 02B24795SM843802M
+2016/08/14 22:48:22 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=9KKX9BNCUANWY&address_street=5085+WESTHEIMER+SUITE+4700&payment_date=20%3A48%3A10+Aug+14%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=77056&first_name=Nicole&mc_fee=3.10&address_country_code=US&address_name=Nicole+Holmes&notify_version=3.8&custom=262&payer_status=verified&business=exec.director%40ppoc.ca&address_country=United+States&address_city=HOUSTON&quantity=1&verify_sign=ABOfNAr5hf7E3qDY0TFoLsmbJnZ7A7eQUxd-49bJ.UkeAm6.ftZ02N7k&payer_email=nfholmes%40hotmail.com&txn_id=02B24795SM843802M&payment_type=instant&last_name=Holmes&address_state=TX&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_fdeba93d041876cdc6cbc7e04b93e25257b139c1007b0&residence_country=US&transaction_subject=&payment_gross=&ipn_track_id=fc39d4c81240c
+2016/08/14 22:48:22 [pago] [paypal] 
+ verify_sign ABOfNAr5hf7E3qDY0TFoLsmbJnZ7A7eQUxd-49bJ.UkeAm6.ftZ02N7k
+2016/08/14 22:48:22 [pago] [paypal] 
+ ------------- FIN DE PAGO de nfholmes@hotmail.com transacción :02B24795SM843802M -----------
+2016/08/16 15:37:46 [pago] [paypal] 
+------------- PAGO RECIBIDO de cbacinello@rogers.com transacción :8HW16841LV244532G -----------
+2016/08/16 15:37:46 [pago] [paypal] 
+ id_usuario 266
+2016/08/16 15:37:46 [pago] [paypal] 
+ item_number oc_1ab25ef09d9d7b35f1f776da1c964b2557b3790de5a42
+2016/08/16 15:37:46 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/16 15:37:46 [pago] [paypal] 
+ txn_id 8HW16841LV244532G
+2016/08/16 15:37:46 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=JE6MG8B9HN9N6&tax=0.00&address_street=51+Crestwood+Road&payment_date=13%3A37%3A32+Aug+16%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=L4J+1A4&first_name=Claudio&mc_fee=1.85&address_country_code=CA&address_name=Claudio+Bacinello&notify_version=3.8&custom=266&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Thornhill&quantity=1&verify_sign=AmExk4TF6ENwB5D1WRb3llSDGIIZAlwHXdE5kv-iEJhUT31OmZTgRyIo&payer_email=cbacinello%40rogers.com&txn_id=8HW16841LV244532G&payment_type=instant&last_name=Bacinello&address_state=Ontario&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_1ab25ef09d9d7b35f1f776da1c964b2557b3790de5a42&residence_country=CA&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=1fa690e44f2d
+2016/08/16 15:37:46 [pago] [paypal] 
+ verify_sign AmExk4TF6ENwB5D1WRb3llSDGIIZAlwHXdE5kv-iEJhUT31OmZTgRyIo
+2016/08/16 15:37:46 [pago] [paypal] 
+ ------------- FIN DE PAGO de cbacinello@rogers.com transacción :8HW16841LV244532G -----------
+2016/08/17 23:02:35 [pago] [paypal] 
+------------- PAGO RECIBIDO de info@milkimages.com transacción :99017491U8007845G -----------
+2016/08/17 23:02:35 [pago] [paypal] 
+ id_usuario 270
+2016/08/17 23:02:35 [pago] [paypal] 
+ item_number oc_bf62bfdf390984d201c5b617c27dd61e57b5331f08672
+2016/08/17 23:02:35 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/17 23:02:35 [pago] [paypal] 
+ txn_id 99017491U8007845G
+2016/08/17 23:02:35 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=DZZYGL4M6RFKQ&address_street=795+De+Maricourt&payment_date=21%3A02%3A24+Aug+17%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=J4H+2S5&first_name=ladislas&mc_fee=2.42&address_country_code=CA&address_name=M.I.L.K.+IMAGES+INC.&notify_version=3.8&custom=270&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Longueuil&quantity=1&verify_sign=AM7DGpcJe6Oj5mOFaAYJ3on7pbxYAZD2OhT-lpDyWKSSdpp6j-SxVeCD&payer_email=info%40milkimages.com&txn_id=99017491U8007845G&payment_type=instant&payer_business_name=M.I.L.K.+IMAGES+INC.&last_name=kadyszewski&address_state=Quebec&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_bf62bfdf390984d201c5b617c27dd61e57b5331f08672&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=fc99312a369a5
+2016/08/17 23:02:35 [pago] [paypal] 
+ verify_sign AM7DGpcJe6Oj5mOFaAYJ3on7pbxYAZD2OhT-lpDyWKSSdpp6j-SxVeCD
+2016/08/17 23:02:35 [pago] [paypal] 
+ ------------- FIN DE PAGO de info@milkimages.com transacción :99017491U8007845G -----------
+2016/08/20 14:04:31 [pago] [paypal] 
+------------- PAGO RECIBIDO de hannah@hannahmarie.ca transacción :76T467730W902834E -----------
+2016/08/20 14:04:31 [pago] [paypal] 
+ id_usuario 272
+2016/08/20 14:04:31 [pago] [paypal] 
+ item_number oc_4dcdbb9195c449b26a0a0d116cf991c657b8a953a8396
+2016/08/20 14:04:31 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/20 14:04:31 [pago] [paypal] 
+ txn_id 76T467730W902834E
+2016/08/20 14:04:31 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=LU4SDJ227GTGU&address_street=206+Alexandra+Avenue&payment_date=12%3A04%3A20+Aug+20%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=N2L1M7&first_name=Hannah&mc_fee=2.42&address_country_code=CA&address_name=Hannah+Carter&notify_version=3.8&custom=272&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Waterloo&quantity=1&verify_sign=AQ-vowUr8.TKjhTKYKZ2Xeka0-qhAcKAz0i9FOlt1LwRaW4kObGMyQk2&payer_email=hannah%40hannahmarie.ca&txn_id=76T467730W902834E&payment_type=instant&last_name=Carter&address_state=ON&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_4dcdbb9195c449b26a0a0d116cf991c657b8a953a8396&residence_country=CA&receipt_id=1286-2049-9123-0708&transaction_subject=&payment_gross=&ipn_track_id=32f23905d3636
+2016/08/20 14:04:31 [pago] [paypal] 
+ verify_sign AQ-vowUr8.TKjhTKYKZ2Xeka0-qhAcKAz0i9FOlt1LwRaW4kObGMyQk2
+2016/08/20 14:04:31 [pago] [paypal] 
+ ------------- FIN DE PAGO de hannah@hannahmarie.ca transacción :76T467730W902834E -----------
+2016/08/21 22:52:46 [pago] [paypal] 
+------------- PAGO RECIBIDO de randy@shaughnessyphotography.com transacción :3P2850258A0001426 -----------
+2016/08/21 22:52:47 [pago] [paypal] 
+ id_usuario 263
+2016/08/21 22:52:47 [pago] [paypal] 
+ item_number oc_65af86c79d7e88c71ae136e22619edba57ba75bc5c728
+2016/08/21 22:52:47 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/21 22:52:47 [pago] [paypal] 
+ txn_id 3P2850258A0001426
+2016/08/21 22:52:47 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=7VEFHBKEDBBUU&tax=0.00&address_street=6344+Roslyn+Avenue&payment_date=20%3A52%3A33+Aug+21%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=K1C+3A1&first_name=Randy&mc_fee=1.85&address_country_code=CA&address_name=Randy+Shaughnessy&notify_version=3.8&custom=263&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Ottawa-Orleans&quantity=1&verify_sign=A93VdtMeUFc4Sr8FAFKvJxCma5jpAsbhZgJiT.uTM7kjRLyRV9J9HMD7&payer_email=randy%40shaughnessyphotography.com&txn_id=3P2850258A0001426&payment_type=instant&last_name=Shaughnessy&address_state=Ontario&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_65af86c79d7e88c71ae136e22619edba57ba75bc5c728&residence_country=CA&receipt_id=3264-1468-1573-4815&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=3a26abe08f386
+2016/08/21 22:52:47 [pago] [paypal] 
+ verify_sign A93VdtMeUFc4Sr8FAFKvJxCma5jpAsbhZgJiT.uTM7kjRLyRV9J9HMD7
+2016/08/21 22:52:47 [pago] [paypal] 
+ ------------- FIN DE PAGO de randy@shaughnessyphotography.com transacción :3P2850258A0001426 -----------
+2016/08/22 12:10:40 [pago] [paypal] 
+------------- PAGO RECIBIDO de melissa@melissawelsh.com transacción :5G054499MK190591C -----------
+2016/08/22 12:10:40 [pago] [paypal] 
+ id_usuario 274
+2016/08/22 12:10:40 [pago] [paypal] 
+ item_number oc_511366df7d6022ac635a898bcc705fd657bb31e5d73b4
+2016/08/22 12:10:40 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/22 12:10:40 [pago] [paypal] 
+ txn_id 5G054499MK190591C
+2016/08/22 12:10:40 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=796CCRDBK9NAN&address_street=322+Henry+St.&payment_date=10%3A10%3A19+Aug+22%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=V9A+3J2&first_name=Melissa&mc_fee=2.42&address_country_code=CA&address_name=Melissa+Welsh+Photography&notify_version=3.8&custom=274&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Victoria&quantity=1&verify_sign=AnNMT7nRteKS2auTkxdsRz9rRvvPAZIc0jsytxCMuYxfclKMN1CEB0b1&payer_email=melissa%40melissawelsh.com&txn_id=5G054499MK190591C&payment_type=instant&payer_business_name=Melissa+Welsh+Photography&last_name=Welsh&address_state=British+Columbia&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_511366df7d6022ac635a898bcc705fd657bb31e5d73b4&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=13aed52252642
+2016/08/22 12:10:40 [pago] [paypal] 
+ verify_sign AnNMT7nRteKS2auTkxdsRz9rRvvPAZIc0jsytxCMuYxfclKMN1CEB0b1
+2016/08/22 12:10:40 [pago] [paypal] 
+ ------------- FIN DE PAGO de melissa@melissawelsh.com transacción :5G054499MK190591C -----------
+2016/08/22 12:20:34 [pago] [paypal] 
+------------- PAGO RECIBIDO de phansphotography@gmail.com transacción :540522031F446143A -----------
+2016/08/22 12:20:34 [pago] [paypal] 
+ id_usuario 275
+2016/08/22 12:20:34 [pago] [paypal] 
+ item_number oc_d0d7d3fe790cf5c608784f18652f81cd57bb32bb8c96b
+2016/08/22 12:20:34 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/22 12:20:34 [pago] [paypal] 
+ txn_id 540522031F446143A
+2016/08/22 12:20:34 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=VFMVG8683FENG&tax=0.00&address_street=10732-107+street+NW&payment_date=10%3A20%3A12+Aug+22%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5H+2Z1&first_name=Phanh&mc_fee=2.42&address_country_code=CA&address_name=Phanh+Tram&notify_version=3.8&custom=275&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AdkuYn3XEjHH-3KOoQu2LfjEXTYbA5ohxiNRt.MFNhJU0WIJmZg97bJs&payer_email=phansphotography%40gmail.com&txn_id=540522031F446143A&payment_type=instant&last_name=Tram&address_state=Alberta&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_d0d7d3fe790cf5c608784f18652f81cd57bb32bb8c96b&residence_country=CA&receipt_id=3391-9381-5161-7687&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=46d61f84ca8b9
+2016/08/22 12:20:34 [pago] [paypal] 
+ verify_sign AdkuYn3XEjHH-3KOoQu2LfjEXTYbA5ohxiNRt.MFNhJU0WIJmZg97bJs
+2016/08/22 12:20:34 [pago] [paypal] 
+ ------------- FIN DE PAGO de phansphotography@gmail.com transacción :540522031F446143A -----------
+2016/08/23 14:52:15 [pago] [paypal] 
+------------- PAGO RECIBIDO de karen@kcmoments.com transacción :258845554P652925V -----------
+2016/08/23 14:52:15 [pago] [paypal] 
+ id_usuario 276
+2016/08/23 14:52:15 [pago] [paypal] 
+ item_number oc_25189e3aaaac065ea30ca4ec86cf173c57bca944c6c28
+2016/08/23 14:52:15 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/23 14:52:15 [pago] [paypal] 
+ txn_id 258845554P652925V
+2016/08/23 14:52:15 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=UGFCJ3C27TRBW&tax=0.00&address_street=12748+28th+Ave&payment_date=12%3A52%3A03+Aug+23%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=V4A+2P4&first_name=Karen+M&mc_fee=2.42&address_country_code=CA&address_name=Karen+M+Ceraldi&notify_version=3.8&custom=276&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Surrey&quantity=1&verify_sign=AnIajbrFQ62GWM6OgSe2hummZvclAr6iX8VWInFPEXKNJpolkidr.-u7&payer_email=karen%40kcmoments.com&txn_id=258845554P652925V&payment_type=instant&last_name=Ceraldi&address_state=BRITISH+COLUMBIA&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_25189e3aaaac065ea30ca4ec86cf173c57bca944c6c28&residence_country=CA&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=276392f19212c
+2016/08/23 14:52:15 [pago] [paypal] 
+ verify_sign AnIajbrFQ62GWM6OgSe2hummZvclAr6iX8VWInFPEXKNJpolkidr.-u7
+2016/08/23 14:52:15 [pago] [paypal] 
+ ------------- FIN DE PAGO de karen@kcmoments.com transacción :258845554P652925V -----------
+2016/08/24 09:49:30 [pago] [paypal] 
+------------- PAGO RECIBIDO de chasinglightactions@gmail.com transacción :4F195415E1152352F -----------
+2016/08/24 09:49:30 [pago] [paypal] 
+ id_usuario 278
+2016/08/24 09:49:30 [pago] [paypal] 
+ item_number oc_92e94191cee35217e6e0e43adb1a7bae57bdb3d044055
+2016/08/24 09:49:30 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/24 09:49:30 [pago] [paypal] 
+ txn_id 4F195415E1152352F
+2016/08/24 09:49:30 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=EJ633T7DEUTBE&address_street=2881+Ensign+Lane&payment_date=07%3A49%3A14+Aug+24%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=V4T+3J7&first_name=Nikki&mc_fee=2.42&address_country_code=CA&address_name=Nikki%27s+Photography+Tools&notify_version=3.8&custom=278&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=West+Kelowna&quantity=1&verify_sign=Ao68DNqlX5gVaPZlGVYk.BmBnaqJA1t1cLyPtRcPEMEm522njj5S-Auy&payer_email=chasinglightactions%40gmail.com&txn_id=4F195415E1152352F&payment_type=instant&payer_business_name=Nikki%27s+Photography+Tools&last_name=Harrison&address_state=BC&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_92e94191cee35217e6e0e43adb1a7bae57bdb3d044055&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=95a9b63b8134c
+2016/08/24 09:49:30 [pago] [paypal] 
+ verify_sign Ao68DNqlX5gVaPZlGVYk.BmBnaqJA1t1cLyPtRcPEMEm522njj5S-Auy
+2016/08/24 09:49:30 [pago] [paypal] 
+ ------------- FIN DE PAGO de chasinglightactions@gmail.com transacción :4F195415E1152352F -----------
+2016/08/24 12:14:29 [pago] [paypal] 
+------------- PAGO RECIBIDO de scforsyth@icloud.com transacción :4HW72954K3511905L -----------
+2016/08/24 12:14:29 [pago] [paypal] 
+ id_usuario 279
+2016/08/24 12:14:29 [pago] [paypal] 
+ item_number oc_82efb8c6e1906c8c22e6ca4cda2b8f0757bdd590330fa
+2016/08/24 12:14:29 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/24 12:14:29 [pago] [paypal] 
+ txn_id 4HW72954K3511905L
+2016/08/24 12:14:29 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=55LYZJKPSGTLN&address_street=2344+Longridge+Dr.+S.W.&payment_date=10%3A14%3A09+Aug+24%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=L7L1A1&first_name=Scott&mc_fee=2.42&address_country_code=CA&address_name=Scott+Forsyth&notify_version=3.8&custom=279&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Calgary&quantity=1&verify_sign=AgbTXNob8HdpRCh-juxF8LVsYo-IAuYB8ZWYFR2GTWo122VfDHjCF9SE&payer_email=scforsyth%40icloud.com&txn_id=4HW72954K3511905L&payment_type=instant&last_name=Forsyth&address_state=Ontario&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_82efb8c6e1906c8c22e6ca4cda2b8f0757bdd590330fa&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cdb0ce24b388
+2016/08/24 12:14:29 [pago] [paypal] 
+ verify_sign AgbTXNob8HdpRCh-juxF8LVsYo-IAuYB8ZWYFR2GTWo122VfDHjCF9SE
+2016/08/24 12:14:29 [pago] [paypal] 
+ ------------- FIN DE PAGO de scforsyth@icloud.com transacción :4HW72954K3511905L -----------
+2016/08/24 14:46:51 [pago] [paypal] 
+------------- PAGO RECIBIDO de kelqualman@hotmail.com transacción :7DC234853E3643410 -----------
+2016/08/24 14:46:51 [pago] [paypal] 
+ id_usuario 281
+2016/08/24 14:46:51 [pago] [paypal] 
+ item_number oc_5e30184dd7f727fa98873a2eb38d2c3757bdf84ab18a4
+2016/08/24 14:46:51 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/24 14:46:51 [pago] [paypal] 
+ txn_id 7DC234853E3643410
+2016/08/24 14:46:51 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=ATB4J8K3JEGK4&tax=0.00&address_street=Box+25&payment_date=12%3A46%3A36+Aug+24%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=S0K+1K0&first_name=Kelsey&mc_fee=1.85&address_country_code=CA&address_name=Kelsey+Qualman&notify_version=3.8&custom=281&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Dundurn&quantity=1&verify_sign=AJNnakzp-aNWqieqcqrOPGN1SgpBA593m0tcFFxrf35Fc1hUwuRl-pJ5&payer_email=kelqualman%40hotmail.com&txn_id=7DC234853E3643410&payment_type=instant&last_name=Qualman&address_state=Saskatchewan&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_5e30184dd7f727fa98873a2eb38d2c3757bdf84ab18a4&residence_country=CA&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=44900816dfc50
+2016/08/24 14:46:51 [pago] [paypal] 
+ verify_sign AJNnakzp-aNWqieqcqrOPGN1SgpBA593m0tcFFxrf35Fc1hUwuRl-pJ5
+2016/08/24 14:46:51 [pago] [paypal] 
+ ------------- FIN DE PAGO de kelqualman@hotmail.com transacción :7DC234853E3643410 -----------
+2016/08/29 11:58:33 [pago] [paypal] 
+------------- PAGO RECIBIDO de daphne@carlyleart.ca transacción :9N663680JC988614E -----------
+2016/08/29 11:58:33 [pago] [paypal] 
+ id_usuario 290
+2016/08/29 11:58:33 [pago] [paypal] 
+ item_number oc_f59eea29e7d4b053897ac6a796ef328357c467bb0ac98
+2016/08/29 11:58:33 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/29 11:58:33 [pago] [paypal] 
+ txn_id 9N663680JC988614E
+2016/08/29 11:58:33 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=JY4MF63YY5D74&tax=0.00&address_street=3812+Gardner+Road&payment_date=09%3A58%3A10+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=V9G+1Z5&first_name=Daphne&mc_fee=1.85&address_country_code=CA&address_name=Daphne+Carlyle&notify_version=3.8&custom=290&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Ladysmith&quantity=1&verify_sign=AayLNnyXlC0r44FIpUiXF7qIdK-PAxqWjkHk0cgA9B7Jqy.HnE3SBMuV&payer_email=daphne%40carlyleart.ca&txn_id=9N663680JC988614E&payment_type=instant&last_name=Carlyle&address_state=British+Columbia&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_f59eea29e7d4b053897ac6a796ef328357c467bb0ac98&residence_country=CA&receipt_id=0834-1217-6413-5261&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=9f6946ebe924f
+2016/08/29 11:58:33 [pago] [paypal] 
+ verify_sign AayLNnyXlC0r44FIpUiXF7qIdK-PAxqWjkHk0cgA9B7Jqy.HnE3SBMuV
+2016/08/29 11:58:33 [pago] [paypal] 
+ ------------- FIN DE PAGO de daphne@carlyleart.ca transacción :9N663680JC988614E -----------
+2016/08/29 13:43:06 [pago] [paypal] 
+------------- PAGO RECIBIDO de wlpgallery@gmail.com transacción :56165267NK639251Y -----------
+2016/08/29 13:43:06 [pago] [paypal] 
+ id_usuario 294
+2016/08/29 13:43:06 [pago] [paypal] 
+ item_number oc_43cbf03aa1531aa38c91a5acd9b3198557c4818fba901
+2016/08/29 13:43:06 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/29 13:43:06 [pago] [paypal] 
+ txn_id 56165267NK639251Y
+2016/08/29 13:43:06 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=ZMJEYBNCQLCCJ&address_street=581+Boundary+Dr.+W.&payment_date=11%3A42%3A48+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=P7L0C2&first_name=Susan&mc_fee=2.42&address_country_code=CA&address_name=Susan+Dykstra&notify_version=3.8&custom=294&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Neebing&quantity=1&verify_sign=AmydMwaMHzmxBimnFMnKy3o9n-ElAqQskjM9YJ07cJV5s1eh3Q1PumTi&payer_email=wlpgallery%40gmail.com&txn_id=56165267NK639251Y&payment_type=instant&last_name=Dykstra&address_state=ON&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_43cbf03aa1531aa38c91a5acd9b3198557c4818fba901&residence_country=CA&receipt_id=0295-2190-4031-9501&transaction_subject=&payment_gross=&ipn_track_id=7156e8a48163e
+2016/08/29 13:43:06 [pago] [paypal] 
+ verify_sign AmydMwaMHzmxBimnFMnKy3o9n-ElAqQskjM9YJ07cJV5s1eh3Q1PumTi
+2016/08/29 13:43:06 [pago] [paypal] 
+ ------------- FIN DE PAGO de wlpgallery@gmail.com transacción :56165267NK639251Y -----------
+2016/08/29 18:03:08 [pago] [paypal] 
+------------- PAGO RECIBIDO de John@Lehmann.ca transacción :0ME44329LU982902T -----------
+2016/08/29 18:03:08 [pago] [paypal] 
+ id_usuario 295
+2016/08/29 18:03:08 [pago] [paypal] 
+ item_number oc_320d05e4e4265cb7d70c1149505407b357c4bf0c6284c
+2016/08/29 18:03:08 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/29 18:03:08 [pago] [paypal] 
+ txn_id 0ME44329LU982902T
+2016/08/29 18:03:08 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=TBZ8WUMDAQGJ8&address_street=11300+Barkentine+Place&payment_date=16%3A02%3A56+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=V7E4R1&first_name=John&mc_fee=2.42&address_country_code=CA&address_name=John+Lehmann&notify_version=3.8&custom=295&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Richmond&quantity=1&verify_sign=AnlkDhBYwCRZ4fplPqXSdkLuOQdmAl.1ujPbGCnRQpCGpTmWow0PBmpK&payer_email=John%40Lehmann.ca&txn_id=0ME44329LU982902T&payment_type=instant&last_name=Lehmann&address_state=British+Columbia&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_320d05e4e4265cb7d70c1149505407b357c4bf0c6284c&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=23740ad6c5330
+2016/08/29 18:03:08 [pago] [paypal] 
+ verify_sign AnlkDhBYwCRZ4fplPqXSdkLuOQdmAl.1ujPbGCnRQpCGpTmWow0PBmpK
+2016/08/29 18:03:08 [pago] [paypal] 
+ ------------- FIN DE PAGO de John@Lehmann.ca transacción :0ME44329LU982902T -----------
+2016/08/29 19:58:40 [pago] [paypal] 
+------------- PAGO RECIBIDO de info@gaborphotography.com transacción :5Y060829SS778140B -----------
+2016/08/29 19:58:40 [pago] [paypal] 
+ id_usuario 296
+2016/08/29 19:58:40 [pago] [paypal] 
+ item_number oc_c367303012051681e941b97409cd452b57c4d98505ed1
+2016/08/29 19:58:40 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/29 19:58:40 [pago] [paypal] 
+ txn_id 5Y060829SS778140B
+2016/08/29 19:58:40 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=5J83Z8PYX88B6&address_street=730+-+12th+Street&payment_date=17%3A58%3A28+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=V3M4J9&first_name=Gabor&mc_fee=2.42&address_country_code=CA&address_name=Gabor++Gasztonyi&notify_version=3.8&custom=296&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=New+Westminster&quantity=1&verify_sign=AQYTgL3v31I0V8X0-w0FFi87o1FAASDyKQXzvSWhq9MCZX2tgieYDosj&payer_email=info%40gaborphotography.com&txn_id=5Y060829SS778140B&payment_type=instant&payer_business_name=Gabor+Gasztonyi+Photography&last_name=Gasztonyi&address_state=BC&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_c367303012051681e941b97409cd452b57c4d98505ed1&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=efe8b3d15bb7
+2016/08/29 19:58:40 [pago] [paypal] 
+ verify_sign AQYTgL3v31I0V8X0-w0FFi87o1FAASDyKQXzvSWhq9MCZX2tgieYDosj
+2016/08/29 19:58:40 [pago] [paypal] 
+ ------------- FIN DE PAGO de info@gaborphotography.com transacción :5Y060829SS778140B -----------
+2016/08/29 20:47:57 [pago] [paypal] 
+------------- PAGO RECIBIDO de kristacrellin@hotmail.com transacción :3G294785RC050793L -----------
+2016/08/29 20:47:57 [pago] [paypal] 
+ id_usuario 297
+2016/08/29 20:47:57 [pago] [paypal] 
+ item_number oc_b940e92a15cd83b1393974364edfce9c57c4e315cc103
+2016/08/29 20:47:57 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/29 20:47:57 [pago] [paypal] 
+ txn_id 3G294785RC050793L
+2016/08/29 20:47:57 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=EWHN5ZP6UJL9S&address_street=P.O.+Box+1873&payment_date=18%3A47%3A43+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=S0G+3N0&first_name=Krista&mc_fee=1.85&address_country_code=CA&address_name=Krista+Crellin&notify_version=3.8&custom=297&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Moosomin&quantity=1&verify_sign=AymMdsLKZ-6woPHNtrNQXV8vaK9NAjyoMsEWp2mhvjXiYMmsFhJgSHwk&payer_email=kristacrellin%40hotmail.com&txn_id=3G294785RC050793L&payment_type=instant&last_name=Crellin&address_state=Saskatchewan&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_b940e92a15cd83b1393974364edfce9c57c4e315cc103&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=9925bbee9009e
+2016/08/29 20:47:57 [pago] [paypal] 
+ verify_sign AymMdsLKZ-6woPHNtrNQXV8vaK9NAjyoMsEWp2mhvjXiYMmsFhJgSHwk
+2016/08/29 20:47:57 [pago] [paypal] 
+ ------------- FIN DE PAGO de kristacrellin@hotmail.com transacción :3G294785RC050793L -----------
+2016/08/29 23:50:18 [pago] [paypal] 
+------------- PAGO RECIBIDO de paul@wrightmoment.com transacción :5NM652195R477405A -----------
+2016/08/29 23:50:19 [pago] [paypal] 
+ id_usuario 301
+2016/08/29 23:50:19 [pago] [paypal] 
+ item_number oc_27384b1706e0bb843180e69f2db0b97957c510525f6d3
+2016/08/29 23:50:19 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/29 23:50:19 [pago] [paypal] 
+ txn_id 5NM652195R477405A
+2016/08/29 23:50:19 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=W5ESRY694DGFU&tax=0.00&address_street=37-8030+Nicklaus+North+Blvd&payment_date=21%3A50%3A06+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=V0N+1B8&first_name=Paul&mc_fee=2.42&address_country_code=CA&address_name=wrightmoment&notify_version=3.8&custom=301&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Whistler&quantity=1&verify_sign=AH9adtl3fqeg1Icsc-g4llptMYE3AV3d9cbJacS3nxCJjmt12fhPzZii&payer_email=paul%40wrightmoment.com&txn_id=5NM652195R477405A&payment_type=instant&payer_business_name=wrightmoment&last_name=Wright&address_state=British+Columbia&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_27384b1706e0bb843180e69f2db0b97957c510525f6d3&residence_country=CA&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=427440c5aad48
+2016/08/29 23:50:19 [pago] [paypal] 
+ verify_sign AH9adtl3fqeg1Icsc-g4llptMYE3AV3d9cbJacS3nxCJjmt12fhPzZii
+2016/08/29 23:50:19 [pago] [paypal] 
+ ------------- FIN DE PAGO de paul@wrightmoment.com transacción :5NM652195R477405A -----------
+2016/08/30 02:12:29 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :4CM89244C7316670B -----------
+2016/08/30 02:12:29 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 02:12:29 [pago] [paypal] 
+ item_number oc_6b5d40defdca05fea2474c4eba52ce1e57c4edea6b554
+2016/08/30 02:12:29 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 02:12:29 [pago] [paypal] 
+ txn_id 4CM89244C7316670B
+2016/08/30 02:12:29 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A23%3A04+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AxRPbY2IRX7JHlQhVD1ZkJ7JYlO0AmrHQaQlE-yv7wweH7zbONqtEL5h&payer_email=Vitalityimages%40hotmail.com&txn_id=4CM89244C7316670B&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_6b5d40defdca05fea2474c4eba52ce1e57c4edea6b554&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=f349defd9bcff
+2016/08/30 02:12:29 [pago] [paypal] 
+ verify_sign AxRPbY2IRX7JHlQhVD1ZkJ7JYlO0AmrHQaQlE-yv7wweH7zbONqtEL5h
+2016/08/30 02:12:30 [pago] [paypal] 
+ ------------- FIN DE PAGO de Vitalityimages@hotmail.com transacción :4CM89244C7316670B -----------
+2016/08/30 02:32:00 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/30 02:32:00 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 02:32:00 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/30 02:32:00 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 02:32:00 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/30 02:32:00 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/30 02:32:00 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/30 02:32:11 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/30 02:32:11 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 02:32:11 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/30 02:32:11 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 02:32:11 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/30 02:32:11 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/30 02:32:11 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/30 02:32:34 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/30 02:32:34 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 02:32:34 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/30 02:32:34 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 02:32:34 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/30 02:32:34 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/30 02:32:34 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/30 02:33:16 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/30 02:33:16 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 02:33:16 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/30 02:33:16 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 02:33:16 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/30 02:33:16 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/30 02:33:16 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/30 02:34:38 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/30 02:34:38 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 02:34:38 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/30 02:34:38 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 02:34:38 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/30 02:34:38 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/30 02:34:38 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/30 02:37:20 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/30 02:37:20 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 02:37:20 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/30 02:37:20 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 02:37:20 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/30 02:37:20 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/30 02:37:20 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/30 02:42:43 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/30 02:42:43 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 02:42:43 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/30 02:42:43 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 02:42:43 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/30 02:42:43 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/30 02:42:43 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/30 02:53:25 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/30 02:53:25 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 02:53:25 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/30 02:53:25 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 02:53:25 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/30 02:53:25 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/30 02:53:25 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/30 03:14:49 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/30 03:14:50 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 03:14:50 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/30 03:14:50 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 03:14:50 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/30 03:14:50 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/30 03:14:50 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/30 03:57:33 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/30 03:57:33 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 03:57:33 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/30 03:57:33 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 03:57:33 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/30 03:57:33 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/30 03:57:33 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/30 05:22:57 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/30 05:22:57 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 05:22:57 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/30 05:22:57 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 05:22:57 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/30 05:22:57 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/30 05:22:57 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/30 08:13:42 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/30 08:13:42 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 08:13:42 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/30 08:13:42 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 08:13:42 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/30 08:13:42 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/30 08:13:42 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/30 09:52:50 [pago] [paypal] 
+------------- PAGO RECIBIDO de lisaacharb@hotmail.com transacción :2RA8845985672091A -----------
+2016/08/30 09:52:51 [pago] [paypal] 
+ id_usuario 284
+2016/08/30 09:52:51 [pago] [paypal] 
+ item_number oc_c94c6d6b47574be9621ce0177f5d92cd57c59d73e17b5
+2016/08/30 09:52:51 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/30 09:52:51 [pago] [paypal] 
+ txn_id 2RA8845985672091A
+2016/08/30 09:52:51 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=CPWFJVKQ5W8G8&address_street=16+Blackfriar+Ave.&payment_date=07%3A52%3A32+Aug+30%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=L1M1E4&first_name=Lisa&mc_fee=1.85&address_country_code=CA&address_name=Bubblegirl+Photography&notify_version=3.8&custom=284&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Brooklin&quantity=1&verify_sign=AMN9AAl6Qpb2uTh-Na6PfSaftx9oAAT4jxwWSTgrX1y3FMXpAbbPtDNs&payer_email=lisaacharb%40hotmail.com&txn_id=2RA8845985672091A&payment_type=instant&payer_business_name=Bubblegirl+Photography&last_name=Charbonneau&address_state=ON&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_c94c6d6b47574be9621ce0177f5d92cd57c59d73e17b5&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=9fff95f7797ad
+2016/08/30 09:52:51 [pago] [paypal] 
+ verify_sign AMN9AAl6Qpb2uTh-Na6PfSaftx9oAAT4jxwWSTgrX1y3FMXpAbbPtDNs
+2016/08/30 09:52:51 [pago] [paypal] 
+ ------------- FIN DE PAGO de lisaacharb@hotmail.com transacción :2RA8845985672091A -----------
+2016/08/30 10:05:32 [pago] [paypal] 
+------------- PAGO RECIBIDO de lavonne@thenaturallook.ca transacción :91J171421V5408218 -----------
+2016/08/30 10:05:32 [pago] [paypal] 
+ id_usuario 293
+2016/08/30 10:05:32 [pago] [paypal] 
+ item_number oc_ec2e2df40ca75d02dd376f518c37694e57c5a03fd7d66
+2016/08/30 10:05:32 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/30 10:05:32 [pago] [paypal] 
+ txn_id 91J171421V5408218
+2016/08/30 10:05:32 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=Y3P68GLTB3RWE&address_street=Box+178&payment_date=08%3A05%3A08+Aug+30%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=S0G+4L0&first_name=Lavonne&mc_fee=1.85&address_country_code=CA&address_name=The+Natural+Look+Photography+by+Lavonne+Gorrill&notify_version=3.8&custom=293&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Silton&quantity=1&verify_sign=AN7x3rAO-m2XdpKpFDOoipvjIfneA3FONuJmdlOFkGX8G5aZDQCYeWwW&payer_email=lavonne%40thenaturallook.ca&txn_id=91J171421V5408218&payment_type=instant&payer_business_name=The+Natural+Look+Photography+by+Lavonne+Gorrill&last_name=Gorrill&address_state=Saskatchewan&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_ec2e2df40ca75d02dd376f518c37694e57c5a03fd7d66&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=103a2ec31e6a9
+2016/08/30 10:05:32 [pago] [paypal] 
+ verify_sign AN7x3rAO-m2XdpKpFDOoipvjIfneA3FONuJmdlOFkGX8G5aZDQCYeWwW
+2016/08/30 10:05:32 [pago] [paypal] 
+ ------------- FIN DE PAGO de lavonne@thenaturallook.ca transacción :91J171421V5408218 -----------
+2016/08/30 11:26:10 [pago] [paypal] 
+------------- PAGO RECIBIDO de pixelliste@hotmail.com transacción :9VR314272B4996436 -----------
+2016/08/30 11:26:10 [pago] [paypal] 
+ id_usuario 247
+2016/08/30 11:26:10 [pago] [paypal] 
+ item_number oc_2865aedbf5c32ff5990ddc1cc2f1bb3a57c5b1e40d480
+2016/08/30 11:26:10 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/30 11:26:10 [pago] [paypal] 
+ txn_id 9VR314272B4996436
+2016/08/30 11:26:10 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=B55EH6S67MN3S&address_street=51%2C+rue+des+Erables&payment_date=09%3A25%3A55+Aug+30%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=G0S+2E0&first_name=Josee&mc_fee=1.85&address_country_code=CA&address_name=Josee+Talbot&notify_version=3.8&custom=247&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Saint-Apollinaire&quantity=1&verify_sign=A234snLsZeWp45lskYohA7jVUylTAbVNFhaA2XnqTRtFp06pTscbaNxN&payer_email=pixelliste%40hotmail.com&txn_id=9VR314272B4996436&payment_type=instant&last_name=Talbot&address_state=Quebec&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_2865aedbf5c32ff5990ddc1cc2f1bb3a57c5b1e40d480&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=fb82cbacd4a8a
+2016/08/30 11:26:10 [pago] [paypal] 
+ verify_sign A234snLsZeWp45lskYohA7jVUylTAbVNFhaA2XnqTRtFp06pTscbaNxN
+2016/08/30 11:26:11 [pago] [paypal] 
+ ------------- FIN DE PAGO de pixelliste@hotmail.com transacción :9VR314272B4996436 -----------
+2016/08/30 13:55:05 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/30 13:55:09 [pago] [paypal] 
+ id_usuario 298
+2016/08/30 13:55:09 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/30 13:55:09 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 13:55:09 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/30 13:55:09 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/30 13:55:09 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/30 15:33:15 [pago] [paypal] 
+------------- PAGO RECIBIDO de sergiofernandopolanco@yahoo.ca transacción :99M58733CE2415214 -----------
+2016/08/30 15:33:15 [pago] [paypal] 
+ id_usuario 302
+2016/08/30 15:33:15 [pago] [paypal] 
+ item_number oc_62a68e854f53bbe1dc46acd5af74549d57c5eb5eaf0d2
+2016/08/30 15:33:15 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/30 15:33:15 [pago] [paypal] 
+ txn_id 99M58733CE2415214
+2016/08/30 15:33:15 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=735H3G87Z5EQ2&tax=0.00&address_street=15+waterside+avenue&payment_date=13%3A32%3A59+Aug+30%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=n1r+1e8&first_name=Sergio+Fernando&mc_fee=2.42&address_country_code=CA&address_name=Sergio+Fernando+Polanco&notify_version=3.8&custom=302&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Cambridge&quantity=1&verify_sign=Alpz2FsXqFbNgbKHEk8HZtLKZnQbAFcKNGXu-4ISDo6aDDejiexA6L4k&payer_email=sergiofernandopolanco%40yahoo.ca&txn_id=99M58733CE2415214&payment_type=instant&last_name=Polanco&address_state=Ontario&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_62a68e854f53bbe1dc46acd5af74549d57c5eb5eaf0d2&residence_country=CA&receipt_id=1848-4447-5798-5324&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=f237b0a8427
+2016/08/30 15:33:15 [pago] [paypal] 
+ verify_sign Alpz2FsXqFbNgbKHEk8HZtLKZnQbAFcKNGXu-4ISDo6aDDejiexA6L4k
+2016/08/30 15:33:16 [pago] [paypal] 
+ ------------- FIN DE PAGO de sergiofernandopolanco@yahoo.ca transacción :99M58733CE2415214 -----------
+2016/08/30 15:36:51 [pago] [paypal] 
+------------- PAGO RECIBIDO de globalcoastphotography@shaw.ca transacción :5XR742749B4767822 -----------
+2016/08/30 15:36:51 [pago] [paypal] 
+ id_usuario 303
+2016/08/30 15:36:51 [pago] [paypal] 
+ item_number oc_46eb431212df770976606eb437b7f93f57c5ede50cdf9
+2016/08/30 15:36:51 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/30 15:36:51 [pago] [paypal] 
+ txn_id 5XR742749B4767822
+2016/08/30 15:36:51 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=YUCD8CLPDUQRQ&address_street=3888+Yale+Street&payment_date=13%3A36%3A37+Aug+30%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=V5C1P6&first_name=Grant&mc_fee=1.85&address_country_code=CA&address_name=Global+Coast+Photography&notify_version=3.8&custom=303&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Burnaby&quantity=1&verify_sign=A6VDbMEDHeCn8rYJJMZ5jBbaFUjBA48HQYohNFb.1BSCedzXVG3DWieY&payer_email=globalcoastphotography%40shaw.ca&txn_id=5XR742749B4767822&payment_type=instant&payer_business_name=Global+Coast+Photography&last_name=Withers&address_state=British+Columbia&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_46eb431212df770976606eb437b7f93f57c5ede50cdf9&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=8e4bc20c3e32d
+2016/08/30 15:36:51 [pago] [paypal] 
+ verify_sign A6VDbMEDHeCn8rYJJMZ5jBbaFUjBA48HQYohNFb.1BSCedzXVG3DWieY
+2016/08/30 15:36:51 [pago] [paypal] 
+ ------------- FIN DE PAGO de globalcoastphotography@shaw.ca transacción :5XR742749B4767822 -----------
+2016/08/31 01:17:55 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/08/31 01:17:55 [pago] [paypal] 
+ id_usuario 298
+2016/08/31 01:17:55 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/08/31 01:17:55 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/31 01:17:55 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/08/31 01:17:55 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/08/31 01:17:55 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/08/31 11:00:18 [pago] [paypal] 
+------------- PAGO RECIBIDO de jefferyallanmcdonald@gmail.com transacción :5TJ87156D16034344 -----------
+2016/08/31 11:00:19 [pago] [paypal] 
+ id_usuario 306
+2016/08/31 11:00:19 [pago] [paypal] 
+ item_number oc_2d473e96de2813356dd008e64ef2f39c57c6fc506b1bd
+2016/08/31 11:00:19 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/31 11:00:19 [pago] [paypal] 
+ txn_id 5TJ87156D16034344
+2016/08/31 11:00:19 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=CNYW9NJS69NVL&tax=0.00&address_street=85+San+Diego+Manor+NE&payment_date=08%3A59%3A31+Aug+31%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T1Y+7B6&first_name=Jeff&mc_fee=1.85&address_country_code=CA&address_name=McDonald+Photography+-+mcdonaldphoto.ca&notify_version=3.8&custom=306&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Calgary&quantity=1&verify_sign=APZlNqNccJH1hpTY3LdXJKu5Fsw0AOK4dUTlQE9aZol56UUeZnLSuDb0&payer_email=jefferyallanmcdonald%40gmail.com&txn_id=5TJ87156D16034344&payment_type=instant&payer_business_name=McDonald+Photography+-+mcdonaldphoto.ca&last_name=McDonald&address_state=Alberta&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_2d473e96de2813356dd008e64ef2f39c57c6fc506b1bd&residence_country=CA&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=bf995e7db1834
+2016/08/31 11:00:19 [pago] [paypal] 
+ verify_sign APZlNqNccJH1hpTY3LdXJKu5Fsw0AOK4dUTlQE9aZol56UUeZnLSuDb0
+2016/08/31 11:00:20 [pago] [paypal] 
+ ------------- FIN DE PAGO de jefferyallanmcdonald@gmail.com transacción :5TJ87156D16034344 -----------
+2016/08/31 11:28:11 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :6AB44335P65627307 -----------
+2016/08/31 11:45:52 [pago] [paypal] 
+------------- PAGO RECIBIDO de joel@joelrobison.com transacción :3AW54761PP419712J -----------
+2016/08/31 11:45:52 [pago] [paypal] 
+ id_usuario 258
+2016/08/31 11:45:52 [pago] [paypal] 
+ item_number oc_4f9f53038e161de0102299e75da3a6fb57c7097aa9454
+2016/08/31 11:45:52 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/31 11:45:52 [pago] [paypal] 
+ txn_id 3AW54761PP419712J
+2016/08/31 11:45:52 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=59ZYT3G56CLK2&address_street=10+Cedar+Way&payment_date=09%3A45%3A34+Aug+31%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=GU1+1JH&first_name=Joel&mc_fee=3.27&address_country_code=GB&address_name=Joel+Robison+Photography&notify_version=3.8&custom=258&payer_status=verified&business=exec.director%40ppoc.ca&address_country=United+Kingdom&address_city=Guildford&quantity=1&verify_sign=AHOIUjWryIjScE4zfLPrc9IJQKqUA9aaKZfo0lcF4ydiZI9K1RZs3j79&payer_email=joel%40joelrobison.com&txn_id=3AW54761PP419712J&payment_type=instant&payer_business_name=Joel+Robison+Photography&last_name=Robison&address_state=Surrey&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_4f9f53038e161de0102299e75da3a6fb57c7097aa9454&residence_country=GB&transaction_subject=&payment_gross=&ipn_track_id=63280570232dd
+2016/08/31 11:45:52 [pago] [paypal] 
+ verify_sign AHOIUjWryIjScE4zfLPrc9IJQKqUA9aaKZfo0lcF4ydiZI9K1RZs3j79
+2016/08/31 11:45:52 [pago] [paypal] 
+ ------------- FIN DE PAGO de joel@joelrobison.com transacción :3AW54761PP419712J -----------
+2016/08/31 11:53:18 [pago] [paypal] 
+------------- PAGO RECIBIDO de ayahotta@mac.com transacción :4DW77274WE644250T -----------
+2016/08/31 11:53:18 [pago] [paypal] 
+ id_usuario 308
+2016/08/31 11:53:18 [pago] [paypal] 
+ item_number oc_d2f18954b9f29eb82cc929e70f4d3baa57c70acd9845b
+2016/08/31 11:53:18 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/31 11:53:18 [pago] [paypal] 
+ txn_id 4DW77274WE644250T
+2016/08/31 11:53:18 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=8TH7ACHEKS6QE&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%1A%1A796%0D%0A%1A%1A%1A%1A%1A%1A401&payment_date=09%3A52%3A58+Aug+31%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=600-8029&first_name=%1A%1A&mc_fee=3.27&address_country_code=JP&address_name=%1A%1A+%1A%1A&notify_version=3.8&custom=308&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Japan&address_city=%1A%1A%1A%1A%1A%1A&quantity=1&verify_sign=AR3Bnd85qDAG2ivRgEH-F3bq0tH3AZj.jVVQiryid.nMhCMKm67bxAaL&payer_email=ayahotta%40mac.com&txn_id=4DW77274WE644250T&payment_type=instant&last_name=%1A%1A&address_state=%1A%1A%1A&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_d2f18954b9f29eb82cc929e70f4d3baa57c70acd9845b&residence_country=JP&transaction_subject=&payment_gross=&ipn_track_id=712b245621e1f
+2016/08/31 11:53:18 [pago] [paypal] 
+ verify_sign AR3Bnd85qDAG2ivRgEH-F3bq0tH3AZj.jVVQiryid.nMhCMKm67bxAaL
+2016/08/31 11:53:18 [pago] [paypal] 
+ ------------- FIN DE PAGO de ayahotta@mac.com transacción :4DW77274WE644250T -----------
+2016/08/31 12:19:33 [pago] [paypal] 
+------------- PAGO RECIBIDO de bradfoto@telus.net transacción :1A4246590M902103F -----------
+2016/08/31 12:19:34 [pago] [paypal] 
+ id_usuario 286
+2016/08/31 12:19:34 [pago] [paypal] 
+ item_number oc_57bfb9a00ab8759d127a787507e6719257c71167c755a
+2016/08/31 12:19:34 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/31 12:19:34 [pago] [paypal] 
+ txn_id 1A4246590M902103F
+2016/08/31 12:19:34 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=G7WXZV7CCX75C&address_street=PO+Box%3A+566&payment_date=10%3A19%3A11+Aug+31%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T0M+1B0&first_name=Brad&mc_fee=2.42&address_country_code=CA&address_name=Brad+Allen+Fine+Art+Photography&notify_version=3.8&custom=286&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Irricana&quantity=1&verify_sign=A79Ukb3wtHJpx61XaSFbbBhpnNx1ART27pkfugC2E3w1DHiET1muprKC&payer_email=bradfoto%40telus.net&txn_id=1A4246590M902103F&payment_type=instant&payer_business_name=Brad+Allen+Fine+Art+Photography&last_name=Allen&address_state=Alberta&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_57bfb9a00ab8759d127a787507e6719257c71167c755a&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=309773eeae7ce
+2016/08/31 12:19:34 [pago] [paypal] 
+ verify_sign A79Ukb3wtHJpx61XaSFbbBhpnNx1ART27pkfugC2E3w1DHiET1muprKC
+2016/08/31 12:19:34 [pago] [paypal] 
+ ------------- FIN DE PAGO de bradfoto@telus.net transacción :1A4246590M902103F -----------
+2016/08/31 12:21:26 [pago] [paypal] 
+------------- PAGO RECIBIDO de mbailey@photomarcbailey.com transacción :6LT55729DD1425419 -----------
+2016/08/31 12:21:26 [pago] [paypal] 
+ id_usuario 309
+2016/08/31 12:21:26 [pago] [paypal] 
+ item_number oc_6092022a545e991c51c36cbd0ceb2da057c7115ec93f7
+2016/08/31 12:21:26 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/31 12:21:26 [pago] [paypal] 
+ txn_id 6LT55729DD1425419
+2016/08/31 12:21:26 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=NFTC3CKXKP4V4&tax=0.00&address_street=1263+du+Conseil&payment_date=10%3A20%3A50+Aug+31%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=J1G+1M9&first_name=Marc&mc_fee=1.85&address_country_code=CA&address_name=Marc+Bailey&notify_version=3.8&custom=309&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Sherbrooke&quantity=1&verify_sign=ApKghSivOFtm6Gk7Iqy6QZvljWTIALGemMJBH1zpBpZ69p609oJ6-L0X&payer_email=mbailey%40photomarcbailey.com&txn_id=6LT55729DD1425419&payment_type=instant&last_name=Bailey&address_state=Quebec&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_6092022a545e991c51c36cbd0ceb2da057c7115ec93f7&residence_country=CA&receipt_id=2071-1720-9142-4520&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=9e7326b5cb806
+2016/08/31 12:21:26 [pago] [paypal] 
+ verify_sign ApKghSivOFtm6Gk7Iqy6QZvljWTIALGemMJBH1zpBpZ69p609oJ6-L0X
+2016/08/31 12:21:26 [pago] [paypal] 
+ ------------- FIN DE PAGO de mbailey@photomarcbailey.com transacción :6LT55729DD1425419 -----------
+2016/08/31 14:59:55 [pago] [paypal] 
+------------- PAGO RECIBIDO de anna@annabeaudry.com transacción :7RN39645YX278933P -----------
+2016/08/31 14:59:55 [pago] [paypal] 
+ id_usuario 311
+2016/08/31 14:59:55 [pago] [paypal] 
+ item_number oc_55c882a52765b55e4a59b35ed3f350bd57c731e19fe84
+2016/08/31 14:59:55 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/31 14:59:55 [pago] [paypal] 
+ txn_id 7RN39645YX278933P
+2016/08/31 14:59:55 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=ADZ4RNR58TUDY&address_street=201-4365+Hastings+Street&payment_date=12%3A59%3A26+Aug+31%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=V5C0B7&first_name=Anna&mc_fee=1.85&address_country_code=CA&address_name=Anna+Beaudry&notify_version=3.8&custom=311&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Burnaby&quantity=1&verify_sign=AmOcH5bTcsImGk-riWFFVMsmaO2OABw2xrONSM.1EhOTV.BN5vvWjqqb&payer_email=anna%40annabeaudry.com&txn_id=7RN39645YX278933P&payment_type=instant&last_name=Beaudry&address_state=British+Columbia&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_55c882a52765b55e4a59b35ed3f350bd57c731e19fe84&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=93887bc484095
+2016/08/31 14:59:55 [pago] [paypal] 
+ verify_sign AmOcH5bTcsImGk-riWFFVMsmaO2OABw2xrONSM.1EhOTV.BN5vvWjqqb
+2016/08/31 14:59:55 [pago] [paypal] 
+ ------------- FIN DE PAGO de anna@annabeaudry.com transacción :7RN39645YX278933P -----------
+2016/08/31 18:40:43 [pago] [paypal] 
+------------- PAGO RECIBIDO de julieminou1@hotmail.com transacción :57X860605D2873916 -----------
+2016/08/31 18:40:43 [pago] [paypal] 
+ id_usuario 273
+2016/08/31 18:40:43 [pago] [paypal] 
+ item_number oc_3c601c625eea1c8b0ec654d81a05977557c769d3e9dfd
+2016/08/31 18:40:43 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/31 18:40:43 [pago] [paypal] 
+ txn_id 57X860605D2873916
+2016/08/31 18:40:43 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=R4Z5B6GD8DJS2&address_street=395+St-Pierre&payment_date=16%3A40%3A30+Aug+31%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=J5A+2E7&first_name=Julie&mc_fee=2.42&address_country_code=CA&address_name=Julie+Caron&notify_version=3.8&custom=273&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=St-Constant&quantity=1&verify_sign=ANPOuX7lnOKnmnqNekjGefW51BKHA9C0UQ.tU8VRaNq0Nvk.-C6mzhah&payer_email=julieminou1%40hotmail.com&txn_id=57X860605D2873916&payment_type=instant&last_name=Caron&address_state=QC&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_3c601c625eea1c8b0ec654d81a05977557c769d3e9dfd&residence_country=CA&receipt_id=2180-8616-7856-0130&transaction_subject=&payment_gross=&ipn_track_id=ba0b5e131bf25
+2016/08/31 18:40:43 [pago] [paypal] 
+ verify_sign ANPOuX7lnOKnmnqNekjGefW51BKHA9C0UQ.tU8VRaNq0Nvk.-C6mzhah
+2016/08/31 18:40:44 [pago] [paypal] 
+ ------------- FIN DE PAGO de julieminou1@hotmail.com transacción :57X860605D2873916 -----------
+2016/08/31 19:15:23 [pago] [paypal] 
+------------- PAGO RECIBIDO de lois@superiorvisits.com transacción :8GG70017V20043310 -----------
+2016/08/31 19:15:23 [pago] [paypal] 
+ id_usuario 313
+2016/08/31 19:15:23 [pago] [paypal] 
+ item_number oc_b154f7e0aa95095d934cb8b63623f0fb57c772c7f0b99
+2016/08/31 19:15:23 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/31 19:15:23 [pago] [paypal] 
+ txn_id 8GG70017V20043310
+2016/08/31 19:15:23 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=X9MF7ERHGT7C2&address_street=2021+Oliver+Road&payment_date=17%3A15%3A06+Aug+31%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=P7G+1P3&first_name=Lois&mc_fee=2.42&address_country_code=CA&address_name=Lois+Nuttall&notify_version=3.8&custom=313&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Thunder+Bay&quantity=1&verify_sign=ACvihIv6qn.ghXurvtLXrZhvQhB7AVBcWcvt4-rx.-HyN9K4qvOgp56d&payer_email=lois%40superiorvisits.com&txn_id=8GG70017V20043310&payment_type=instant&last_name=Nuttall&address_state=Ontario&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_b154f7e0aa95095d934cb8b63623f0fb57c772c7f0b99&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=e0ab6ecb3787f
+2016/08/31 19:15:23 [pago] [paypal] 
+ verify_sign ACvihIv6qn.ghXurvtLXrZhvQhB7AVBcWcvt4-rx.-HyN9K4qvOgp56d
+2016/08/31 19:15:24 [pago] [paypal] 
+ ------------- FIN DE PAGO de lois@superiorvisits.com transacción :8GG70017V20043310 -----------
+2016/08/31 20:21:41 [pago] [paypal] 
+------------- PAGO RECIBIDO de info@franceslitman.com transacción :53J09711EL5123002 -----------
+2016/08/31 20:21:41 [pago] [paypal] 
+ id_usuario 314
+2016/08/31 20:21:41 [pago] [paypal] 
+ item_number oc_eb0e9c92c74cfb36f82fda12d280a9c257c7821d84214
+2016/08/31 20:21:41 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/31 20:21:41 [pago] [paypal] 
+ txn_id 53J09711EL5123002
+2016/08/31 20:21:41 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=DLMKAEBJCXF2N&tax=0.00&address_street=474+Nelson+St.&payment_date=18%3A21%3A27+Aug+31%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=V9A+6P4&first_name=Frances&mc_fee=2.42&address_country_code=CA&address_name=Frances+Litman&notify_version=3.8&custom=314&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Victoria&quantity=1&verify_sign=A7UMedn1BfBoD5MMUf9mkg5VRRWMAAQf37KsvDkNX4urErOuwQL0..nB&payer_email=info%40franceslitman.com&txn_id=53J09711EL5123002&payment_type=instant&last_name=Litman&address_state=British+Columbia&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_eb0e9c92c74cfb36f82fda12d280a9c257c7821d84214&residence_country=CA&receipt_id=5310-4798-9675-0437&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=c9a1601857ff8
+2016/08/31 20:21:41 [pago] [paypal] 
+ verify_sign A7UMedn1BfBoD5MMUf9mkg5VRRWMAAQf37KsvDkNX4urErOuwQL0..nB
+2016/08/31 20:21:41 [pago] [paypal] 
+ ------------- FIN DE PAGO de info@franceslitman.com transacción :53J09711EL5123002 -----------
+2016/08/31 20:44:49 [pago] [paypal] 
+------------- PAGO RECIBIDO de acaswell@lifetouch.com transacción :4HV66969G82751610 -----------
+2016/08/31 20:44:49 [pago] [paypal] 
+ id_usuario 315
+2016/08/31 20:44:49 [pago] [paypal] 
+ item_number oc_500b39e29b2caf0c63c3184f825d8f5f57c787ad3d087
+2016/08/31 20:44:49 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/31 20:44:49 [pago] [paypal] 
+ txn_id 4HV66969G82751610
+2016/08/31 20:44:49 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4XXWC3D5UBUJA&tax=0.00&address_street=1-1410+Mountain+Ave&payment_date=18%3A44%3A37+Aug+31%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=R2X+0A4&first_name=Arley&mc_fee=2.42&address_country_code=CA&address_name=Arley+Caswell&notify_version=3.8&custom=315&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=WINNIPEG&quantity=1&verify_sign=AWkT50gtrA0iXnh55b939tXXlAFYAQLVh4DqvwRZlkHr8Nz0b0iCpNDo&payer_email=acaswell%40lifetouch.com&txn_id=4HV66969G82751610&payment_type=instant&last_name=Caswell&address_state=Manitoba&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_500b39e29b2caf0c63c3184f825d8f5f57c787ad3d087&residence_country=CA&receipt_id=4711-3117-8833-3410&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=dc0efc23af8a1
+2016/08/31 20:44:49 [pago] [paypal] 
+ verify_sign AWkT50gtrA0iXnh55b939tXXlAFYAQLVh4DqvwRZlkHr8Nz0b0iCpNDo
+2016/08/31 20:44:49 [pago] [paypal] 
+ ------------- FIN DE PAGO de acaswell@lifetouch.com transacción :4HV66969G82751610 -----------
+2016/08/31 21:21:08 [pago] [paypal] 
+------------- PAGO RECIBIDO de liettegilbert@mac.com transacción :7JB87488H9506203J -----------
+2016/08/31 21:21:08 [pago] [paypal] 
+ id_usuario 312
+2016/08/31 21:21:08 [pago] [paypal] 
+ item_number oc_bd27378c0b380da95ca3911a1eda247357c78daa74804
+2016/08/31 21:21:08 [pago] [paypal] 
+ mc_gross 62.15
+2016/08/31 21:21:08 [pago] [paypal] 
+ txn_id 7JB87488H9506203J
+2016/08/31 21:21:08 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Eligible&address_status=confirmed&payer_id=UR6Y9WHJWB24G&tax=0.00&address_street=878+AVE+DU+MOULIN&payment_date=19%3A20%3A54+Aug+31%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=G0S2V0&first_name=LIETTE&mc_fee=1.85&address_country_code=CA&address_name=LIETTE+GILBERT&notify_version=3.8&custom=312&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=ST-JOSEPH-DE-BEAUCE&quantity=1&verify_sign=Abs3WSY0dfz42aSihKRauqGKpBdkApAKwDomCFd.kBYBZ8KAQfQie2Ji&payer_email=liettegilbert%40mac.com&txn_id=7JB87488H9506203J&payment_type=instant&last_name=GILBERT&address_state=Quebec&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_bd27378c0b380da95ca3911a1eda247357c78daa74804&residence_country=CA&receipt_id=1322-1120-8497-7562&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=f377cf59ac73c
+2016/08/31 21:21:08 [pago] [paypal] 
+ verify_sign Abs3WSY0dfz42aSihKRauqGKpBdkApAKwDomCFd.kBYBZ8KAQfQie2Ji
+2016/08/31 21:21:08 [pago] [paypal] 
+ ------------- FIN DE PAGO de liettegilbert@mac.com transacción :7JB87488H9506203J -----------
+2016/08/31 21:33:15 [pago] [paypal] 
+------------- PAGO RECIBIDO de france.photo@oricom.ca transacción :1WS93774BA6031636 -----------
+2016/08/31 21:33:15 [pago] [paypal] 
+ id_usuario 316
+2016/08/31 21:33:15 [pago] [paypal] 
+ item_number oc_08286b60b49da183b9a2209eb8b5ea7a57c7931c1a487
+2016/08/31 21:33:15 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/31 21:33:15 [pago] [paypal] 
+ txn_id 1WS93774BA6031636
+2016/08/31 21:33:15 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=FN4YE426Q78WY&tax=0.00&address_street=7+chemin+du+Ruisselet&payment_date=19%3A33%3A00+Aug+31%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=G3B+1Y2&first_name=France&mc_fee=2.42&address_country_code=CA&address_name=France+Bouchard&notify_version=3.8&custom=316&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Lac+Beauport&quantity=1&verify_sign=AxpYDfrZEOWfawzZkLN7tKCy.BvJASpuBpOrWvz1VvJPoZAWz.1V09wJ&payer_email=france.photo%40oricom.ca&txn_id=1WS93774BA6031636&payment_type=instant&last_name=Bouchard&address_state=Quebec&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_08286b60b49da183b9a2209eb8b5ea7a57c7931c1a487&residence_country=CA&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=587df1f256cd2
+2016/08/31 21:33:15 [pago] [paypal] 
+ verify_sign AxpYDfrZEOWfawzZkLN7tKCy.BvJASpuBpOrWvz1VvJPoZAWz.1V09wJ
+2016/08/31 21:33:15 [pago] [paypal] 
+ ------------- FIN DE PAGO de france.photo@oricom.ca transacción :1WS93774BA6031636 -----------
+2016/08/31 22:24:26 [pago] [paypal] 
+------------- PAGO RECIBIDO de ppelletier@proacton-photo.com transacción :18437713A93445030 -----------
+2016/08/31 22:24:26 [pago] [paypal] 
+ id_usuario 317
+2016/08/31 22:24:26 [pago] [paypal] 
+ item_number oc_95165e4d37a5995bdc79eb8bd003868e57c79cec544dc
+2016/08/31 22:24:26 [pago] [paypal] 
+ mc_gross 84.75
+2016/08/31 22:24:26 [pago] [paypal] 
+ txn_id 18437713A93445030
+2016/08/31 22:24:26 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4P2LH6D8HK2HQ&tax=0.00&address_street=714+boul+Pie+XII&payment_date=20%3A24%3A11+Aug+31%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=g1x+3s2&first_name=Pierre&mc_fee=2.42&address_country_code=CA&address_name=Pierre+Pelletier&notify_version=3.8&custom=317&payer_status=unverified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Quebec&quantity=1&verify_sign=AzFmRN2alSXsVcRQ-bkJDjsW0iFTA01NccW8YOS6VQU92Axmo1clFR5p&payer_email=ppelletier%40proacton-photo.com&txn_id=18437713A93445030&payment_type=instant&last_name=Pelletier&address_state=Quebec&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_95165e4d37a5995bdc79eb8bd003868e57c79cec544dc&residence_country=CA&receipt_id=2152-2076-1419-9068&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=64b74bc315b25
+2016/08/31 22:24:26 [pago] [paypal] 
+ verify_sign AzFmRN2alSXsVcRQ-bkJDjsW0iFTA01NccW8YOS6VQU92Axmo1clFR5p
+2016/08/31 22:24:26 [pago] [paypal] 
+ ------------- FIN DE PAGO de ppelletier@proacton-photo.com transacción :18437713A93445030 -----------
+2016/09/01 00:03:18 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/09/01 00:03:19 [pago] [paypal] 
+ id_usuario 298
+2016/09/01 00:03:19 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/09/01 00:03:19 [pago] [paypal] 
+ mc_gross 84.75
+2016/09/01 00:03:19 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/09/01 00:03:19 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/09/01 00:03:19 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/09/02 00:03:26 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/09/02 00:03:27 [pago] [paypal] 
+ id_usuario 298
+2016/09/02 00:03:27 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/09/02 00:03:27 [pago] [paypal] 
+ mc_gross 84.75
+2016/09/02 00:03:27 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/09/02 00:03:27 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/09/02 00:03:27 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2016/09/02 11:56:52 [pago] [paypal] 
+------------- PAGO RECIBIDO de acaswell@lifetouch.com transacción :1Y103763355314327 -----------
+2016/09/02 11:58:33 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :30967357KH000814V -----------
+2016/09/02 11:59:23 [pago] [paypal] 
+------------- PAGO RECIBIDO de info@franceslitman.com transacción :5HM18784RV356114T -----------
+2016/09/02 12:03:02 [pago] [paypal] 
+------------- PAGO RECIBIDO de info@gaborphotography.com transacción :8GC847505L891381E -----------
+2016/09/02 12:06:02 [pago] [paypal] 
+------------- PAGO RECIBIDO de gregblue@me.com transacción :3UP48689XV744440W -----------
+2016/09/02 12:07:02 [pago] [paypal] 
+------------- PAGO RECIBIDO de lois@superiorvisits.com transacción :0FF33273B7106350A -----------
+2016/09/02 12:12:05 [pago] [paypal] 
+------------- PAGO RECIBIDO de phansphotography@gmail.com transacción :0EJ37847P2328863S -----------
+2016/09/02 12:13:09 [pago] [paypal] 
+------------- PAGO RECIBIDO de ppelletier@proacton-photo.com transacción :6JY01617RD1456359 -----------
+2016/09/02 12:14:01 [pago] [paypal] 
+------------- PAGO RECIBIDO de scforsyth@icloud.com transacción :6KF53584XT657135C -----------
+2016/09/02 12:15:11 [pago] [paypal] 
+------------- PAGO RECIBIDO de sergiofernandopolanco@yahoo.ca transacción :6UH957482J529802H -----------
+2016/09/02 12:16:06 [pago] [paypal] 
+------------- PAGO RECIBIDO de wlpgallery@gmail.com transacción :94G61603AA8820546 -----------
+2016/09/02 12:18:24 [pago] [paypal] 
+------------- PAGO RECIBIDO de paul@wrightmoment.com transacción :7T759893R3152620B -----------
+2016/09/02 12:23:09 [pago] [paypal] 
+------------- PAGO RECIBIDO de melissa@melissawelsh.com transacción :9VD60548H3460891V -----------
+2016/09/03 00:03:29 [pago] [paypal] 
+------------- PAGO RECIBIDO de Vitalityimages@hotmail.com transacción :2LY407504J982451Y -----------
+2016/09/03 00:03:29 [pago] [paypal] 
+ id_usuario 298
+2016/09/03 00:03:29 [pago] [paypal] 
+ item_number oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0
+2016/09/03 00:03:29 [pago] [paypal] 
+ mc_gross 84.75
+2016/09/03 00:03:29 [pago] [paypal] 
+ txn_id 2LY407504J982451Y
+2016/09/03 00:03:29 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Eligible&address_status=confirmed&payer_id=4HK7MAVUJVHH6&address_street=13428+111+St+NW&payment_date=19%3A33%3A20+Aug+29%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=T5E+4Z6&first_name=Chelsea&mc_fee=2.42&address_country_code=CA&address_name=Chelsea+Weiman&notify_version=3.8&custom=298&payer_status=verified&business=exec.director%40ppoc.ca&address_country=Canada&address_city=Edmonton&quantity=1&verify_sign=AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s&payer_email=Vitalityimages%40hotmail.com&txn_id=2LY407504J982451Y&payment_type=instant&last_name=Weiman&address_state=AB&receiver_email=exec.director%40ppoc.ca&payment_fee=&receiver_id=WLTPNES4EEH5E&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_28b1fd4888dc65629e700bf05c148b1757c4f066376d0&residence_country=CA&transaction_subject=&payment_gross=&ipn_track_id=cde9e0cb6accc
+2016/09/03 00:03:29 [pago] [paypal] 
+ verify_sign AWtbsfOh.AspQBD5MxJnEc1oMg1HAYicLcfcAe6PWJkmGFY3MSOXTZ7s
+2017/06/21 23:04:04 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :8R8358264A483882U -----------
+2017/06/21 23:04:05 [pago] [paypal] 
+ id_usuario 2403
+2017/06/21 23:04:05 [pago] [paypal] 
+ item_number oc_7ae775b03f8d0bb982822dce04403235594af7da1634f
+2017/06/21 23:04:05 [pago] [paypal] 
+ mc_gross 84.75
+2017/06/21 23:04:05 [pago] [paypal] 
+ txn_id 8R8358264A483882U
+2017/06/21 23:04:05 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=16%3A03%3A58+Jun+21%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2403&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AFUhKvG.hUdp5nbFdrFGZHB7E92YAGWW24eD6p7vwJqlUUEf6XXxp4Sa&payer_email=sandbox%402gom.com.mx&txn_id=8R8358264A483882U&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_7ae775b03f8d0bb982822dce04403235594af7da1634f&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=1ac1f25667f5
+2017/06/21 23:04:05 [pago] [paypal] 
+ verify_sign AFUhKvG.hUdp5nbFdrFGZHB7E92YAGWW24eD6p7vwJqlUUEf6XXxp4Sa
+2017/06/21 23:04:05 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :8R8358264A483882U -----------
+2017/06/22 16:18:14 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :7C270862R7059172F -----------
+2017/06/22 16:18:15 [pago] [paypal] 
+ id_usuario 2404
+2017/06/22 16:18:15 [pago] [paypal] 
+ item_number oc_ec4f6a67d466923b8915ca3c85582374594bece6c05b9
+2017/06/22 16:18:15 [pago] [paypal] 
+ mc_gross 84.75
+2017/06/22 16:18:15 [pago] [paypal] 
+ txn_id 7C270862R7059172F
+2017/06/22 16:18:15 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A18%3A02+Jun+22%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2404&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AetJ6sFMEDSkxaSFA0C70iIHnuUtAaqJYyVxKIu9y9gkyexmBTLF2zul&payer_email=sandbox%402gom.com.mx&txn_id=7C270862R7059172F&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_ec4f6a67d466923b8915ca3c85582374594bece6c05b9&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=50886e0393f28
+2017/06/22 16:18:15 [pago] [paypal] 
+ verify_sign AetJ6sFMEDSkxaSFA0C70iIHnuUtAaqJYyVxKIu9y9gkyexmBTLF2zul
+2017/06/22 16:18:15 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :7C270862R7059172F -----------
+2017/06/22 16:21:50 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :0P094305WF229343P -----------
+2017/06/22 16:21:50 [pago] [paypal] 
+ id_usuario 1662
+2017/06/22 16:21:50 [pago] [paypal] 
+ item_number oc_2d4a319604e5e1b0487bdab14637c5ff594bdf4d21877
+2017/06/22 16:21:50 [pago] [paypal] 
+ mc_gross 84.75
+2017/06/22 16:21:50 [pago] [paypal] 
+ txn_id 0P094305WF229343P
+2017/06/22 16:21:50 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A21%3A44+Jun+22%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=1662&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AWYxjS6LEFCeGqJDu35ZiF0NsD2FAyy.IzIiVGIdUGeZP7RAt4EZcKEc&payer_email=sandbox%402gom.com.mx&txn_id=0P094305WF229343P&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_2d4a319604e5e1b0487bdab14637c5ff594bdf4d21877&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=53ee8d8d30d2
+2017/06/22 16:21:50 [pago] [paypal] 
+ verify_sign AWYxjS6LEFCeGqJDu35ZiF0NsD2FAyy.IzIiVGIdUGeZP7RAt4EZcKEc
+2017/06/22 16:21:50 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :0P094305WF229343P -----------
+2017/06/22 16:24:00 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :0KP55549XC776941N -----------
+2017/06/22 17:56:28 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :51B72546YF7614430 -----------
+2017/06/22 17:56:28 [pago] [paypal] 
+ id_usuario 2405
+2017/06/22 17:56:28 [pago] [paypal] 
+ item_number oc_e02e6bb5099c4bb58cb4f7e1bfe6a6c0594c03fc74a43
+2017/06/22 17:56:28 [pago] [paypal] 
+ mc_gross 56.50
+2017/06/22 17:56:28 [pago] [paypal] 
+ txn_id 51B72546YF7614430
+2017/06/22 17:56:28 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=56.50&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=10%3A56%3A22+Jun+22%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2405&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=A9LC3Qajo-H2V8mPq4eIktgPvG2RAT.Hz6DluTb-nWRJMlxRHMbLEv2I&payer_email=sandbox%402gom.com.mx&txn_id=51B72546YF7614430&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_e02e6bb5099c4bb58cb4f7e1bfe6a6c0594c03fc74a43&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=311fd7d393cdb
+2017/06/22 17:56:28 [pago] [paypal] 
+ verify_sign A9LC3Qajo-H2V8mPq4eIktgPvG2RAT.Hz6DluTb-nWRJMlxRHMbLEv2I
+2017/06/22 17:56:28 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :51B72546YF7614430 -----------
+2017/06/28 16:08:12 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :0KH91160J14138155 -----------
+2017/06/28 16:08:12 [pago] [paypal] 
+ id_usuario 2408
+2017/06/28 16:08:12 [pago] [paypal] 
+ item_number oc_a3d5c0bde877f34bf7ebfba613da84065953d43fc72c0
+2017/06/28 16:08:12 [pago] [paypal] 
+ mc_gross 84.75
+2017/06/28 16:08:12 [pago] [paypal] 
+ txn_id 0KH91160J14138155
+2017/06/28 16:08:12 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A08%3A06+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2408&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=Ai1PaghZh5FmBLCDCTQpwG8jB264A6fteat0cqkjfAqVhammM7Lu1yAp&payer_email=sandbox%402gom.com.mx&txn_id=0KH91160J14138155&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_a3d5c0bde877f34bf7ebfba613da84065953d43fc72c0&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=5792e25bb7a92
+2017/06/28 16:08:12 [pago] [paypal] 
+ verify_sign Ai1PaghZh5FmBLCDCTQpwG8jB264A6fteat0cqkjfAqVhammM7Lu1yAp
+2017/06/28 16:08:12 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :0KH91160J14138155 -----------
+2017/06/28 16:27:17 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :0EL242303L221342P -----------
+2017/06/28 16:27:17 [pago] [paypal] 
+ id_usuario 2404
+2017/06/28 16:27:17 [pago] [paypal] 
+ item_number oc_77751b7f28cb7a8208f83e29ebe61a005953d89b26dfe
+2017/06/28 16:27:17 [pago] [paypal] 
+ mc_gross 84.75
+2017/06/28 16:27:17 [pago] [paypal] 
+ txn_id 0EL242303L221342P
+2017/06/28 16:27:17 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A27%3A08+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2404&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AiPC9BjkCyDFQXbSkoZcgqH3hpacAUXEQd62ikC1K56KWgyzgSB49AeX&payer_email=sandbox%402gom.com.mx&txn_id=0EL242303L221342P&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_77751b7f28cb7a8208f83e29ebe61a005953d89b26dfe&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=71eee43ac5d46
+2017/06/28 16:27:17 [pago] [paypal] 
+ verify_sign AiPC9BjkCyDFQXbSkoZcgqH3hpacAUXEQd62ikC1K56KWgyzgSB49AeX
+2017/06/28 16:27:17 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :0EL242303L221342P -----------
+2017/06/28 19:01:30 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@comitefotomx.com transacción :3K0545652D655390V -----------
+2017/06/28 19:01:38 [pago] [paypal] 
+ id_usuario 2409
+2017/06/28 19:01:38 [pago] [paypal] 
+ item_number oc_0d3659249d395e8ff7f3350250b3121e5953fc69aa1e0
+2017/06/28 19:01:38 [pago] [paypal] 
+ mc_gross 22.60
+2017/06/28 19:01:38 [pago] [paypal] 
+ txn_id 3K0545652D655390V
+2017/06/28 19:01:38 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=22.60&protection_eligibility=Ineligible&address_status=confirmed&payer_id=72YSKDNJXY2AE&address_street=Calle+Juarez+1&payment_date=12%3A01%3A24+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=2409&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=AIkKNboJiyuxWLOHUlzTd3lpqCSxAMHA8LJ9vIAQHTX5KYBqz6Ac30rH&payer_email=sandbox%40comitefotomx.com&txn_id=3K0545652D655390V&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_0d3659249d395e8ff7f3350250b3121e5953fc69aa1e0&residence_country=MX&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=b69dee4b59c97
+2017/06/28 19:01:38 [pago] [paypal] 
+ verify_sign AIkKNboJiyuxWLOHUlzTd3lpqCSxAMHA8LJ9vIAQHTX5KYBqz6Ac30rH
+2017/06/28 19:01:38 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@comitefotomx.com transacción :3K0545652D655390V -----------
+2017/06/28 19:13:08 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@comitefotomx.com transacción :4JL43414KK977522M -----------
+2017/06/28 19:13:09 [pago] [paypal] 
+ id_usuario 2406
+2017/06/28 19:13:09 [pago] [paypal] 
+ item_number oc_beb000db5b68d964dabdb72b66389ddc5953ff9f30c8d
+2017/06/28 19:13:09 [pago] [paypal] 
+ mc_gross 84.75
+2017/06/28 19:13:09 [pago] [paypal] 
+ txn_id 4JL43414KK977522M
+2017/06/28 19:13:09 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=72YSKDNJXY2AE&address_street=Calle+Juarez+1&payment_date=12%3A13%3A04+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=2406&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=AB8uKJ-cgis5XVZJfu8yXdO6dhrpAoBQp.ooA8gW7Gri0HF21-02YVtV&payer_email=sandbox%40comitefotomx.com&txn_id=4JL43414KK977522M&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_beb000db5b68d964dabdb72b66389ddc5953ff9f30c8d&residence_country=MX&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=cc26050d98a7a
+2017/06/28 19:13:09 [pago] [paypal] 
+ verify_sign AB8uKJ-cgis5XVZJfu8yXdO6dhrpAoBQp.ooA8gW7Gri0HF21-02YVtV
+2017/06/28 19:13:09 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@comitefotomx.com transacción :4JL43414KK977522M -----------
+2017/06/28 19:46:52 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :5886209846231622F -----------
+2017/06/28 19:46:52 [pago] [paypal] 
+ id_usuario 2408
+2017/06/28 19:46:52 [pago] [paypal] 
+ item_number oc_3f3cef0ed2de521c0eb715d863af2a45595407853e129
+2017/06/28 19:46:52 [pago] [paypal] 
+ mc_gross 84.75
+2017/06/28 19:46:52 [pago] [paypal] 
+ txn_id 5886209846231622F
+2017/06/28 19:46:52 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=12%3A46%3A50+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2408&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AUkau1FwogE3kL3qo1vGTARqlijQAqglzHYVIyS5yIS51n5aYU133Tf4&payer_email=sandbox%402gom.com.mx&txn_id=5886209846231622F&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_3f3cef0ed2de521c0eb715d863af2a45595407853e129&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=a805ad41619af
+2017/06/28 19:46:52 [pago] [paypal] 
+ verify_sign AUkau1FwogE3kL3qo1vGTARqlijQAqglzHYVIyS5yIS51n5aYU133Tf4
+2017/06/28 19:46:52 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :5886209846231622F -----------
+2017/07/04 14:29:01 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@comitefotomx.com transacción :9E4979137T2367408 -----------
+2017/07/04 14:29:56 [pago] [paypal] 
+ id_usuario 2411
+2017/07/04 14:29:56 [pago] [paypal] 
+ item_number oc_99e2a6815281a4fb4ad263b1b90e6d235956b47c3ea9a
+2017/07/04 14:29:56 [pago] [paypal] 
+ mc_gross 62.15
+2017/07/04 14:29:56 [pago] [paypal] 
+ txn_id 9E4979137T2367408
+2017/07/04 14:29:56 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Ineligible&address_status=confirmed&payer_id=72YSKDNJXY2AE&address_street=Calle+Juarez+1&payment_date=07%3A28%3A58+Jul+04%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=2411&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=A31fFfXfoxG9kgdtT-o.xQAQ7OWgAjkYdskbY79ZmMzRfWULeEynLAYn&payer_email=sandbox%40comitefotomx.com&txn_id=9E4979137T2367408&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_99e2a6815281a4fb4ad263b1b90e6d235956b47c3ea9a&residence_country=MX&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=305d704fec693
+2017/07/04 14:29:56 [pago] [paypal] 
+ verify_sign A31fFfXfoxG9kgdtT-o.xQAQ7OWgAjkYdskbY79ZmMzRfWULeEynLAYn
+2017/07/04 14:29:57 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@comitefotomx.com transacción :9E4979137T2367408 -----------
+2017/07/05 01:17:58 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :02302749SD678790H -----------
+2017/07/05 01:17:58 [pago] [paypal] 
+ id_usuario 1647
+2017/07/05 01:17:58 [pago] [paypal] 
+ item_number oc_16eb4d333458ff308d853f96b7eaccfc595c3db40ef04
+2017/07/05 01:17:58 [pago] [paypal] 
+ mc_gross 84.75
+2017/07/05 01:17:58 [pago] [paypal] 
+ txn_id 02302749SD678790H
+2017/07/05 01:17:58 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A17%3A50+Jul+04%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=1647&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AiKZhEEPLJjSIccz.2M.tbyW5YFwAmXt8bhFmW1FIhFDzoDYUE5JbOm8&payer_email=sandbox%402gom.com.mx&txn_id=02302749SD678790H&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_16eb4d333458ff308d853f96b7eaccfc595c3db40ef04&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=4afd4aa178b8
+2017/07/05 01:17:58 [pago] [paypal] 
+ verify_sign AiKZhEEPLJjSIccz.2M.tbyW5YFwAmXt8bhFmW1FIhFDzoDYUE5JbOm8
+2017/07/05 01:17:58 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :02302749SD678790H -----------
+2017/07/07 18:34:03 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@comitefotomx.com transacción :13V85076AA778311N -----------
+2017/07/07 18:34:05 [pago] [paypal] 
+ id_usuario 2485
+2017/07/07 18:34:05 [pago] [paypal] 
+ item_number oc_2f06e14f0db1a360e516606c2552f699595fd3eb2edea
+2017/07/07 18:34:05 [pago] [paypal] 
+ mc_gross 62.15
+2017/07/07 18:34:05 [pago] [paypal] 
+ txn_id 13V85076AA778311N
+2017/07/07 18:34:05 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Ineligible&address_status=confirmed&payer_id=72YSKDNJXY2AE&address_street=Calle+Juarez+1&payment_date=11%3A33%3A59+Jul+07%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=2485&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=AGVEEc4wpa8s8HMmbqwXtzwy-R0pAnBm8Jcv64G66.3c.SyDnjlz1wEv&payer_email=sandbox%40comitefotomx.com&txn_id=13V85076AA778311N&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_2f06e14f0db1a360e516606c2552f699595fd3eb2edea&residence_country=MX&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=a741196166ab
+2017/07/07 18:34:05 [pago] [paypal] 
+ verify_sign AGVEEc4wpa8s8HMmbqwXtzwy-R0pAnBm8Jcv64G66.3c.SyDnjlz1wEv
+2017/07/07 18:34:05 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@comitefotomx.com transacción :13V85076AA778311N -----------
+2017/07/11 19:17:05 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :45M71967NS4850827 -----------
+2017/07/11 19:17:05 [pago] [paypal] 
+ id_usuario 2486
+2017/07/11 19:17:05 [pago] [paypal] 
+ item_number oc_0bedca6353c29b7844022f68cea46ddf596523e0802e9
+2017/07/11 19:17:05 [pago] [paypal] 
+ mc_gross 62.15
+2017/07/11 19:17:05 [pago] [paypal] 
+ txn_id 45M71967NS4850827
+2017/07/11 19:17:05 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=12%3A16%3A59+Jul+11%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2486&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AIkKNboJiyuxWLOHUlzTd3lpqCSxAPAIdjZowzgB6-xc6zVG1ZPcnuXR&payer_email=sandbox%402gom.com.mx&txn_id=45M71967NS4850827&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_0bedca6353c29b7844022f68cea46ddf596523e0802e9&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=dcbbb8e525ad8
+2017/07/11 19:17:05 [pago] [paypal] 
+ verify_sign AIkKNboJiyuxWLOHUlzTd3lpqCSxAPAIdjZowzgB6-xc6zVG1ZPcnuXR
+2017/07/11 19:17:05 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :45M71967NS4850827 -----------
+2017/07/11 22:24:47 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :7G412045BN691712U -----------
+2017/07/11 22:24:47 [pago] [paypal] 
+ id_usuario 2484
+2017/07/11 22:24:47 [pago] [paypal] 
+ item_number oc_1986475af36c24c02f553e7243246d8f59654f708b738
+2017/07/11 22:24:47 [pago] [paypal] 
+ mc_gross 84.75
+2017/07/11 22:24:47 [pago] [paypal] 
+ txn_id 7G412045BN691712U
+2017/07/11 22:24:47 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=15%3A24%3A43+Jul+11%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2484&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=An5ns1Kso7MWUdW4ErQKJJJ4qi4-AMR2qPQCx6OGH3-RYXs8K0DWgbAL&payer_email=sandbox%402gom.com.mx&txn_id=7G412045BN691712U&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_1986475af36c24c02f553e7243246d8f59654f708b738&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=3729c628d4e20
+2017/07/11 22:24:47 [pago] [paypal] 
+ verify_sign An5ns1Kso7MWUdW4ErQKJJJ4qi4-AMR2qPQCx6OGH3-RYXs8K0DWgbAL
+2017/07/11 22:24:47 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :7G412045BN691712U -----------
+2017/07/13 17:07:49 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :80838168CX016504T -----------
+2017/07/13 17:08:50 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :37P679322C708720H -----------
+2017/07/13 17:08:50 [pago] [paypal] 
+ id_usuario 2487
+2017/07/13 17:08:50 [pago] [paypal] 
+ item_number oc_07f06753be7684b176192e4ae6d4c9125967a903cfef2
+2017/07/13 17:08:50 [pago] [paypal] 
+ mc_gross 84.75
+2017/07/13 17:08:50 [pago] [paypal] 
+ txn_id 37P679322C708720H
+2017/07/13 17:08:50 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=10%3A08%3A47+Jul+13%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2487&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AWkT50gtrA0iXnh55b939tXXlAFYAcx1-DAe7zvjZJR0T5-hMwss7Os1&payer_email=sandbox%402gom.com.mx&txn_id=37P679322C708720H&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_07f06753be7684b176192e4ae6d4c9125967a903cfef2&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=6ca0780e2448f
+2017/07/13 17:08:50 [pago] [paypal] 
+ verify_sign AWkT50gtrA0iXnh55b939tXXlAFYAcx1-DAe7zvjZJR0T5-hMwss7Os1
+2017/07/13 17:08:50 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :37P679322C708720H -----------
+2017/07/26 16:42:32 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :0E4408532H6700058 -----------
+2017/07/26 16:42:32 [pago] [paypal] 
+ id_usuario 2492
+2017/07/26 16:42:32 [pago] [paypal] 
+ item_number oc_fa47af2db60abb54b27184a2a694dfbb5978c4375cf76
+2017/07/26 16:42:32 [pago] [paypal] 
+ mc_gross 84.75
+2017/07/26 16:42:32 [pago] [paypal] 
+ txn_id 0E4408532H6700058
+2017/07/26 16:42:32 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A42%3A25+Jul+26%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2492&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AQYTgL3v31I0V8X0-w0FFi87o1FAATjKp-pbqK0Yy5kDkRcVWP.Klcfu&payer_email=sandbox%402gom.com.mx&txn_id=0E4408532H6700058&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_fa47af2db60abb54b27184a2a694dfbb5978c4375cf76&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=3ab4450b86cee
+2017/07/26 16:42:32 [pago] [paypal] 
+ verify_sign AQYTgL3v31I0V8X0-w0FFi87o1FAATjKp-pbqK0Yy5kDkRcVWP.Klcfu
+2017/07/26 16:42:32 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :0E4408532H6700058 -----------
+2017/08/02 15:37:50 [pago] [paypal] 
+------------- PAGO RECIBIDO de sandbox@2gom.com.mx transacción :9DM329601L5999030 -----------
+2017/08/02 15:37:54 [pago] [paypal] 
+ id_usuario 2493
+2017/08/02 15:37:54 [pago] [paypal] 
+ item_number oc_261412279c8a72ebae0468ec94a3ce105981f12f9278b
+2017/08/02 15:37:54 [pago] [paypal] 
+ mc_gross 84.75
+2017/08/02 15:37:54 [pago] [paypal] 
+ txn_id 9DM329601L5999030
+2017/08/02 15:37:54 [pago] [paypal] 
+ txt_cadena_pago cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=08%3A37%3A29+Aug+02%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2493&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AipzpiML256w9-akHONKruBmK6ovAeA8A9jl8fUdWTkbm1sPOtxdfzg8&payer_email=sandbox%402gom.com.mx&txn_id=9DM329601L5999030&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_261412279c8a72ebae0468ec94a3ce105981f12f9278b&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=6d826269cc997
+2017/08/02 15:37:54 [pago] [paypal] 
+ verify_sign AipzpiML256w9-akHONKruBmK6ovAeA8A9jl8fUdWTkbm1sPOtxdfzg8
+2017/08/02 15:37:55 [pago] [paypal] 
+ ------------- FIN DE PAGO de sandbox@2gom.com.mx transacción :9DM329601L5999030 -----------

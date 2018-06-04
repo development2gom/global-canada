@@ -1,0 +1,2355 @@
+2016/07/06 16:31:19 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 949
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=200.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=14%3A31%3A15+Jul+06%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=651&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AH1pol-O9H-rvd9mM0ld1W1mHNV0Aj62uXWr97JybqNIHyVD9vrqFaA4&payer_email=sandbox%402gom.com.mx&txn_id=8SP65592RM6170815&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Paquete+B%E1sico&mc_currency=MXN&item_number=oc_6a85caeb31cea38167ea666a6a2e0f54577d787a8baed&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=a8d5741a778d7
+
+2016/07/06 16:31:19 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+HTTP_X_PP_AZ_LOCATOR: dcg12.slc
+Paypal-Debug-Id: ad87d7352356a
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Wed, 06 Jul 2016 21:31:19 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=NkSnhZ6V_k3X-4Lpx2aJ2G6kRk0Zu_29LOgwtj6r5WGi7BG13SinGsioJz6ZmCYSuNzxlmtk9cg0GHVYWs6d8SmGFt8EWJgK6cqUVi0sZCO132f8_pm3hW8GbLcKIUHxM31wJPjlUqvB5tvrFJRlPxF5_pOnVOztHU_UgIhA2FIM-k6TyzC-fC3e1FsTTcmFrh40-PoY_7aRUYJfFHbbaSbcrC1anpmbj52vkc-IYltQfa83F5S19SErCDsw1hCe-1DGOXOlYAT3VyZ-ww8wU3FPeirQv8nVIyxuc45aquWNMqPEKTkXCk6TtOmCV9XGl8A9ascoxGXUvAv_Ef5msfzAvcFw7tdk5iBrXpXKBi4EF8IHHWQv52RGMds2i6Xol7RS2FN3vlegswEKoGrZLV1aCNXGN_TqLJMp6vxqhV5Mqhhj5jgdC64Beze; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Jul-2026 21:31:19 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Jul-2018 21:31:19 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2809691479%26HTTP_X_PP_AZ_LOCATOR%3Ddcg12.slc; Expires=Wed, 06 Jul 2016 22:01:19 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Wed, 06-Jul-2016 22:01:19 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+INVALID
+
+2016/07/06 16:31:19 [debug] [paypal] 
+ Invalid IPN: cmd=_notify-validate&mc_gross=200.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=14%3A31%3A15+Jul+06%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=651&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AH1pol-O9H-rvd9mM0ld1W1mHNV0Aj62uXWr97JybqNIHyVD9vrqFaA4&payer_email=sandbox%402gom.com.mx&txn_id=8SP65592RM6170815&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Paquete+B%E1sico&mc_currency=MXN&item_number=oc_6a85caeb31cea38167ea666a6a2e0f54577d787a8baed&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=a8d5741a778d7
+
+2016/07/06 16:40:49 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 949
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=200.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=14%3A40%3A39+Jul+06%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=651&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AfzPPZH.t0ety8o.ciNBEdPv7r-OAPvj9K4VDY5mv4FG6.nhA38h3Dtg&payer_email=sandbox%402gom.com.mx&txn_id=77A0830294570253J&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Paquete+B%E1sico&mc_currency=MXN&item_number=oc_586b7c1606bdaf6f45c3224fd3cefe52577d7abf6c6b4&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=c9e64df26e73b
+
+2016/07/06 16:40:49 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 06 Jul 2016 21:40:48 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=No3eQNud03mIcGEUWzSn4eQb2la53MMqBbXX9vxAweRfp1X39FNyGcEOryJIDg62y4_Bx8mu2Tb5r74t8YuQoKBurOKsZJEk12IdKFjSISS1FDpUqOhfJ5BHt4ysbD4L31xxAvnRfSFQ6A7ujYBxZGMZ8v4bj-HGw0EP9TjS9Fu0tuZrJf9jq7Q0T3B2briE66ysFl-J8HEdtLSGwbN2AD89EsNvE64_kd6TnPh8jSLf7UPbIf83UW57kyj8x_Y_5qXXlbmMm9hcurA6k69Y5rRRby1Rj3hRJgTzyVIWpREEUdTkSUuBzLqn5av5vZOGppiYFWYs0RVzQAaYLC2qLgI6NfIiyIkgJJ_CzcnfywOFEs5YPJut9-woWRg9sm9mQoleJQLjE1vkyVZbuGkY2ZxO4xZG3L5kDcJRueaVnzyV7alJQIWTOcbC8f8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Jul-2026 21:40:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Jul-2018 21:40:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1467841248783583; path=/; expires=Fri, 29-Jun-46 21:40:48 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 6a6fbbc7b9518
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3766123863%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 06 Jul 2016 22:10:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/06 16:40:49 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=200.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=14%3A40%3A39+Jul+06%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=651&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AfzPPZH.t0ety8o.ciNBEdPv7r-OAPvj9K4VDY5mv4FG6.nhA38h3Dtg&payer_email=sandbox%402gom.com.mx&txn_id=77A0830294570253J&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Paquete+B%E1sico&mc_currency=MXN&item_number=oc_586b7c1606bdaf6f45c3224fd3cefe52577d7abf6c6b4&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=c9e64df26e73b 
+
+2016/07/06 16:40:49 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/06 16:40:49 [debug] [paypal] 
+ Item name:Paquete Básico
+2016/07/06 16:40:49 [debug] [paypal] 
+ Item number :oc_586b7c1606bdaf6f45c3224fd3cefe52577d7abf6c6b4
+2016/07/06 16:40:49 [debug] [paypal] 
+ quantity :1
+2016/07/06 16:40:49 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/06 16:40:49 [debug] [paypal] 
+ Payment amount :200.00
+2016/07/06 16:40:49 [debug] [paypal] 
+ Txn Id :77A0830294570253J
+2016/07/06 16:40:49 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/06 16:40:49 [debug] [paypal] 
+ custom :651
+2016/07/06 16:40:49 [debug] [paypal] 
+ mc gross :200.00
+2016/07/06 16:40:49 [debug] [paypal] 
+ verify_sign :AfzPPZH.t0ety8o.ciNBEdPv7r-OAPvj9K4VDY5mv4FG6.nhA38h3Dtg
+2016/07/07 11:53:36 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 969
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=1100.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A53%3A27+Jul+07%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=649&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=A70yhW2E1fJ-3GvRelFH2WSViF4fAIlbOO-gzWX9O5qUAYu4HFWw5tGF&payer_email=sandbox%402gom.com.mx&txn_id=14T210812R234542K&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Paquete+Premium+Retroalimentaci%F3n&mc_currency=MXN&item_number=oc_b45ea2c82da453928bca00bcdd766083577e80ba3e8c4&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=2cd908ebd4d72
+
+2016/07/07 11:53:36 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Thu, 07 Jul 2016 16:53:35 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=tjUuArP9PLBUFjtWoSJflkcUaRy0id-lHPPkAF5uBMQWSABH-CKvjhn_xJNHaoeiLJ9YQiulwDrxzyfHL57TkVoSqCQkWfEo0Hr22VtqjCpCu5lkyaczk6xMOXlTYSr8Oqxv1nTOd4S0lnitmNwiDqPmsqraMRY3dvSuUBTYhbW2pHX78cr3ZZe51l_f8INRn0_c917-FSpn0Fv0Euj5VxkVadQJNkACYBAM7eZv82GGHyy8gY_kqqFD-xKyL_tfpdvC9131CgpNcuOzyS2WQKdPeSWYLkXPD_5jNijjNAT68prh15MDm2tH4preZjm8UZWCZP6ciNZt-k2Sw17udTSXqjj-N-8ppKhSwps26ruSTB55jKPYKKxNUva-9ES5D5caEo_sUlYvsm4JyA9zSHJyOPAHNkPAqZ3HgpOuaJpuVeoem7Ul66EDqTa; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 05-Jul-2026 16:53:35 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 07-Jul-2018 16:53:35 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1467910415582979; path=/; expires=Sat, 30-Jun-46 16:53:35 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: f983c3e68a1e8
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D260669015%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Thu, 07 Jul 2016 17:23:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/07 11:53:36 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=1100.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A53%3A27+Jul+07%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=649&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=A70yhW2E1fJ-3GvRelFH2WSViF4fAIlbOO-gzWX9O5qUAYu4HFWw5tGF&payer_email=sandbox%402gom.com.mx&txn_id=14T210812R234542K&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Paquete+Premium+Retroalimentaci%F3n&mc_currency=MXN&item_number=oc_b45ea2c82da453928bca00bcdd766083577e80ba3e8c4&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=2cd908ebd4d72 
+
+2016/07/07 11:53:36 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/07 11:53:36 [debug] [paypal] 
+ Item name:Paquete Premium Retroalimentación
+2016/07/07 11:53:36 [debug] [paypal] 
+ Item number :oc_b45ea2c82da453928bca00bcdd766083577e80ba3e8c4
+2016/07/07 11:53:36 [debug] [paypal] 
+ quantity :1
+2016/07/07 11:53:36 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/07 11:53:36 [debug] [paypal] 
+ Payment amount :1100.00
+2016/07/07 11:53:36 [debug] [paypal] 
+ Txn Id :14T210812R234542K
+2016/07/07 11:53:36 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/07 11:53:36 [debug] [paypal] 
+ custom :649
+2016/07/07 11:53:36 [debug] [paypal] 
+ mc gross :1100.00
+2016/07/07 11:53:36 [debug] [paypal] 
+ verify_sign :A70yhW2E1fJ-3GvRelFH2WSViF4fAIlbOO-gzWX9O5qUAYu4HFWw5tGF
+2016/07/07 19:52:34 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 948
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=500.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=17%3A52%3A27+Jul+07%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=652&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AWkT50gtrA0iXnh55b939tXXlAFYA.-Jr84Ov-JyoyeUBk78Wk9FiB7E&payer_email=sandbox%402gom.com.mx&txn_id=47418040AY924253U&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Paquete+Premium&mc_currency=MXN&item_number=oc_acf9e89129612b4bf23ca69386d65c1c577ef930c9091&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=4d9d2f4c86e53
+
+2016/07/07 19:52:34 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Fri, 08 Jul 2016 00:52:34 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Sz5jg92PNbKkzmtK8hefuV0agJgI3wwo3DhW1a4wDHrbjYB9BLfAjmCgS-BkEGwIfwz17oM6OgADvjb76LcyAE9DXut5qVnzIA45U_aj_Mmzff8mnYJALmmrZPPOzXxBehfIsdlL0WwhAzc3CAE74MwsehCn3jhQB5csLPqaS7koIkozGFb0-0WZCJlaZkS5a41tkyw0h-x-s2VsUaoYGH1N5Zujc_Vq_HT9VaGNgAJB12SDYrjiFupVpswkyisLO82KcgGWcfaJP01kBDzHFVr8xqO-jTDJG2BusHTnD0KY4fVZ1yKtc03LpsmvEX4BcFmh8o7KT2KLpziJYcHh0yKhc13RAjgnYYOrXTByXrGhw8fGYBezwvpmNs-OAQZWZosyH2EumCpoaW61t1wRCpTccFDIeLtPNox45waKADX-wq-cR_WYixGuBpC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 06-Jul-2026 00:52:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 08-Jul-2018 00:52:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1467939154547966; path=/; expires=Sun, 01-Jul-46 00:52:34 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 8a05ea4581328
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1392082519%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Fri, 08 Jul 2016 01:22:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/07 19:52:34 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=500.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=17%3A52%3A27+Jul+07%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=652&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AWkT50gtrA0iXnh55b939tXXlAFYA.-Jr84Ov-JyoyeUBk78Wk9FiB7E&payer_email=sandbox%402gom.com.mx&txn_id=47418040AY924253U&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Paquete+Premium&mc_currency=MXN&item_number=oc_acf9e89129612b4bf23ca69386d65c1c577ef930c9091&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=4d9d2f4c86e53 
+
+2016/07/07 19:52:34 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/07 19:52:34 [debug] [paypal] 
+ Item name:Paquete Premium
+2016/07/07 19:52:34 [debug] [paypal] 
+ Item number :oc_acf9e89129612b4bf23ca69386d65c1c577ef930c9091
+2016/07/07 19:52:34 [debug] [paypal] 
+ quantity :1
+2016/07/07 19:52:34 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/07 19:52:34 [debug] [paypal] 
+ Payment amount :500.00
+2016/07/07 19:52:34 [debug] [paypal] 
+ Txn Id :47418040AY924253U
+2016/07/07 19:52:34 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/07 19:52:34 [debug] [paypal] 
+ custom :652
+2016/07/07 19:52:34 [debug] [paypal] 
+ mc gross :500.00
+2016/07/07 19:52:34 [debug] [paypal] 
+ verify_sign :AWkT50gtrA0iXnh55b939tXXlAFYA.-Jr84Ov-JyoyeUBk78Wk9FiB7E
+2016/07/12 19:34:37 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 980
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=60.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=17%3A34%3A28+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=209&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AiKZhEEPLJjSIccz.2M.tbyW5YFwAcMmxD7T9De.t0O5v-QTRAdDw1nL&payer_email=sandbox%402gom.com.mx&txn_id=5FY25390AG292072R&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_a13df2eeb1032ddb04d2b173c4075bdf57858bb9c062e&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=a7116b75a39
+
+2016/07/12 19:34:37 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2016 00:34:37 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=cOZmBqYIctEUUVHJu0igQ5kbN7ykz7vOFdTZ-muMzjel0SQZnTypavt7sDlJfZszpKtFVSwuBLHmolM97-IIL18N90jcnZce1RavFN3cnn_BjuRV3lIz041g9nWDIHgxj0czcqFCQinCeSx6FO-Ee34lYxt65-ilWhRCvdyHPNBG-oJ5NqxuSesERHUdZ7x01uVczPZB3jkCRbJNbuDwqfPZ4-CHzBsflokyah9jOTVFAwdD8GaRupvoNLORNh8ObUk8cBFdqbAPia6o621U6X2OF-kamEDE3ddKc-WgoaHXaWfacu02T2fOilXHvcFGHMC0mGJ5zvZWTDUNTJhkZdqME2EOJvRjlWXaa-y3LYhVKOMeySNEDN26gzY7UCqEyFFPiWRwqJIg4mNXJ1GKxURshaQaBoNxCUvqMUuRGbCjiglSESUuyO-CX68; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 11-Jul-2026 00:34:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 13-Jul-2018 00:34:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468370077106519; path=/; expires=Fri, 06-Jul-46 00:34:37 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 2ebe0fcf15164
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2643232087%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 13 Jul 2016 01:04:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/12 19:34:37 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=60.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=17%3A34%3A28+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=209&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AiKZhEEPLJjSIccz.2M.tbyW5YFwAcMmxD7T9De.t0O5v-QTRAdDw1nL&payer_email=sandbox%402gom.com.mx&txn_id=5FY25390AG292072R&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_a13df2eeb1032ddb04d2b173c4075bdf57858bb9c062e&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=a7116b75a39 
+
+2016/07/12 19:34:37 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/12 19:34:37 [debug] [paypal] 
+ Item name:World Photographic Cup - Canadian Call for Entries
+2016/07/12 19:34:37 [debug] [paypal] 
+ Item number :oc_a13df2eeb1032ddb04d2b173c4075bdf57858bb9c062e
+2016/07/12 19:34:37 [debug] [paypal] 
+ quantity :1
+2016/07/12 19:34:37 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/12 19:34:37 [debug] [paypal] 
+ Payment amount :60.00
+2016/07/12 19:34:37 [debug] [paypal] 
+ Txn Id :5FY25390AG292072R
+2016/07/12 19:34:37 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/12 19:34:37 [debug] [paypal] 
+ custom :209
+2016/07/12 19:34:37 [debug] [paypal] 
+ mc gross :60.00
+2016/07/12 19:34:37 [debug] [paypal] 
+ verify_sign :AiKZhEEPLJjSIccz.2M.tbyW5YFwAcMmxD7T9De.t0O5v-QTRAdDw1nL
+2016/07/12 20:34:09 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 992
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=60.00&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=72YSKDNJXY2AE&tax=0.00&address_street=Calle+Juarez+1&payment_date=18%3A34%3A04+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=210&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=ATFTLrXRceFz9AygDKFttAoFt3Z1ApuRR480G3l.2dO7UVcW83lcrm-i&payer_email=sandbox%40comitefotomx.com&txn_id=46057030W8608954R&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_280a93187511c30d0ec517f82252b43657859a605b7f2&residence_country=MX&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=9af025f396357
+
+2016/07/12 20:34:09 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2016 01:34:09 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=5_Ti7A2wak2JASNbHxbCZDF_chhKtYVnTBFi-ESd7isWjrIdTUeiwAsNvdXRYIFFJahnPmMpeWjEMvglw4ic6SY2gCiu78JOLovHuEVfr8evPlLRxy2MPevYwANse7M3grb_VY19eOEHtUwoLdW1jydoIm9NeklwALKdm-Oc_6TWS3VK69eU4hGFemAoHF52HnrpBJ-KIp5A4-2eqaNsPl15C18d_5peVuhrCbHhkE4rPFfs-HxKvfMu6tMxjAAhkNhBwOYBuaFMkuSfWkO-EIBTVy1hvk9z19Q6GrLebvwf9wGpRrpC4SyTDigIBS6uNZ-MERAzgr8mZ63N0UrJXtBs1v2ejhUgD4cvGMtt-mMP-E_R2WS9GoEGMv3tLwTktpsNuTYNvIQmbAW5DKb0HsOXugwPDHcF749i5WNlROQq-3jcfsyXMoa00kO; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 11-Jul-2026 01:34:09 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 13-Jul-2018 01:34:09 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468373649566278; path=/; expires=Fri, 06-Jul-46 01:34:09 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 201f4d2b86091
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2442822999%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 13 Jul 2016 02:04:09 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/12 20:34:09 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=60.00&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=72YSKDNJXY2AE&tax=0.00&address_street=Calle+Juarez+1&payment_date=18%3A34%3A04+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=210&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=ATFTLrXRceFz9AygDKFttAoFt3Z1ApuRR480G3l.2dO7UVcW83lcrm-i&payer_email=sandbox%40comitefotomx.com&txn_id=46057030W8608954R&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_280a93187511c30d0ec517f82252b43657859a605b7f2&residence_country=MX&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=9af025f396357 
+
+2016/07/12 20:34:09 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/12 20:34:09 [debug] [paypal] 
+ Item name:World Photographic Cup - Canadian Call for Entries
+2016/07/12 20:34:09 [debug] [paypal] 
+ Item number :oc_280a93187511c30d0ec517f82252b43657859a605b7f2
+2016/07/12 20:34:09 [debug] [paypal] 
+ quantity :1
+2016/07/12 20:34:09 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/12 20:34:09 [debug] [paypal] 
+ Payment amount :60.00
+2016/07/12 20:34:09 [debug] [paypal] 
+ Txn Id :46057030W8608954R
+2016/07/12 20:34:09 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/12 20:34:09 [debug] [paypal] 
+ custom :210
+2016/07/12 20:34:09 [debug] [paypal] 
+ mc gross :60.00
+2016/07/12 20:34:09 [debug] [paypal] 
+ verify_sign :ATFTLrXRceFz9AygDKFttAoFt3Z1ApuRR480G3l.2dO7UVcW83lcrm-i
+2016/07/12 20:36:36 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 982
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=60.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A31%3A28+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AltwqOMBOeZmizsBcfNMPRMh44mKA8Lf0KvWyPHotRtvEIB-AYGLwE5o&payer_email=sandbox%402gom.com.mx&txn_id=443038162R9109108&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_2908d01fd445efac4c7906745ca64791578599bf63fa8&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=608790ed9b1c3
+
+2016/07/12 20:36:36 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2016 01:36:35 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=jR5YfheRBs437OKdW8QJxCicw7SqMvm3TxlcSwb67FZwEp4FBfHGA4qgba4pEEoUX-8rYs4LURkyMAueJ6zDJStUMJ4XErwtea70aL00YETT-jtPJSmOh4yaYAtiqtHUGfuLslFiTUKXQndqIfQxzSZdX9JtWNRGUhLfbeED54tHAs8kcrKhsli3qXz8vV-YVWcQnA92f6xw2HDIOpcltfXYXCYOoo_L7QPx6eIw69DGetQXvYo2g7uaHiwR50B6YLxIKnkvdH3v7G8_CeuFnhw8XfsAKebnvM8Jr-atxenBqKwwgBJo0mzbpjZk_76P5W4OoWyODEOi2txi_vbf73nZnrJHX3gbPuxUv_furOkChbqKRf2ycRTnCLW72EsIGivM-OY2iUCQYV7jA365YDs6ZiPHpgzdMpzEF7Xr1DEoXjS11NtAPZYqrwC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 11-Jul-2026 01:36:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 13-Jul-2018 01:36:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468373795728475; path=/; expires=Fri, 06-Jul-46 01:36:35 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 53c8c295ad2d5
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D597394775%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 13 Jul 2016 02:06:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/12 20:36:36 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=60.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A31%3A28+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AltwqOMBOeZmizsBcfNMPRMh44mKA8Lf0KvWyPHotRtvEIB-AYGLwE5o&payer_email=sandbox%402gom.com.mx&txn_id=443038162R9109108&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_2908d01fd445efac4c7906745ca64791578599bf63fa8&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=608790ed9b1c3 
+
+2016/07/12 20:36:36 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/12 20:36:36 [debug] [paypal] 
+ Item name:World Photographic Cup - Canadian Call for Entries
+2016/07/12 20:36:36 [debug] [paypal] 
+ Item number :oc_2908d01fd445efac4c7906745ca64791578599bf63fa8
+2016/07/12 20:36:36 [debug] [paypal] 
+ quantity :1
+2016/07/12 20:36:36 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/12 20:36:36 [debug] [paypal] 
+ Payment amount :60.00
+2016/07/12 20:36:36 [debug] [paypal] 
+ Txn Id :443038162R9109108
+2016/07/12 20:36:36 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/12 20:36:36 [debug] [paypal] 
+ custom :208
+2016/07/12 20:36:36 [debug] [paypal] 
+ mc gross :60.00
+2016/07/12 20:36:36 [debug] [paypal] 
+ verify_sign :AltwqOMBOeZmizsBcfNMPRMh44mKA8Lf0KvWyPHotRtvEIB-AYGLwE5o
+2016/07/12 20:36:58 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 982
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+
+2016/07/12 20:36:58 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2016 01:36:58 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=j7x0v4DUN5NymBTYUrC5HIzLDKa6UBZJlBqASw667ptDDUk0p2HO7StYI_u566PtMzwmU206i_VZZ2_OqfBL51FoVxmtB5q5LJVCeGNFZA5lx3S406PrzTLCqfkg7iYAgArOsFL1xLd4cCfHHMFJei-jHLJ6IHms68APXrn-R0kr403ImRfkxwW2QPcgYju2C-Z5BpgNidB8-iauebdwyhhKwq0dT8sWVqM23-xwtMJ5t6pycLNiZlnYCITB_yqBEAg853456AVT29g8hrmVqKXK44Yr3RZp2HyFfXKqcNNJChMJXEOyBJCV8yF8XiUttTBEl2krXVqXdA5zz2WdRMevG3PCgMVvNvFQBKw-e_kOA_L7DxKYdsLfC9W8DaF_l6oSGBe7lxnhBko0apPXjcJweJegfHje4dSPT2W3ismnpgXJtHcj1JlJ-IC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 11-Jul-2026 01:36:58 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 13-Jul-2018 01:36:58 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468373818100141; path=/; expires=Fri, 06-Jul-46 01:36:58 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 28be320414756
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D983270743%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 13 Jul 2016 02:06:58 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/12 20:36:58 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532 
+
+2016/07/12 20:36:58 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/12 20:36:58 [debug] [paypal] 
+ Item name:World Photographic Cup - Canadian Call for Entries
+2016/07/12 20:36:58 [debug] [paypal] 
+ Item number :oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:36:58 [debug] [paypal] 
+ quantity :1
+2016/07/12 20:36:58 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/12 20:36:58 [debug] [paypal] 
+ Payment amount :75.00
+2016/07/12 20:36:58 [debug] [paypal] 
+ Txn Id :1J207974HH9156220
+2016/07/12 20:36:58 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/12 20:36:58 [debug] [paypal] 
+ custom :208
+2016/07/12 20:36:58 [debug] [paypal] 
+ mc gross :75.00
+2016/07/12 20:36:58 [debug] [paypal] 
+ verify_sign :AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:37:10 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 982
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+
+2016/07/12 20:37:10 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2016 01:37:09 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=4LOuCXoanjUGNJgCYyjr0WjxOs_k4AmtndrJJQeHI2UEkKcT4d2OXzBE3z1VOKimIMfl81lRnJEJytESN_muATDVRoraA9jaoUYX-YULY1fmBINtwydtPewND2hnzbkqL7ovSdB1pSO9n84fIepLg8FJ81D5mVnu0qeyx4gZCHNcJvEGn8o33rWoK89aDMmrM3vA-SmpOKXQ2IAmwLO9_OgCuDb-hCecq46iarTmyePzvVBGft9OwBi_Vq-tGDSeB4KulvSMlMH9gJMhKLh0oGWbSaDXPv6lroZW3Ff4I9jJF7_5Uf48c7Cue5R3XgW4b-Wo7UW-5JyPx5EQLgcXkQvmwxbtJ4Fq0SZ2hHp5cBLq2S9TAD5ypDRXkElHieJSvNzClnks-ckCUI4QYSe0VTg4ZsHU8GeR1DpER5H_qW3z6VBbx20hZpyOqpi; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 11-Jul-2026 01:37:10 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 13-Jul-2018 01:37:10 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468373829704962; path=/; expires=Fri, 06-Jul-46 01:37:09 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: c0271735a7f89
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1167820119%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 13 Jul 2016 02:07:10 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/12 20:37:10 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532 
+
+2016/07/12 20:37:10 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/12 20:37:10 [debug] [paypal] 
+ Item name:World Photographic Cup - Canadian Call for Entries
+2016/07/12 20:37:10 [debug] [paypal] 
+ Item number :oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:37:10 [debug] [paypal] 
+ quantity :1
+2016/07/12 20:37:10 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/12 20:37:10 [debug] [paypal] 
+ Payment amount :75.00
+2016/07/12 20:37:10 [debug] [paypal] 
+ Txn Id :1J207974HH9156220
+2016/07/12 20:37:10 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/12 20:37:10 [debug] [paypal] 
+ custom :208
+2016/07/12 20:37:10 [debug] [paypal] 
+ mc gross :75.00
+2016/07/12 20:37:10 [debug] [paypal] 
+ verify_sign :AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:37:37 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 982
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+
+2016/07/12 20:37:37 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2016 01:37:37 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=_DWXEEVIrb_1sKULNItoauXjGtE4eHLm1Wpt2ga9qgNCo1W1Na96D_m8k0Yb6hPbmr500Odv1j-9OUoa-7n8dgvU8wy4VBbsCNhUKZsLokMQPKqyk7JQg21yQnt9Omq0h0jEDNVlLHJbePPzuDr0pP24QSQV0a0A5YQOx91LY0f8C9EwQNa_YB1EAo9HJSBm-R35gxJmyJxm8wwa3d44dvYwdv3BYUEpZP7seQ0I_MY9jZ4IGTfnVSUJn2j-1a5NUZeS1r-m8Na5NjdyxxfNXcAKuEKg5DWzUUSAhT_8X_748aQqfd93MReF3XcnEvp14jWiFjuTeRnYnPzMEE8WwCAUnViTgXok7y39czgOJ85wypcrdVqc36bAZE6Og__pNwChIDdgHYagZmmD3jWP4z0usB1rbLKu0JxD2SGTZEasrQkL_ekp-8EqDUS; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 11-Jul-2026 01:37:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 13-Jul-2018 01:37:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468373857036930; path=/; expires=Fri, 06-Jul-46 01:37:37 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: c2587c9a39ae
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1637582167%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 13 Jul 2016 02:07:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/12 20:37:37 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532 
+
+2016/07/12 20:37:37 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/12 20:37:37 [debug] [paypal] 
+ Item name:World Photographic Cup - Canadian Call for Entries
+2016/07/12 20:37:37 [debug] [paypal] 
+ Item number :oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:37:37 [debug] [paypal] 
+ quantity :1
+2016/07/12 20:37:37 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/12 20:37:37 [debug] [paypal] 
+ Payment amount :75.00
+2016/07/12 20:37:37 [debug] [paypal] 
+ Txn Id :1J207974HH9156220
+2016/07/12 20:37:37 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/12 20:37:37 [debug] [paypal] 
+ custom :208
+2016/07/12 20:37:37 [debug] [paypal] 
+ mc gross :75.00
+2016/07/12 20:37:37 [debug] [paypal] 
+ verify_sign :AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:38:26 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 982
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+
+2016/07/12 20:38:26 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2016 01:38:25 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=xWYPiHcA02aRKydIztww4Gnrc9OjOYxr7D9oQVYkYMA1JrTNNb-AR_CRHId2DrbEvFff2QnU_eekq8xn7OiLxm87iBPIp_JiXcyOcbrNdjMifVPIlylRJkzG3hIJBZepjKr6yaI6jaJwBXLbrLoglLg_dKzFQpq9eD-9-aHuGFy1Y6uzWODUCtShAUg8ePT_nYBcr1CDk0pxxavvXngdmSNwDfyLhyd175kj3oitZTzu1mTbx_r3aqEsblBn2yDpkflhSJcRoGIesNIF6vpjCLwo7clCc81JrL23wnWZyE4ok_rrNE6Cap3eYxb30uztBk_mGCYcDiixufSzrofyLRMyssCn6Vfr73PG8zNEAPBDXaLGHm2n7mfbSB-UtEqz5ebGTm6h3-nsT0dq1bQAQRKUXyOvVCrkLf4D0sX4Sv3XwXwaMcP2RGPlhQ8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 11-Jul-2026 01:38:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 13-Jul-2018 01:38:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468373905566814; path=/; expires=Fri, 06-Jul-46 01:38:25 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: c6cdc91a84bf7
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2442888535%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 13 Jul 2016 02:08:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/12 20:38:26 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532 
+
+2016/07/12 20:38:26 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/12 20:38:26 [debug] [paypal] 
+ Item name:World Photographic Cup - Canadian Call for Entries
+2016/07/12 20:38:26 [debug] [paypal] 
+ Item number :oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:38:26 [debug] [paypal] 
+ quantity :1
+2016/07/12 20:38:26 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/12 20:38:26 [debug] [paypal] 
+ Payment amount :75.00
+2016/07/12 20:38:26 [debug] [paypal] 
+ Txn Id :1J207974HH9156220
+2016/07/12 20:38:26 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/12 20:38:26 [debug] [paypal] 
+ custom :208
+2016/07/12 20:38:26 [debug] [paypal] 
+ mc gross :75.00
+2016/07/12 20:38:26 [debug] [paypal] 
+ verify_sign :AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:39:51 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 982
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+
+2016/07/12 20:39:51 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2016 01:39:50 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=zLON_LY0zUcs9AAX7AlOdtLBT71Xp1JlXQeADB2eSa0tJXCiFgmuyEfNoRsXKpGJEJ4EC1wwiAQZytoN7pdlNeyCah9GpAsMQXtZ0b50Sw4-oh-ellNqGfYR1EaNbi5j-cUNdZyytc2NSJiEkJav_F3ls9fczWM1qiOHhT-GzI0bKZ9-BXitlJcg02BywAXPylD5PhRsCxa-HWsfs0aYTaYlrUNh_WA7B4Q_KLN4vVktG3zOdWLmn7x31BAVAngFhYDD5ZnKYtLFFG7ep8tR0npIRgA5MEYzOkpFsHvg3I7saCBG0TkSvO5-5WgwbW0uNJrY48wCsYsuGQQSYmGYVbOZNPBDOO4jTV-gu1suUHgDd10vAm5thZrS30p0Ar08EIRJq095qI0hKgnZmg2vu-f3J3lBixhQtY_vs9z78LsqZRIZ5pyHOL4uAbi; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 11-Jul-2026 01:39:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 13-Jul-2018 01:39:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468373990903930; path=/; expires=Fri, 06-Jul-46 01:39:50 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: df9391b0d82c9
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3868951895%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 13 Jul 2016 02:09:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/12 20:39:51 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532 
+
+2016/07/12 20:39:51 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/12 20:39:51 [debug] [paypal] 
+ Item name:World Photographic Cup - Canadian Call for Entries
+2016/07/12 20:39:51 [debug] [paypal] 
+ Item number :oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:39:51 [debug] [paypal] 
+ quantity :1
+2016/07/12 20:39:51 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/12 20:39:51 [debug] [paypal] 
+ Payment amount :75.00
+2016/07/12 20:39:51 [debug] [paypal] 
+ Txn Id :1J207974HH9156220
+2016/07/12 20:39:51 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/12 20:39:51 [debug] [paypal] 
+ custom :208
+2016/07/12 20:39:51 [debug] [paypal] 
+ mc gross :75.00
+2016/07/12 20:39:51 [debug] [paypal] 
+ verify_sign :AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:42:37 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 982
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+
+2016/07/12 20:42:37 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2016 01:42:37 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=DQk-_ppPYlss8fEAToMPvTxCh9gY2ewoSloPGQhidcDWPygVcgKbRfIAcMnhKvGUt3QxgqmLSFMQeDdyK6JIGJNyhSiN_Cpg_h6qR7yge4I5oC6F3YWLUY45HMiTZUra0gvRwSSjKohi-4HVp1EWsJGwxtunGek_qMlfQar2paSkKtdAVxhXHemzui7umSb1_DGtvfl8AgEl0dT0wkE8Vu3_DDb_3gqCBcYd_blPmKJAdzzuiK0SBBMqIoY4bVEFQ6Et1s59I7QQTtDYeNAZBGoPXT-t1pF1OCEeeH2QYT4k9wFA7HppbWtD4oDOXhLE2MHaPmzQyNm82_fw625t6mU_oUNH3yggZhfFgos7WVW_lsg8IIoKn1QBMSX1eAxQxpKFzTj1Lj-Czhthi5sspc8NvQJiFBOMZ3v0oL1s_EHb_ZfbcjHv5qgYzVS; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 11-Jul-2026 01:42:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 13-Jul-2018 01:42:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468374157075360; path=/; expires=Fri, 06-Jul-46 01:42:37 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 4c2f0e04db36
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2375845207%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 13 Jul 2016 02:12:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/12 20:42:37 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532 
+
+2016/07/12 20:42:37 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/12 20:42:37 [debug] [paypal] 
+ Item name:World Photographic Cup - Canadian Call for Entries
+2016/07/12 20:42:37 [debug] [paypal] 
+ Item number :oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:42:37 [debug] [paypal] 
+ quantity :1
+2016/07/12 20:42:37 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/12 20:42:37 [debug] [paypal] 
+ Payment amount :75.00
+2016/07/12 20:42:37 [debug] [paypal] 
+ Txn Id :1J207974HH9156220
+2016/07/12 20:42:37 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/12 20:42:37 [debug] [paypal] 
+ custom :208
+2016/07/12 20:42:37 [debug] [paypal] 
+ mc gross :75.00
+2016/07/12 20:42:37 [debug] [paypal] 
+ verify_sign :AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:48:04 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 982
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+
+2016/07/12 20:48:04 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2016 01:48:03 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=tQsMvsqyj_aD8DU1e-O_wvx-_qFofGpXlWCLqKKCGgVuOWMgrcnl4HgtIroPzYSuGjcVpaTgwc-Wq7p3HU3M4WIj1KH2mAxK1fpT7Q1WV9P3mE4mK2t7E4HK6aO3BZdNP0uPykvJRMnuW1_d8jpHDT9LFW-Q_wPkytf8asJbHMOc5qaXBPd_DPXOdWaeHYBtb2Kv6LVWPsEPwMo4nvLnq5ZqlgdjBwytKc-QMdjKnF2mpoj4jwXvWNA42uU32xzMww7jOxSZrbk-FX5LSQJcPaSyqhZhWMQ_4LOU2VAB5p40wEUA8LpeMcIMBU5cGLz9OhlG4fAuWTHRlqcPhgNw3GlJQF40Q8GzMTDicUi0bb5vyO68K3KxrJw79sEA4g8WouVTzcePjiVvTDUlxliThoSCoYJHMIPoL3Wpuw4KbqdDRrVokqbfrqJ1y70; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 11-Jul-2026 01:48:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 13-Jul-2018 01:48:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468374483725118; path=/; expires=Fri, 06-Jul-46 01:48:03 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 810de423abe3a
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3550315863%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 13 Jul 2016 02:18:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/12 20:48:04 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532 
+
+2016/07/12 20:48:04 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/12 20:48:04 [debug] [paypal] 
+ Item name:World Photographic Cup - Canadian Call for Entries
+2016/07/12 20:48:04 [debug] [paypal] 
+ Item number :oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:48:04 [debug] [paypal] 
+ quantity :1
+2016/07/12 20:48:04 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/12 20:48:04 [debug] [paypal] 
+ Payment amount :75.00
+2016/07/12 20:48:04 [debug] [paypal] 
+ Txn Id :1J207974HH9156220
+2016/07/12 20:48:04 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/12 20:48:04 [debug] [paypal] 
+ custom :208
+2016/07/12 20:48:04 [debug] [paypal] 
+ mc gross :75.00
+2016/07/12 20:48:04 [debug] [paypal] 
+ verify_sign :AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 20:58:46 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 982
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+
+2016/07/12 20:58:46 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2016 01:58:46 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=x0g13h5iO93lG172nYlH20PRLGaqbSRZ1htd3aFfIGEYAIZDl43FzpWa4l0iwxF3ueVnjs3vXKpuiA9ORtOrEZoBhyDBm47WAgMefaDA2NATL6lPl_cSzEjt_wode2i7yWGo08scmLP2wbxUEywNUlPpQA33_6SpEUZDXFaxv27Ryc1WyEy5Lj7yZCQ8GrEaAkwfRZUDbYgSymokVYArJivirwaeQCPQfG2jWBkZPiMZPFfGzPUauwYuKFg9TZO2RdFTY5x3yHKm-m5pv6lLXiR2ue7Id3GRVawsWCUMO4u29CwHXq8jj86m6PzLF4Lghmsjd4AAsGIltu8lxlSoeXEmsu1XT7kdoxc7fNRNfVnSNWCB1tJ1SmLP5SHAN2nRKGouMGqAC4Hm2nprB7lo-8f3rq6tjhj_XFJm80; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 11-Jul-2026 01:58:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 13-Jul-2018 01:58:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468375126240452; path=/; expires=Fri, 06-Jul-46 01:58:46 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 9355028e35d74
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1453360471%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 13 Jul 2016 02:28:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/12 20:58:46 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532 
+
+2016/07/12 20:58:46 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/12 20:58:46 [debug] [paypal] 
+ Item name:World Photographic Cup - Canadian Call for Entries
+2016/07/12 20:58:46 [debug] [paypal] 
+ Item number :oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 20:58:46 [debug] [paypal] 
+ quantity :1
+2016/07/12 20:58:46 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/12 20:58:46 [debug] [paypal] 
+ Payment amount :75.00
+2016/07/12 20:58:46 [debug] [paypal] 
+ Txn Id :1J207974HH9156220
+2016/07/12 20:58:46 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/12 20:58:46 [debug] [paypal] 
+ custom :208
+2016/07/12 20:58:46 [debug] [paypal] 
+ mc gross :75.00
+2016/07/12 20:58:46 [debug] [paypal] 
+ verify_sign :AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/12 21:20:21 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 982
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532
+
+2016/07/12 21:20:21 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2016 02:20:21 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=DOkcA9zO-ydwTb-0R7oFu6tCyU5GkEpBsr_Pmorl6OqxVCqW-Y3aT6g4-K__jzpUXGMYXf-eBYsEpd4_qOkeAPzSZGvftWXku7n5OizDTCNWp_4CiP4LjISma6-iIZGZifvt0p9Ap5RQgnKK3GLzFXYDGT2drscdDeahPFY_yQcSSUULj0gvIeAoyHbxss-mV8eVZUDPlr3JqKtSDsaPGbCoMVoB9-gyQq94AuohU9yfXoyte4f-s3OJ3b1xfPD5xzp4_u2HSNpRd2Xj-DXfd7hCu4HKxN5lUUVznaMr7wvFz9NMEmA_gdec8kpyRT-uvP7XlB0YziqjvqxN_W1mv2_3Hu_GihfHX5gN08ltkZiutepVwGNzPbIalmn6C3oAKLjX9NqFWVmvdkjlaUp0X4diamgMYP8Xw_UkCf3ix99pam1qtDbZlFbir4m; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 11-Jul-2026 02:20:21 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 13-Jul-2018 02:20:21 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468376421073131; path=/; expires=Fri, 06-Jul-46 02:20:21 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: efc18dd6c67f
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1705346391%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 13 Jul 2016 02:50:21 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/12 21:20:21 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=75.00&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A36%3A52+Jul+12%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=208&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ&payer_email=sandbox%402gom.com.mx&txn_id=1J207974HH9156220&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_550020cf737f47028944d3c80a1081e257859b11ca703&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=b03d1f3bb7532 
+
+2016/07/12 21:20:21 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/12 21:20:21 [debug] [paypal] 
+ Item name:World Photographic Cup - Canadian Call for Entries
+2016/07/12 21:20:21 [debug] [paypal] 
+ Item number :oc_550020cf737f47028944d3c80a1081e257859b11ca703
+2016/07/12 21:20:21 [debug] [paypal] 
+ quantity :1
+2016/07/12 21:20:21 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/12 21:20:21 [debug] [paypal] 
+ Payment amount :75.00
+2016/07/12 21:20:21 [debug] [paypal] 
+ Txn Id :1J207974HH9156220
+2016/07/12 21:20:21 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/12 21:20:21 [debug] [paypal] 
+ custom :208
+2016/07/12 21:20:21 [debug] [paypal] 
+ mc gross :75.00
+2016/07/12 21:20:21 [debug] [paypal] 
+ verify_sign :AhfsGTOVUkUSBCnBpEl3ZarVfS1nADyLjt3rc.IoyaDP8twiqrUW02wZ
+2016/07/13 15:22:28 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 964
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=60.00&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=72YSKDNJXY2AE&tax=0.00&address_street=Calle+Juarez+1&payment_date=13%3A22%3A23+Jul+13%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=213&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=ANutI7bWwxLMC5JXHntVvHloYybmAKpyX2bA10.SguYKagRh7a.LdWeI&payer_email=sandbox%40comitefotomx.com&txn_id=2DG26294WF236060X&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_f4f81d7db0061dd2e954ad28765e661b5786a1f1bc5d3&residence_country=MX&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=bad62372d337f
+
+2016/07/13 15:22:28 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2016 20:22:28 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=v60Rgp_DathImVliPWi_wP8CCC-3Dx5xyUxYffltuQ1savq7CQB0tlm5Z0vUj2pq99NpccIcFUzZsJ894d_QbvQoO5N1j1hrFy9C5FM4WFSc2nF6nWlZ5Y_bqVdmLAxPe5c8tzvSbIAU23KFO9cvkm_YgdJuMuqVTRDTnkIeSVaLMGvtmEBJiWzrpFhGYvlgHYTgJYU-d7hZzZLhnehzkHC94WpBztFJaoWOSmmIvMmE9W-Y-lKIRtWTJSpOLeCPd2zNm9khpfeL1qg90bg3zWlVljtb5WHxWD5jFN517IsYMlSh9UFQbpHnkdSBDa1Ff7cfUszdEauiKy510aXUheAner3gK7aYwoXCVsxBJvUSikYIdOlz0j-zBXVl_4VabclxHrPxNs_w6w6DasUVui6JFRGWbUBuMNvxWvGVSc2ibPCfp1NqkQhkCFe; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 11-Jul-2026 20:22:28 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 13-Jul-2018 20:22:28 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468441348573556; path=/; expires=Fri, 06-Jul-46 20:22:28 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 58141aac87cb1
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D77825623%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 13 Jul 2016 20:52:28 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/13 15:22:28 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=60.00&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=72YSKDNJXY2AE&tax=0.00&address_street=Calle+Juarez+1&payment_date=13%3A22%3A23+Jul+13%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=213&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=ANutI7bWwxLMC5JXHntVvHloYybmAKpyX2bA10.SguYKagRh7a.LdWeI&payer_email=sandbox%40comitefotomx.com&txn_id=2DG26294WF236060X&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_f4f81d7db0061dd2e954ad28765e661b5786a1f1bc5d3&residence_country=MX&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=bad62372d337f 
+
+2016/07/13 15:22:28 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/13 15:22:28 [debug] [paypal] 
+ Item name:Entry Fee for 3 images
+2016/07/13 15:22:28 [debug] [paypal] 
+ Item number :oc_f4f81d7db0061dd2e954ad28765e661b5786a1f1bc5d3
+2016/07/13 15:22:28 [debug] [paypal] 
+ quantity :1
+2016/07/13 15:22:28 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/13 15:22:28 [debug] [paypal] 
+ Payment amount :60.00
+2016/07/13 15:22:28 [debug] [paypal] 
+ Txn Id :2DG26294WF236060X
+2016/07/13 15:22:28 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/13 15:22:28 [debug] [paypal] 
+ custom :213
+2016/07/13 15:22:28 [debug] [paypal] 
+ mc gross :60.00
+2016/07/13 15:22:28 [debug] [paypal] 
+ verify_sign :ANutI7bWwxLMC5JXHntVvHloYybmAKpyX2bA10.SguYKagRh7a.LdWeI
+2016/07/13 19:39:08 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 982
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=17%3A39%3A03+Jul+13%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=197&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AfPOc8z8FYw3Ck8qNlSBWsE8H58GAXtxn.NolyHFS6bu5RhbaAZe02rR&payer_email=sandbox%402gom.com.mx&txn_id=49256777M1333383Y&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_c6fc86b778bc527e41e619594bf302155786d3821bf77&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=50d639373a3bf
+
+2016/07/13 19:39:08 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Thu, 14 Jul 2016 00:39:08 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=2tFoUeMD35_wO8uiX15WOlTswJJJnrMshlFdAXM0oYqen1r8SieKrTsTKMGl1kZ1m7wTOEmJ-3uQ7-BS7UzIJJ3euSqJwgGWXq1_JDQTdXlXVdcakvgLbarY-5weeHIyRJG7PijXIaqQ58Iofzwh4QO9OiRKyAkyDjNkI0e7r_P1z7wJGOtnYgJTBXIwFHmuntMA9v0MfDI7WWGJ-uzHp3ZtLRWv67usayKR5wC5YnHrBq-gyFAXUjhUCX2FpNZ-LJFihL3XP0WO2ycdiiX3SGVYY81F-nJ-fPGckAPhxDQqwjxSd8k_ZOW-te9gAU0qkGVT8FDbhC78KtlHpkrGZ-ZYuLGx4OYmJO2Jljl0ZdsMbILYLTbm8GYSbxqerEMmbrpsM7IO8Mf0AfAJjjTgbLOUFMV2GPQSMObCn1Av0BTs7HvZElQIYQYWzE0; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 12-Jul-2026 00:39:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 14-Jul-2018 00:39:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468456748106657; path=/; expires=Sat, 07-Jul-46 00:39:08 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 43887243157ab
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D752846423%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Thu, 14 Jul 2016 01:09:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/13 19:39:08 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=17%3A39%3A03+Jul+13%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=197&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AfPOc8z8FYw3Ck8qNlSBWsE8H58GAXtxn.NolyHFS6bu5RhbaAZe02rR&payer_email=sandbox%402gom.com.mx&txn_id=49256777M1333383Y&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=World+Photographic+Cup+-+Canadian+Call+for+Entries&mc_currency=CAD&item_number=oc_c6fc86b778bc527e41e619594bf302155786d3821bf77&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=50d639373a3bf 
+
+2016/07/13 19:39:08 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/13 19:39:08 [debug] [paypal] 
+ Item name:World Photographic Cup - Canadian Call for Entries
+2016/07/13 19:39:08 [debug] [paypal] 
+ Item number :oc_c6fc86b778bc527e41e619594bf302155786d3821bf77
+2016/07/13 19:39:08 [debug] [paypal] 
+ quantity :1
+2016/07/13 19:39:08 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/13 19:39:08 [debug] [paypal] 
+ Payment amount :62.15
+2016/07/13 19:39:08 [debug] [paypal] 
+ Txn Id :49256777M1333383Y
+2016/07/13 19:39:08 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/13 19:39:08 [debug] [paypal] 
+ custom :197
+2016/07/13 19:39:08 [debug] [paypal] 
+ mc gross :62.15
+2016/07/13 19:39:08 [debug] [paypal] 
+ verify_sign :AfPOc8z8FYw3Ck8qNlSBWsE8H58GAXtxn.NolyHFS6bu5RhbaAZe02rR
+2016/07/14 20:13:26 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 954
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A13%3A20+Jul+14%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=218&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AgePMPfbDDc05TM5uouG2O9s9U74APFHQZKsmvDL-iVOHn-DWjPIKSam&payer_email=sandbox%402gom.com.mx&txn_id=8JL55500YP306903D&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_272a7edbe58fd8cb3c7c7a2f4c8c1fd25788381c19f11&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=9648b9693c340
+
+2016/07/14 20:13:26 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Fri, 15 Jul 2016 01:13:26 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Nk9-9eGNRs01vYJwW__wMLA72QH0Ba1SCj1mEnFyGb1WcpM7oZq7XQJ9_XCPZV77VLOInLA6FXtTMksOrH2Zeb8zWZr39ZioR8cAyK9ByD4WZeTIfM3_IsKDdnKYbW9xojOHIY2yZFH8dAs2rX6h_QTmYGClTZyCLPIOjm6SPn5Unnc5vFt7epce1qTe7EWiQ8zL_w516eRbGNbqKOJiOkVQI1wx_3GzMHiJwoeS9pHUPb0C63MfrmtuH9_2QvwCfaIIfKPwjUs3wWsyjtYx50t90UCdPXdy_45tGpBHmMmCoC4p7z7Q3hfalhcTTKAb2qKgRYLpMxsKTcjRbEgmWWqsaG57UGlKzrYlgOutdFoV61OfYeCIp0BXgXEvXZ9Zuskaaon6bfquFBfqr-f6tKMFLbyiVr-swA3hwwXF866x00b0OtT5wNddU8a; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 13-Jul-2026 01:13:26 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 15-Jul-2018 01:13:26 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468545206474627; path=/; expires=Sun, 08-Jul-46 01:13:26 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 466609696fbde
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3057158231%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Fri, 15 Jul 2016 01:43:26 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/14 20:13:26 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&tax=0.00&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A13%3A20+Jul+14%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=218&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AgePMPfbDDc05TM5uouG2O9s9U74APFHQZKsmvDL-iVOHn-DWjPIKSam&payer_email=sandbox%402gom.com.mx&txn_id=8JL55500YP306903D&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_272a7edbe58fd8cb3c7c7a2f4c8c1fd25788381c19f11&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=9648b9693c340 
+
+2016/07/14 20:13:26 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/14 20:13:26 [debug] [paypal] 
+ Item name:Entry Fee for 3 images
+2016/07/14 20:13:26 [debug] [paypal] 
+ Item number :oc_272a7edbe58fd8cb3c7c7a2f4c8c1fd25788381c19f11
+2016/07/14 20:13:26 [debug] [paypal] 
+ quantity :1
+2016/07/14 20:13:26 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/14 20:13:26 [debug] [paypal] 
+ Payment amount :84.75
+2016/07/14 20:13:26 [debug] [paypal] 
+ Txn Id :8JL55500YP306903D
+2016/07/14 20:13:26 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/14 20:13:26 [debug] [paypal] 
+ custom :218
+2016/07/14 20:13:26 [debug] [paypal] 
+ mc gross :84.75
+2016/07/14 20:13:26 [debug] [paypal] 
+ verify_sign :AgePMPfbDDc05TM5uouG2O9s9U74APFHQZKsmvDL-iVOHn-DWjPIKSam
+2016/07/14 22:06:08 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 964
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=72YSKDNJXY2AE&tax=0.00&address_street=Calle+Juarez+1&payment_date=20%3A05%3A59+Jul+14%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=219&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=ACKlF9BPROATqcMJPvGGq6o9hyPXAUscJw9HhJX52fIw5qPmGi-4SAhF&payer_email=sandbox%40comitefotomx.com&txn_id=13U87164U4516251L&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_4d6f7ac3ecfc874bd5e08a47c73a96a4578851c832c54&residence_country=MX&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=22fbb829df741
+
+2016/07/14 22:06:08 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Fri, 15 Jul 2016 03:06:07 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Sfzw7UTSCJStWxWQy22qz-aELsTn1uUGCVwmoeP5g_KE88ZsdEBIZc9NoVSCNTIiBJVRfIQgaqFxQxC-Lba_chuFnbC3DW5-VhojcjwuIEpT3QXzgixzGKsLpALtO3xUyZDrU3YE6sQebAIAYFekhIcN6t24cHNG_tvzgmMQA0j-TWB4mSsrZ9hvbD1vm028gNafMgeki_9OsO6oTOgxZjoUXoE0V3DhpyItGd2ysG6q1YjoK0ySHf2l-4Y_HH5t0bjMk3wskxTVzF1vyhYQ6WaN3oHku0bF0f32FvzoSf_tTPJMYa81S9o7NquxKCnoJqT0gINaB-cSgEqpKaQR2ksfn8RxvARsAgnKcQXVfBmRKXHIA8Aj-k99GPC1YrXQQGA_OUr-pMCfpRBfFGxbmKVYr0JYhg0p8R9LYTVjUbZxBYiC90ab7JliXUi; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 13-Jul-2026 03:06:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 15-Jul-2018 03:06:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1468551967931764; path=/; expires=Sun, 08-Jul-46 03:06:07 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: c764c88fde1b5
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D525568087%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Fri, 15 Jul 2016 03:36:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2016/07/14 22:06:08 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=72YSKDNJXY2AE&tax=0.00&address_street=Calle+Juarez+1&payment_date=20%3A05%3A59+Jul+14%2C+2016+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=219&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=ACKlF9BPROATqcMJPvGGq6o9hyPXAUscJw9HhJX52fIw5qPmGi-4SAhF&payer_email=sandbox%40comitefotomx.com&txn_id=13U87164U4516251L&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_4d6f7ac3ecfc874bd5e08a47c73a96a4578851c832c54&residence_country=MX&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=&shipping=0.00&ipn_track_id=22fbb829df741 
+
+2016/07/14 22:06:08 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/14 22:06:08 [debug] [paypal] 
+ Item name:Entry Fee for 3 images
+2016/07/14 22:06:08 [debug] [paypal] 
+ Item number :oc_4d6f7ac3ecfc874bd5e08a47c73a96a4578851c832c54
+2016/07/14 22:06:08 [debug] [paypal] 
+ quantity :1
+2016/07/14 22:06:08 [debug] [paypal] 
+ Payment Status :Pending
+2016/07/14 22:06:08 [debug] [paypal] 
+ Payment amount :84.75
+2016/07/14 22:06:08 [debug] [paypal] 
+ Txn Id :13U87164U4516251L
+2016/07/14 22:06:08 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2016/07/14 22:06:08 [debug] [paypal] 
+ custom :219
+2016/07/14 22:06:08 [debug] [paypal] 
+ mc gross :84.75
+2016/07/14 22:06:08 [debug] [paypal] 
+ verify_sign :ACKlF9BPROATqcMJPvGGq6o9hyPXAUscJw9HhJX52fIw5qPmGi-4SAhF
+2016/07/15 12:05:55 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/15 13:43:35 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/22 10:55:29 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/22 15:41:03 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/07/28 15:26:32 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/05 16:33:50 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/07 15:27:09 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/07 16:05:04 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/12 17:38:02 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/14 22:48:22 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/16 15:37:46 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/17 23:02:35 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/20 14:04:31 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/21 22:52:46 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/22 12:10:40 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/22 12:20:34 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/23 14:52:15 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/24 09:49:30 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/24 12:14:29 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/24 14:46:51 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/29 11:58:33 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/29 13:43:06 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/29 18:03:08 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/29 19:58:40 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/29 20:47:57 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/29 23:50:18 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 02:12:29 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 02:32:00 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 02:32:11 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 02:32:34 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 02:33:16 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 02:34:38 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 02:37:20 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 02:42:43 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 02:53:25 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 03:14:49 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 03:57:33 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 05:22:57 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 08:13:42 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 09:52:50 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 10:05:32 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 11:26:10 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 13:55:05 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 15:33:15 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/30 15:36:51 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 01:17:55 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 11:00:18 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 11:28:11 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 11:45:52 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 11:53:18 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 12:19:33 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 12:21:26 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 14:59:55 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 18:40:43 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 19:15:23 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 20:21:41 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 20:44:49 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 21:21:08 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 21:33:15 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/08/31 22:24:26 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/01 00:03:18 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 00:03:26 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 11:56:52 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 11:58:33 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 11:59:23 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 12:03:02 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 12:06:02 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 12:07:02 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 12:12:05 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 12:13:09 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 12:14:01 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 12:15:11 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 12:16:06 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 12:18:24 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/02 12:23:09 [debug] [paypal] 
+ A procesar el pago y guardar.
+2016/09/03 00:03:29 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/06/21 23:04:04 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 919
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=16%3A03%3A58+Jun+21%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2403&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AFUhKvG.hUdp5nbFdrFGZHB7E92YAGWW24eD6p7vwJqlUUEf6XXxp4Sa&payer_email=sandbox%402gom.com.mx&txn_id=8R8358264A483882U&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_7ae775b03f8d0bb982822dce04403235594af7da1634f&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=1ac1f25667f5
+
+2017/06/21 23:04:04 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 21 Jun 2017 23:04:05 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=cIwtKUmfz5aHqNkx5g4TTvsaivjMFS5WYJHd3v7cb_NWs1XkI9Fy9DRfCW-OKNE00U-Ha_BMqx0x78yfO2J_21S2fKj-tig3h4uHHMMtVFd_-rQAKGLoH5dmK7kCgQALsFK-AsEFYZEm1EtjTthK4xLFbzMSbqWiSL5cFLzhrIpcaaO_h4NoNRKy88NJEeOh0KTSXrtgL7diSQRktf-xiMOfZpvSLOxD-Ary2sPwmmXZcOuATICPnYBOTqq0fvqWeWbYxRSzFDwYcBokoj8m8ZDU3Wx-yoGuEjNzgNXP1xmgU-qUWPBpX7H6uyo7m61mTJ3YiU-yo-Oj6kBvgjLHDsPAngAUzqCwuOkJXWsRZgWuSbN2yUjCGIJMQQkceUs4PyENY1P8MnqcGTh-pei6zA27b69g7o4oxje-lNngROdmH0y3MDMRZcHa07a; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 19-Jun-2027 23:04:05 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 21-Jun-2019 23:04:05 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1498086245287432; path=/; expires=Fri, 14-Jun-47 23:04:05 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 3473400420d2
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1710967385%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 21 Jun 2017 23:34:05 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/06/21 23:04:04 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=16%3A03%3A58+Jun+21%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2403&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AFUhKvG.hUdp5nbFdrFGZHB7E92YAGWW24eD6p7vwJqlUUEf6XXxp4Sa&payer_email=sandbox%402gom.com.mx&txn_id=8R8358264A483882U&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_7ae775b03f8d0bb982822dce04403235594af7da1634f&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=1ac1f25667f5 
+
+2017/06/21 23:04:04 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/06/21 23:04:04 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 3 images
+2017/06/21 23:04:04 [debug] [paypal] 
+ Item number :oc_7ae775b03f8d0bb982822dce04403235594af7da1634f
+2017/06/21 23:04:04 [debug] [paypal] 
+ quantity :1
+2017/06/21 23:04:04 [debug] [paypal] 
+ Payment Status :Pending
+2017/06/21 23:04:04 [debug] [paypal] 
+ Payment amount :84.75
+2017/06/21 23:04:04 [debug] [paypal] 
+ Txn Id :8R8358264A483882U
+2017/06/21 23:04:04 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/06/21 23:04:04 [debug] [paypal] 
+ custom :2403
+2017/06/21 23:04:04 [debug] [paypal] 
+ mc gross :84.75
+2017/06/21 23:04:04 [debug] [paypal] 
+ verify_sign :AFUhKvG.hUdp5nbFdrFGZHB7E92YAGWW24eD6p7vwJqlUUEf6XXxp4Sa
+2017/06/22 16:18:14 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 920
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A18%3A02+Jun+22%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2404&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AetJ6sFMEDSkxaSFA0C70iIHnuUtAaqJYyVxKIu9y9gkyexmBTLF2zul&payer_email=sandbox%402gom.com.mx&txn_id=7C270862R7059172F&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_ec4f6a67d466923b8915ca3c85582374594bece6c05b9&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=50886e0393f28
+
+2017/06/22 16:18:14 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Thu, 22 Jun 2017 16:18:15 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=FDb2yasCiemdh6FHVkvVmuQ03YsaOQ-IfRWI4M5uo7zbwOMJKyIQN90L4yphuHOObj009Mdlwjjaoa2EkXsxrGQyIYeJpWo655OEyzr48Qeuu1SW2A9rv9AqHo9esKJ8HxPmIprezWl8uQtxCLD_OKLA1xWgtl6sSxAQmyfn-NSmzrPL-RVANfanrNfOc3GCcxARSiJ95VLQASD0QjiogQ7P7lcS9lImqLpJJ-ZrDsbG6xxiAdDyQaPA29UefS_oh_7L8UtrED08dGJvyb3EgCf5i8oTQrOsmUXgH87QC_wd0nukUvhFseWGiJxYkVg2KCDYfG15pJcOFjaUy4FtQypLO-t8_gk27pSe7YDmGqbiiX_xFiz_E2zv-RSk6vPTs38b_NNTnyfXVVdzFUhl4NpunEJIYq6JHXVymd8BHeJJBbS6Mj2pv78x3A4; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 20-Jun-2027 16:18:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 22-Jun-2019 16:18:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1498148295304389; path=/; expires=Sat, 15-Jun-47 16:18:15 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: e78915da475ba
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3354217305%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Thu, 22 Jun 2017 16:48:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/06/22 16:18:14 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A18%3A02+Jun+22%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2404&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AetJ6sFMEDSkxaSFA0C70iIHnuUtAaqJYyVxKIu9y9gkyexmBTLF2zul&payer_email=sandbox%402gom.com.mx&txn_id=7C270862R7059172F&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_ec4f6a67d466923b8915ca3c85582374594bece6c05b9&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=50886e0393f28 
+
+2017/06/22 16:18:14 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/06/22 16:18:14 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 3 images
+2017/06/22 16:18:14 [debug] [paypal] 
+ Item number :oc_ec4f6a67d466923b8915ca3c85582374594bece6c05b9
+2017/06/22 16:18:14 [debug] [paypal] 
+ quantity :1
+2017/06/22 16:18:14 [debug] [paypal] 
+ Payment Status :Pending
+2017/06/22 16:18:14 [debug] [paypal] 
+ Payment amount :84.75
+2017/06/22 16:18:14 [debug] [paypal] 
+ Txn Id :7C270862R7059172F
+2017/06/22 16:18:14 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/06/22 16:18:14 [debug] [paypal] 
+ custom :2404
+2017/06/22 16:18:14 [debug] [paypal] 
+ mc gross :84.75
+2017/06/22 16:18:14 [debug] [paypal] 
+ verify_sign :AetJ6sFMEDSkxaSFA0C70iIHnuUtAaqJYyVxKIu9y9gkyexmBTLF2zul
+2017/06/22 16:21:50 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 919
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A21%3A44+Jun+22%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=1662&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AWYxjS6LEFCeGqJDu35ZiF0NsD2FAyy.IzIiVGIdUGeZP7RAt4EZcKEc&payer_email=sandbox%402gom.com.mx&txn_id=0P094305WF229343P&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_2d4a319604e5e1b0487bdab14637c5ff594bdf4d21877&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=53ee8d8d30d2
+
+2017/06/22 16:21:50 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Thu, 22 Jun 2017 16:21:51 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=iK23yB97FHXxdm8eKX7-WG7O-na_s7Y8DaePp0sc_Apakjg55p9C5drmtCkJ1_6-bKmKrbTUM1IwhJv4a_3huMnc-aayc0JtM_33LQV3tsChGxFrl5nJqNwZt8ZcEIp_F_Zq7t25xsAG6Zw0uw6hc-Isv39iSDdmC1YjDKZJ6-i-e5lm4XonbssFpARowzkZZZbqDREDhjd89l9PdvUNdivgAjXOPCJ3iSZPWkyHaK5HMltnuADHGoQF2hvRoa35qQsau4Xi7PmPboLuPKWOrK4grIuvNlFAGiv0anpTkhboBsXBql2tf2mIJvvyDcesjbIWham08nHn-jk2VSG3pE0g82KYoP9JwIQzZ17JAT_yUvgxSFjaA9XHsgZe9ltbv9cS51CXQfJba8N4Nd4NoS-18wGebvbc38ZuaFoXyoTTaMsUdJBv9bHspsG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 20-Jun-2027 16:21:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 22-Jun-2019 16:21:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1498148511173162; path=/; expires=Sat, 15-Jun-47 16:21:51 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 5457bc6e275c8
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2683194201%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Thu, 22 Jun 2017 16:51:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/06/22 16:21:50 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A21%3A44+Jun+22%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=1662&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AWYxjS6LEFCeGqJDu35ZiF0NsD2FAyy.IzIiVGIdUGeZP7RAt4EZcKEc&payer_email=sandbox%402gom.com.mx&txn_id=0P094305WF229343P&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_2d4a319604e5e1b0487bdab14637c5ff594bdf4d21877&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=53ee8d8d30d2 
+
+2017/06/22 16:21:50 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/06/22 16:21:50 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 3 images
+2017/06/22 16:21:50 [debug] [paypal] 
+ Item number :oc_2d4a319604e5e1b0487bdab14637c5ff594bdf4d21877
+2017/06/22 16:21:50 [debug] [paypal] 
+ quantity :1
+2017/06/22 16:21:50 [debug] [paypal] 
+ Payment Status :Pending
+2017/06/22 16:21:50 [debug] [paypal] 
+ Payment amount :84.75
+2017/06/22 16:21:50 [debug] [paypal] 
+ Txn Id :0P094305WF229343P
+2017/06/22 16:21:50 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/06/22 16:21:50 [debug] [paypal] 
+ custom :1662
+2017/06/22 16:21:50 [debug] [paypal] 
+ mc gross :84.75
+2017/06/22 16:21:50 [debug] [paypal] 
+ verify_sign :AWYxjS6LEFCeGqJDu35ZiF0NsD2FAyy.IzIiVGIdUGeZP7RAt4EZcKEc
+2017/06/22 16:24:00 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 920
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A23%3A57+Jun+22%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=1662&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=A7LWorWrJcRjmmYMyZ3UG3TC-LgOAbdWz5knRQ.xSl79uv2U-t9R5Q6P&payer_email=sandbox%402gom.com.mx&txn_id=0KP55549XC776941N&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_2d4a319604e5e1b0487bdab14637c5ff594bdf4d21877&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=de8429fd79f5e
+
+2017/06/22 16:24:00 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Thu, 22 Jun 2017 16:24:01 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=fEuIbFUlnR7yE5O0_fAZOOnhlECRYI59C-gImWOrNZXaFLIe1CgCAtg_HzxmdIjJ5Zkdz-yNvgJd17ptsU6a0hpLENJguvdOF70xrKIsifjQ2OhkQaEvarkBLv9kTr2J21auBTOQapCLUW8ihR8Tj36CXWRb6LtX-WsecMVRpCPaji4kGBHYGEx1fKE2t_dhWwm9ZIdxX7aTJN9X_943nYGKSY0UoGwBrBShVreB7ZhAhAfJgvYZkeq5LT7spFeISzgKCoYDkbBFqScjFxob9I865sfZa3W7UJmGLMsQnDhVcYbf6AaP9-1-4BYBkA-a1HbsFFVQBZh6kfQwd-5CqjY_I3EPuK97yc3_L7tflL5bwqG-1zWbiTGKrhtbKd1OcRgeAvtEAnWi3bjg2ObcuBZYj4ukif87n5pMc3lydI18l9wswsAXtuYxxHC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 20-Jun-2027 16:24:01 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 22-Jun-2019 16:24:01 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1498148641345319; path=/; expires=Sat, 15-Jun-47 16:24:01 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 98093841511c7
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D569330521%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Thu, 22 Jun 2017 16:54:01 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/06/22 16:24:00 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A23%3A57+Jun+22%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=1662&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=A7LWorWrJcRjmmYMyZ3UG3TC-LgOAbdWz5knRQ.xSl79uv2U-t9R5Q6P&payer_email=sandbox%402gom.com.mx&txn_id=0KP55549XC776941N&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_2d4a319604e5e1b0487bdab14637c5ff594bdf4d21877&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=de8429fd79f5e 
+
+2017/06/22 16:24:00 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/06/22 16:24:00 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 3 images
+2017/06/22 16:24:00 [debug] [paypal] 
+ Item number :oc_2d4a319604e5e1b0487bdab14637c5ff594bdf4d21877
+2017/06/22 16:24:00 [debug] [paypal] 
+ quantity :1
+2017/06/22 16:24:00 [debug] [paypal] 
+ Payment Status :Pending
+2017/06/22 16:24:00 [debug] [paypal] 
+ Payment amount :84.75
+2017/06/22 16:24:00 [debug] [paypal] 
+ Txn Id :0KP55549XC776941N
+2017/06/22 16:24:00 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/06/22 16:24:00 [debug] [paypal] 
+ custom :1662
+2017/06/22 16:24:00 [debug] [paypal] 
+ mc gross :84.75
+2017/06/22 16:24:00 [debug] [paypal] 
+ verify_sign :A7LWorWrJcRjmmYMyZ3UG3TC-LgOAbdWz5knRQ.xSl79uv2U-t9R5Q6P
+2017/06/22 17:56:28 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 920
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=56.50&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=10%3A56%3A22+Jun+22%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2405&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=A9LC3Qajo-H2V8mPq4eIktgPvG2RAT.Hz6DluTb-nWRJMlxRHMbLEv2I&payer_email=sandbox%402gom.com.mx&txn_id=51B72546YF7614430&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_e02e6bb5099c4bb58cb4f7e1bfe6a6c0594c03fc74a43&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=311fd7d393cdb
+
+2017/06/22 17:56:28 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Thu, 22 Jun 2017 17:56:28 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=59PTikpFLJmqN1xYYO6DeFkN82oGJL0pOmAJrZgbUG_VcIG1VD2cIHzXC1pSVQvZ_-LWabaxxdRLHxFdC5txmzIPV2jcW1Qrh0_tLgiE2K3Ws4qQFtubr1GtoxQBWTv5oj4EEPasOnHyDmFatbuMNJRcR042qPxD_qo_sll3gElv8UvLn904HpC018w2yYVEcccZ9K75AFJ7vNoKLWK5XYNxx0fE0b6KAN2wBfGDZ14U4D5qWoiHw1QJLeguvO5obIEr1D8oNKHu084DpYweTnus_7Qseq6bKSr6dQyKfS8CbC_v1Bp8DM3KnZDt2qxiXgkinwR7849Xrsj0V05jyXximFn_w46aLlOTxQ8ZHFgfOpNQLKzmKVqvioqUQKvjZKSZ7KvFbHh993Y2x43biVo1W8_EHPn5V-OIV9W3HhYZjegFcshu01ZbsOa; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 20-Jun-2027 17:56:28 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 22-Jun-2019 17:56:28 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1498154188521698; path=/; expires=Sat, 15-Jun-47 17:56:28 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 185717db7c277
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3422833753%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Thu, 22 Jun 2017 18:26:28 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/06/22 17:56:28 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=56.50&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=10%3A56%3A22+Jun+22%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2405&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=A9LC3Qajo-H2V8mPq4eIktgPvG2RAT.Hz6DluTb-nWRJMlxRHMbLEv2I&payer_email=sandbox%402gom.com.mx&txn_id=51B72546YF7614430&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_e02e6bb5099c4bb58cb4f7e1bfe6a6c0594c03fc74a43&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=311fd7d393cdb 
+
+2017/06/22 17:56:28 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/06/22 17:56:28 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 3 images
+2017/06/22 17:56:28 [debug] [paypal] 
+ Item number :oc_e02e6bb5099c4bb58cb4f7e1bfe6a6c0594c03fc74a43
+2017/06/22 17:56:28 [debug] [paypal] 
+ quantity :1
+2017/06/22 17:56:28 [debug] [paypal] 
+ Payment Status :Pending
+2017/06/22 17:56:28 [debug] [paypal] 
+ Payment amount :56.50
+2017/06/22 17:56:28 [debug] [paypal] 
+ Txn Id :51B72546YF7614430
+2017/06/22 17:56:28 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/06/22 17:56:28 [debug] [paypal] 
+ custom :2405
+2017/06/22 17:56:28 [debug] [paypal] 
+ mc gross :56.50
+2017/06/22 17:56:28 [debug] [paypal] 
+ verify_sign :A9LC3Qajo-H2V8mPq4eIktgPvG2RAT.Hz6DluTb-nWRJMlxRHMbLEv2I
+2017/06/28 16:08:12 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 920
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A08%3A06+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2408&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=Ai1PaghZh5FmBLCDCTQpwG8jB264A6fteat0cqkjfAqVhammM7Lu1yAp&payer_email=sandbox%402gom.com.mx&txn_id=0KH91160J14138155&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_a3d5c0bde877f34bf7ebfba613da84065953d43fc72c0&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=5792e25bb7a92
+
+2017/06/28 16:08:12 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 28 Jun 2017 16:08:12 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=i1mMavFb-hiiYW46bPvFalJM5HqLWvbeluF0jxAofZrXTdxOJEeuKcpVFQebNjFBYe1rdI4EvRfEF2m6_i7bPBCwCl7hvGfB2SENth_tnkxItwkf6mRtk83mUovJT0t4Jn4PEabGdk1V4ppUkW0RhIiuiiHVx1DUamBWG2j5GAi7ft7ij8gx5yCBvk84tKQipCQwbEJEp2wwY-bpPFK4eWz3GfQC1Aha2Mc7xtnCl0u1hIEpsSSejAmBz284V7iHKbSiNFbUHUBlNqbzpCoKFf10hzMJn_VVor4thKPHS4Ig6LEC99KfwV_GAjQq-WFrBzurDzEVfVs9ECEC_7vtMCSxxuHHdqJ84FJ0vIMiePFgvRBrmJkglIfRS9XxXVU8aRNp8lAh-VkpmQCVeQjaFZfwrQhTa_5afwHPhaeaWTU2vRm33nlmfnUKKEe; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 26-Jun-2027 16:08:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 28-Jun-2019 16:08:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1498666092617755; path=/; expires=Fri, 21-Jun-47 16:08:12 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 8332241793d68
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1825854297%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 28 Jun 2017 16:38:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/06/28 16:08:12 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A08%3A06+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2408&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=Ai1PaghZh5FmBLCDCTQpwG8jB264A6fteat0cqkjfAqVhammM7Lu1yAp&payer_email=sandbox%402gom.com.mx&txn_id=0KH91160J14138155&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_a3d5c0bde877f34bf7ebfba613da84065953d43fc72c0&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=5792e25bb7a92 
+
+2017/06/28 16:08:12 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/06/28 16:08:12 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 3 images
+2017/06/28 16:08:12 [debug] [paypal] 
+ Item number :oc_a3d5c0bde877f34bf7ebfba613da84065953d43fc72c0
+2017/06/28 16:08:12 [debug] [paypal] 
+ quantity :1
+2017/06/28 16:08:12 [debug] [paypal] 
+ Payment Status :Pending
+2017/06/28 16:08:12 [debug] [paypal] 
+ Payment amount :84.75
+2017/06/28 16:08:12 [debug] [paypal] 
+ Txn Id :0KH91160J14138155
+2017/06/28 16:08:12 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/06/28 16:08:12 [debug] [paypal] 
+ custom :2408
+2017/06/28 16:08:12 [debug] [paypal] 
+ mc gross :84.75
+2017/06/28 16:08:12 [debug] [paypal] 
+ verify_sign :Ai1PaghZh5FmBLCDCTQpwG8jB264A6fteat0cqkjfAqVhammM7Lu1yAp
+2017/06/28 16:27:17 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 920
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A27%3A08+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2404&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AiPC9BjkCyDFQXbSkoZcgqH3hpacAUXEQd62ikC1K56KWgyzgSB49AeX&payer_email=sandbox%402gom.com.mx&txn_id=0EL242303L221342P&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_77751b7f28cb7a8208f83e29ebe61a005953d89b26dfe&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=71eee43ac5d46
+
+2017/06/28 16:27:17 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 28 Jun 2017 16:27:17 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=98thKYvXZRPaNsvSTiK7PS2UwVcNlx40b32ac7bUYtHWXLxotUXOGoAYYnIZs2DePIjgCsNKqmAHzjNRWVcmoO1WdxTwMjNAY3ho8TFOnlqs8ea2IiazRc7_tfAeA949kD7Q5xewGdQgrBwrue6a-vnrHHjZMtJDTU5rynuy1s7uPu40i0ZPlWMlKduWmfuI2gn0cV344sB94AOvTk998QCnGBoUSw6rNco9JlpsB1qMURUDhIJK3vCelQigiz0VFt0Fdl-L415wlsvyOeckr8yq8trT7Ib80zVtQ6vOBNqfJj3ea_cunEYeP4hk5NHV5NTWSiTmODaP4Ai8jyD4QrN7uyBkrAipflrxIzHfa-WcsQFDdpepsbaEoPz8uW6q8Tf299Y9Fr2kiLuN8QhBku7Rftio_Dt-Pwfy63fE092gnorM34eexjkfj1i; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 26-Jun-2027 16:27:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 28-Jun-2019 16:27:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1498667237395515; path=/; expires=Fri, 21-Jun-47 16:27:17 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 3fe8da595d2f6
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3856159577%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 28 Jun 2017 16:57:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/06/28 16:27:17 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A27%3A08+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2404&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AiPC9BjkCyDFQXbSkoZcgqH3hpacAUXEQd62ikC1K56KWgyzgSB49AeX&payer_email=sandbox%402gom.com.mx&txn_id=0EL242303L221342P&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_77751b7f28cb7a8208f83e29ebe61a005953d89b26dfe&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=71eee43ac5d46 
+
+2017/06/28 16:27:17 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/06/28 16:27:17 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 3 images
+2017/06/28 16:27:17 [debug] [paypal] 
+ Item number :oc_77751b7f28cb7a8208f83e29ebe61a005953d89b26dfe
+2017/06/28 16:27:17 [debug] [paypal] 
+ quantity :1
+2017/06/28 16:27:17 [debug] [paypal] 
+ Payment Status :Pending
+2017/06/28 16:27:17 [debug] [paypal] 
+ Payment amount :84.75
+2017/06/28 16:27:17 [debug] [paypal] 
+ Txn Id :0EL242303L221342P
+2017/06/28 16:27:17 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/06/28 16:27:17 [debug] [paypal] 
+ custom :2404
+2017/06/28 16:27:17 [debug] [paypal] 
+ mc gross :84.75
+2017/06/28 16:27:17 [debug] [paypal] 
+ verify_sign :AiPC9BjkCyDFQXbSkoZcgqH3hpacAUXEQd62ikC1K56KWgyzgSB49AeX
+2017/06/28 19:01:30 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 928
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=22.60&protection_eligibility=Ineligible&address_status=confirmed&payer_id=72YSKDNJXY2AE&address_street=Calle+Juarez+1&payment_date=12%3A01%3A24+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=2409&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=AIkKNboJiyuxWLOHUlzTd3lpqCSxAMHA8LJ9vIAQHTX5KYBqz6Ac30rH&payer_email=sandbox%40comitefotomx.com&txn_id=3K0545652D655390V&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_0d3659249d395e8ff7f3350250b3121e5953fc69aa1e0&residence_country=MX&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=b69dee4b59c97
+
+2017/06/28 19:01:30 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 28 Jun 2017 19:01:30 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=hJzELqhjRm62Zi8DOx0c3rABEJ9HCRBHwL8d_hRQQxYi9xxgCoFYBIRXmJ2waymxnhnz2EGn4f3WgI6OMWLYVAzIH-FZ2kYo08yrqlX4hr5zTJzovX1YDc94K-GrKeZtjkyUuYYdjmn2rjwr48wBCXYJUEPMdXq_h2Wn15qukmnKOn57xSC6eeAIkqpd2JoB-DfoE_UmPsNH1hHhGgT6mqZFKPNaO1ilIbtST3rfxRlyvQlCRPIdIr5naQVotR4EJ1FWA5d9LYGnVq_1OahNlbi3uoi9iOpHzcW_aLaieGMCVTr-1IHh4r8lHF3xAigdpZWXlx43PLWymEoF7QB1GGTJv6q15By4S06BnSXyLzDMtT-6VCXcFyefFYGcK27uYvKXQRmLClmoafiBtrTfRkHmjaVjx0pHBi83azm8dfVGhS1cfOoKR9yMHGG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 26-Jun-2027 19:01:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 28-Jun-2019 19:01:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1498676490615960; path=/; expires=Fri, 21-Jun-47 19:01:30 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 41a38ff692b77
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D184374105%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 28 Jun 2017 19:31:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/06/28 19:01:30 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=22.60&protection_eligibility=Ineligible&address_status=confirmed&payer_id=72YSKDNJXY2AE&address_street=Calle+Juarez+1&payment_date=12%3A01%3A24+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=2409&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=AIkKNboJiyuxWLOHUlzTd3lpqCSxAMHA8LJ9vIAQHTX5KYBqz6Ac30rH&payer_email=sandbox%40comitefotomx.com&txn_id=3K0545652D655390V&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_0d3659249d395e8ff7f3350250b3121e5953fc69aa1e0&residence_country=MX&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=b69dee4b59c97 
+
+2017/06/28 19:01:30 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/06/28 19:01:30 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 3 images
+2017/06/28 19:01:30 [debug] [paypal] 
+ Item number :oc_0d3659249d395e8ff7f3350250b3121e5953fc69aa1e0
+2017/06/28 19:01:30 [debug] [paypal] 
+ quantity :1
+2017/06/28 19:01:30 [debug] [paypal] 
+ Payment Status :Pending
+2017/06/28 19:01:30 [debug] [paypal] 
+ Payment amount :22.60
+2017/06/28 19:01:30 [debug] [paypal] 
+ Txn Id :3K0545652D655390V
+2017/06/28 19:01:30 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/06/28 19:01:30 [debug] [paypal] 
+ custom :2409
+2017/06/28 19:01:30 [debug] [paypal] 
+ mc gross :22.60
+2017/06/28 19:01:30 [debug] [paypal] 
+ verify_sign :AIkKNboJiyuxWLOHUlzTd3lpqCSxAMHA8LJ9vIAQHTX5KYBqz6Ac30rH
+2017/06/28 19:13:08 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 928
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=72YSKDNJXY2AE&address_street=Calle+Juarez+1&payment_date=12%3A13%3A04+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=2406&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=AB8uKJ-cgis5XVZJfu8yXdO6dhrpAoBQp.ooA8gW7Gri0HF21-02YVtV&payer_email=sandbox%40comitefotomx.com&txn_id=4JL43414KK977522M&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_beb000db5b68d964dabdb72b66389ddc5953ff9f30c8d&residence_country=MX&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=cc26050d98a7a
+
+2017/06/28 19:13:08 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 28 Jun 2017 19:13:08 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=pU0mJ_5K_xKr6BzzQ7THPTnHYrL54_fPUCloO2RVop7W33T9zsGII-NbwG1eBfyldNXzgh4jHIsmLIbbVXd6fpGhJckJFII0K3VZ2_hDLZgCQ3BL6Fo4fL0GDQ-MEo8d7KTxBjEVK6N1afrGFw2UJawciEjg7dR4YsIOwe2kHfS_XpzAaDktROQFBFrFkm5czARlh9MzLcLsWr3fRYj87GBK_4Z6KcPHe6pSvz5CF_l134Dv3GWDJ5DHA6srQZ9BmI470r4ptf68lnzY3Mu-pWfysClNThPG9dPKmSNY3daI4hT9vx-Zw1BvHvxTdCn2cXIerCU50OXOSDJCwFOHRQg8PFEr6XC3iQ0piAGK6YPlWxs9xeEs8Y2HjR6K6dPam8aw87dljNmkWylkygrxz30k0wy65_Vv9N2WQf61YLxcJ9HtlN3697pkbwq; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 26-Jun-2027 19:13:09 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 28-Jun-2019 19:13:09 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1498677188856327; path=/; expires=Fri, 21-Jun-47 19:13:08 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 24f459efcdb74
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3305067353%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 28 Jun 2017 19:43:09 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/06/28 19:13:08 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=72YSKDNJXY2AE&address_street=Calle+Juarez+1&payment_date=12%3A13%3A04+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=2406&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=AB8uKJ-cgis5XVZJfu8yXdO6dhrpAoBQp.ooA8gW7Gri0HF21-02YVtV&payer_email=sandbox%40comitefotomx.com&txn_id=4JL43414KK977522M&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_beb000db5b68d964dabdb72b66389ddc5953ff9f30c8d&residence_country=MX&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=cc26050d98a7a 
+
+2017/06/28 19:13:08 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/06/28 19:13:08 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 3 images
+2017/06/28 19:13:08 [debug] [paypal] 
+ Item number :oc_beb000db5b68d964dabdb72b66389ddc5953ff9f30c8d
+2017/06/28 19:13:08 [debug] [paypal] 
+ quantity :1
+2017/06/28 19:13:08 [debug] [paypal] 
+ Payment Status :Pending
+2017/06/28 19:13:08 [debug] [paypal] 
+ Payment amount :84.75
+2017/06/28 19:13:08 [debug] [paypal] 
+ Txn Id :4JL43414KK977522M
+2017/06/28 19:13:08 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/06/28 19:13:08 [debug] [paypal] 
+ custom :2406
+2017/06/28 19:13:08 [debug] [paypal] 
+ mc gross :84.75
+2017/06/28 19:13:08 [debug] [paypal] 
+ verify_sign :AB8uKJ-cgis5XVZJfu8yXdO6dhrpAoBQp.ooA8gW7Gri0HF21-02YVtV
+2017/06/28 19:46:52 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 920
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=12%3A46%3A50+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2408&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AUkau1FwogE3kL3qo1vGTARqlijQAqglzHYVIyS5yIS51n5aYU133Tf4&payer_email=sandbox%402gom.com.mx&txn_id=5886209846231622F&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_3f3cef0ed2de521c0eb715d863af2a45595407853e129&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=a805ad41619af
+
+2017/06/28 19:46:52 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 28 Jun 2017 19:46:52 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Yibj_sFMWvxpZVF_ajPrO1jf7MWJWLutCmhoYhaxEDu6aaefHCjVzzE8_lql8W0hnbDAUG_fB45hfxQFvfWVBKnY2IRHwn071rgclDj1q0b_BOePgyw9VIqCnp1cjlEuh3sdQqNJXs0QCr8wlu9b26NtZqtr3q-pmH-jWyG7klTLS8wHbiJBWMuJ3nK9R1lxWXHHZlY2o8g_MF-qxsbn4UTxvJv4vJgHUAJvdOjkBwaYy52XgOlyS7fdKZYz8C7dP1MrYNVoA2euza3BJuf0jLQYTqSnWAmVhU_loJBfbkU2qGllnw_fm9XUISilhKME4V_9QdngGEGjMZ7wWQxGjQLngQOpr-pwUT0xArP6-HalOxoBLnkdXxvdlvHstxLvpnegO-YIrH1DpIAEVnOrk9aB5a4LsQZWkqXSZ7eeLX99rVFcaK6ezaHHi0a; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 26-Jun-2027 19:46:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 28-Jun-2019 19:46:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1498679212949870; path=/; expires=Fri, 21-Jun-47 19:46:52 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 6d8612ebe4faa
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2886161497%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 28 Jun 2017 20:16:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/06/28 19:46:52 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=12%3A46%3A50+Jun+28%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2408&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AUkau1FwogE3kL3qo1vGTARqlijQAqglzHYVIyS5yIS51n5aYU133Tf4&payer_email=sandbox%402gom.com.mx&txn_id=5886209846231622F&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_3f3cef0ed2de521c0eb715d863af2a45595407853e129&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=a805ad41619af 
+
+2017/06/28 19:46:52 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/06/28 19:46:52 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 3 images
+2017/06/28 19:46:52 [debug] [paypal] 
+ Item number :oc_3f3cef0ed2de521c0eb715d863af2a45595407853e129
+2017/06/28 19:46:52 [debug] [paypal] 
+ quantity :1
+2017/06/28 19:46:52 [debug] [paypal] 
+ Payment Status :Pending
+2017/06/28 19:46:52 [debug] [paypal] 
+ Payment amount :84.75
+2017/06/28 19:46:52 [debug] [paypal] 
+ Txn Id :5886209846231622F
+2017/06/28 19:46:52 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/06/28 19:46:52 [debug] [paypal] 
+ custom :2408
+2017/06/28 19:46:52 [debug] [paypal] 
+ mc gross :84.75
+2017/06/28 19:46:52 [debug] [paypal] 
+ verify_sign :AUkau1FwogE3kL3qo1vGTARqlijQAqglzHYVIyS5yIS51n5aYU133Tf4
+2017/07/04 14:29:01 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 928
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Ineligible&address_status=confirmed&payer_id=72YSKDNJXY2AE&address_street=Calle+Juarez+1&payment_date=07%3A28%3A58+Jul+04%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=2411&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=A31fFfXfoxG9kgdtT-o.xQAQ7OWgAjkYdskbY79ZmMzRfWULeEynLAYn&payer_email=sandbox%40comitefotomx.com&txn_id=9E4979137T2367408&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_99e2a6815281a4fb4ad263b1b90e6d235956b47c3ea9a&residence_country=MX&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=305d704fec693
+
+2017/07/04 14:29:01 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 04 Jul 2017 14:29:01 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=NxuT6AfC5DJr3MdnGicLYBKwPkUp5ObuWjuYr3V8hzReZOovLc8zRyf3Tdv5-dxC77NlZVT8uSfgcekKEzU20KndCldL24E0gFQgbahk4roA4y_QHsYh9VINF3aGgiP9koiCNA-bRWhE8KQYtjX_SZdzlM-8JPDSsf_6LkeKnr0M2VTqYWxbfM6Sh3t_wTHZ2sX9KgDJpetU1_151pfh0aaDvVCDeFK3S6YAsGGyd07OfFxi_-2v7ByQC8SnCmF_BXWMHby_aRxvj6BaebSdVtzYxWkSGmi0fUX9DQO-8LHmd0SiPh6lej_gWSwI5CGROe7Mm-VJCt7L_dFgWco6iaZRZRlka5SyUkU3QCmjxCK-NaKW-GgioamYIzCFGSRuLxM4HsRBtlv9wm4XMcTk_igGvRiKK9gqcEjLXreI7HQrzhlGWS8ZBDSn9D8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 02-Jul-2027 14:29:01 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 04-Jul-2019 14:29:01 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1499178541374693; path=/; expires=Thu, 27-Jun-47 14:29:01 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 2a45f8ce5848c
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D765877081%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 04 Jul 2017 14:59:01 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/07/04 14:29:01 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Ineligible&address_status=confirmed&payer_id=72YSKDNJXY2AE&address_street=Calle+Juarez+1&payment_date=07%3A28%3A58+Jul+04%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=2411&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=A31fFfXfoxG9kgdtT-o.xQAQ7OWgAjkYdskbY79ZmMzRfWULeEynLAYn&payer_email=sandbox%40comitefotomx.com&txn_id=9E4979137T2367408&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_99e2a6815281a4fb4ad263b1b90e6d235956b47c3ea9a&residence_country=MX&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=305d704fec693 
+
+2017/07/04 14:29:01 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/07/04 14:29:01 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 3 images
+2017/07/04 14:29:01 [debug] [paypal] 
+ Item number :oc_99e2a6815281a4fb4ad263b1b90e6d235956b47c3ea9a
+2017/07/04 14:29:01 [debug] [paypal] 
+ quantity :1
+2017/07/04 14:29:01 [debug] [paypal] 
+ Payment Status :Pending
+2017/07/04 14:29:01 [debug] [paypal] 
+ Payment amount :62.15
+2017/07/04 14:29:01 [debug] [paypal] 
+ Txn Id :9E4979137T2367408
+2017/07/04 14:29:01 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/07/04 14:29:01 [debug] [paypal] 
+ custom :2411
+2017/07/04 14:29:01 [debug] [paypal] 
+ mc gross :62.15
+2017/07/04 14:29:01 [debug] [paypal] 
+ verify_sign :A31fFfXfoxG9kgdtT-o.xQAQ7OWgAjkYdskbY79ZmMzRfWULeEynLAYn
+2017/07/05 01:17:58 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 919
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A17%3A50+Jul+04%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=1647&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AiKZhEEPLJjSIccz.2M.tbyW5YFwAmXt8bhFmW1FIhFDzoDYUE5JbOm8&payer_email=sandbox%402gom.com.mx&txn_id=02302749SD678790H&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_16eb4d333458ff308d853f96b7eaccfc595c3db40ef04&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=4afd4aa178b8
+
+2017/07/05 01:17:58 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 05 Jul 2017 01:17:58 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=QuxPxi8ndL4wkUvUygKJ33fis43M9Gd6pVpswz_xL9TpQJi6WTp2iHNy9LuDK_oGXkShCghmDx0Ab2Y32doSHJLAxgIkelwX3IHdY-h4klGne8E83SSB4lqjshvfxDux8vb0Tv59J5MGv4qDioA08tXr_xfiv2QcMw1wsS7-0v694uKfEJW5rUitYorPYq6SuLgbnxcI-ocGOr8Xqi0ARUGGL2hwRmhdb8g4AgzmgrvP0YWHc2-wCwzscf4Qd0tZ-_0q7STt9ngB28pN4X7T9VG1IlqY6vM_HzNHPRbcjJ72zn2BPKgw2pTWl8edjecqABjPyfktVqlImGSoBUXR1K6BFHA3VU5brZYGokB0T27ARqUvNi1qbyZDr8Y6Fgpq1phLvWpaDpxyb2C2XcjgBHLKiKzR2pxcQWukMQYi9wdgXXPCbvw_BNYHlme; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 03-Jul-2027 01:17:59 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 05-Jul-2019 01:17:59 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1499217478946945; path=/; expires=Fri, 28-Jun-47 01:17:58 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: edf1d0fde3f00
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1178491993%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 05 Jul 2017 01:47:59 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/07/05 01:17:58 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=18%3A17%3A50+Jul+04%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=1647&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AiKZhEEPLJjSIccz.2M.tbyW5YFwAmXt8bhFmW1FIhFDzoDYUE5JbOm8&payer_email=sandbox%402gom.com.mx&txn_id=02302749SD678790H&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+3+images&mc_currency=CAD&item_number=oc_16eb4d333458ff308d853f96b7eaccfc595c3db40ef04&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=4afd4aa178b8 
+
+2017/07/05 01:17:58 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/07/05 01:17:58 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 3 images
+2017/07/05 01:17:58 [debug] [paypal] 
+ Item number :oc_16eb4d333458ff308d853f96b7eaccfc595c3db40ef04
+2017/07/05 01:17:58 [debug] [paypal] 
+ quantity :1
+2017/07/05 01:17:58 [debug] [paypal] 
+ Payment Status :Pending
+2017/07/05 01:17:58 [debug] [paypal] 
+ Payment amount :84.75
+2017/07/05 01:17:58 [debug] [paypal] 
+ Txn Id :02302749SD678790H
+2017/07/05 01:17:58 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/07/05 01:17:58 [debug] [paypal] 
+ custom :1647
+2017/07/05 01:17:58 [debug] [paypal] 
+ mc gross :84.75
+2017/07/05 01:17:58 [debug] [paypal] 
+ verify_sign :AiKZhEEPLJjSIccz.2M.tbyW5YFwAmXt8bhFmW1FIhFDzoDYUE5JbOm8
+2017/07/07 18:34:03 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 927
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Ineligible&address_status=confirmed&payer_id=72YSKDNJXY2AE&address_street=Calle+Juarez+1&payment_date=11%3A33%3A59+Jul+07%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=2485&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=AGVEEc4wpa8s8HMmbqwXtzwy-R0pAnBm8Jcv64G66.3c.SyDnjlz1wEv&payer_email=sandbox%40comitefotomx.com&txn_id=13V85076AA778311N&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_2f06e14f0db1a360e516606c2552f699595fd3eb2edea&residence_country=MX&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=a741196166ab
+
+2017/07/07 18:34:03 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Fri, 07 Jul 2017 18:34:04 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=xPqDVYG_rcjisCCnZfkHy3prsaYoMiI8Z6Os0UtWiVSo5xfQJnPoI3o7dETNo35UdgBCwoDTEaHiXacveayoXg1aLBREhgzhBR2rwNqf0utKrDLRboC0DopQnoGVQS_0BIDx9XyY49BrcXHZ05KO3PsUfAXobxbo6NkGFoUK-54jwX-mAuZKOhfJwW_yJw_ZTRt38FbQOivYd-_En_Yn_xs98nnJvJJjS257BUpKX2UO4q9VoCnvWIyJOJx56K4Fw5Lr-FEOoy_6Wp36T0DRKKBBjK9sYCW0g9-ReHcWYFHTZ-cD-qfFuAQQ239gWVjFaXLtQ9lwTKm2ujFtLfcCd0retzRHOZOaevN1BYxBIo3Yx6pSpqjXcx-jZY83kzbiiGw9TA1d5OGcjQyNb0SHQ7eqnGvspcwa8VRPMRXcaa8_gs_5sY4MBVQ4-9y; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 05-Jul-2027 18:34:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 07-Jul-2019 18:34:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1499452444217956; path=/; expires=Sun, 30-Jun-47 18:34:04 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 801d093531fdc
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D483680089%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Fri, 07 Jul 2017 19:04:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/07/07 18:34:03 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Ineligible&address_status=confirmed&payer_id=72YSKDNJXY2AE&address_street=Calle+Juarez+1&payment_date=11%3A33%3A59+Jul+07%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=11580&first_name=Juan&address_country_code=MX&address_name=Juan+Perez&notify_version=3.8&custom=2485&payer_status=verified&address_country=Mexico&address_city=Miguel+Hidalgo&quantity=1&verify_sign=AGVEEc4wpa8s8HMmbqwXtzwy-R0pAnBm8Jcv64G66.3c.SyDnjlz1wEv&payer_email=sandbox%40comitefotomx.com&txn_id=13V85076AA778311N&payment_type=instant&last_name=Perez&address_state=Ciudad+de+Mexico&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_2f06e14f0db1a360e516606c2552f699595fd3eb2edea&residence_country=MX&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=a741196166ab 
+
+2017/07/07 18:34:03 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/07/07 18:34:03 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 4 images
+2017/07/07 18:34:03 [debug] [paypal] 
+ Item number :oc_2f06e14f0db1a360e516606c2552f699595fd3eb2edea
+2017/07/07 18:34:03 [debug] [paypal] 
+ quantity :1
+2017/07/07 18:34:03 [debug] [paypal] 
+ Payment Status :Pending
+2017/07/07 18:34:03 [debug] [paypal] 
+ Payment amount :62.15
+2017/07/07 18:34:03 [debug] [paypal] 
+ Txn Id :13V85076AA778311N
+2017/07/07 18:34:03 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/07/07 18:34:03 [debug] [paypal] 
+ custom :2485
+2017/07/07 18:34:03 [debug] [paypal] 
+ mc gross :62.15
+2017/07/07 18:34:03 [debug] [paypal] 
+ verify_sign :AGVEEc4wpa8s8HMmbqwXtzwy-R0pAnBm8Jcv64G66.3c.SyDnjlz1wEv
+2017/07/11 19:17:05 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 920
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=12%3A16%3A59+Jul+11%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2486&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AIkKNboJiyuxWLOHUlzTd3lpqCSxAPAIdjZowzgB6-xc6zVG1ZPcnuXR&payer_email=sandbox%402gom.com.mx&txn_id=45M71967NS4850827&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_0bedca6353c29b7844022f68cea46ddf596523e0802e9&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=dcbbb8e525ad8
+
+2017/07/11 19:17:05 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 11 Jul 2017 19:17:06 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=yj43YyzSJDMhQMT9Mnbrc7Y8nu-q82AUzroTqUmvgSYQk4gLRHs1KelhAxvWKS3Xp0JD7iWksYdAojwQvVErf9ahI63YD7w3uPJkV60sLInUozcT-OPW1L7p-M_iOdg9rDAlcqB8IGnxI4XbwjFqZEp2mYC1SN8mT-kWNOXWTpYSzLJQi5hWoGvSaCll6J3vsqUmONwx66HKDtrkx0cUdK0iUWcIO9cmjgUGHcdL7Q-Wf44DamozQy7Y5If5iSBWWmcrErft7exXkDfkOjY3wXWoj_AZ_Gbe9D8_XmOx2BilaDihN_iSmgKH808aZK5zMgyVOGpVsf3_fkgqs9SL3pJdqR_e9AKRa9wAbecmXTjKWVI5SB5PsGCJcTLkViaO-yKnc7yXFMzELHrLtxgPDw7tN5FT5rUKVEidgW; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 09-Jul-2027 19:17:06 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 11-Jul-2019 19:17:06 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1499800626417632; path=/; expires=Thu, 04-Jul-47 19:17:06 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 2cb4c98b62c14
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D841246041%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 11 Jul 2017 19:47:06 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/07/11 19:17:05 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=62.15&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=12%3A16%3A59+Jul+11%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2486&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AIkKNboJiyuxWLOHUlzTd3lpqCSxAPAIdjZowzgB6-xc6zVG1ZPcnuXR&payer_email=sandbox%402gom.com.mx&txn_id=45M71967NS4850827&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_0bedca6353c29b7844022f68cea46ddf596523e0802e9&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=dcbbb8e525ad8 
+
+2017/07/11 19:17:05 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/07/11 19:17:05 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 4 images
+2017/07/11 19:17:05 [debug] [paypal] 
+ Item number :oc_0bedca6353c29b7844022f68cea46ddf596523e0802e9
+2017/07/11 19:17:05 [debug] [paypal] 
+ quantity :1
+2017/07/11 19:17:05 [debug] [paypal] 
+ Payment Status :Pending
+2017/07/11 19:17:05 [debug] [paypal] 
+ Payment amount :62.15
+2017/07/11 19:17:05 [debug] [paypal] 
+ Txn Id :45M71967NS4850827
+2017/07/11 19:17:05 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/07/11 19:17:05 [debug] [paypal] 
+ custom :2486
+2017/07/11 19:17:05 [debug] [paypal] 
+ mc gross :62.15
+2017/07/11 19:17:05 [debug] [paypal] 
+ verify_sign :AIkKNboJiyuxWLOHUlzTd3lpqCSxAPAIdjZowzgB6-xc6zVG1ZPcnuXR
+2017/07/11 22:24:47 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 920
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=15%3A24%3A43+Jul+11%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2484&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=An5ns1Kso7MWUdW4ErQKJJJ4qi4-AMR2qPQCx6OGH3-RYXs8K0DWgbAL&payer_email=sandbox%402gom.com.mx&txn_id=7G412045BN691712U&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_1986475af36c24c02f553e7243246d8f59654f708b738&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=3729c628d4e20
+
+2017/07/11 22:24:47 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 11 Jul 2017 22:24:48 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=mN04v1gy5Lrg2n2e1Yt9a5LcCC17Vnyl9VAW21T68tpe_udFzHGLQNdrMhSq57XyZ1-pt7MutBUaEFeqICixqvGsDwJPtKM15YOM0s2lrJaWOaRGgE4fRN5cQyCdlAf1hr2nCeZbBr6bKZPZH_n0TqmQ2Iu4cSw4gY6jDYyjYHgiX0MdI0EMnO7aR8UgRryJtYnqT6KGtTiZzrgiU-_ldpw7fM0Sd38THiMlccbXaggv7ic4mPRqu62ppXfS5pS-PE6zkYdUK1BpIn7WIRkm05s3S4uRtHf49zOFgEVBV8-NA_0tWRFlaxbVkNHr9jNY9sbYH5mqZBtQIbwh2zMmIJPPBHGdLUQpTAu5Xk_mRYBEeVVMn4EHkupT6iNzIbKy3HZ3jTa9tkgHQVLE7QmoNFn7frKbGvKO_nVms79xVOLXryjR10F9wvEEyeC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 09-Jul-2027 22:24:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 11-Jul-2019 22:24:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1499811888850949; path=/; expires=Thu, 04-Jul-47 22:24:48 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: c6aaf420cc416
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D810575193%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 11 Jul 2017 22:54:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/07/11 22:24:47 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=15%3A24%3A43+Jul+11%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2484&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=An5ns1Kso7MWUdW4ErQKJJJ4qi4-AMR2qPQCx6OGH3-RYXs8K0DWgbAL&payer_email=sandbox%402gom.com.mx&txn_id=7G412045BN691712U&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_1986475af36c24c02f553e7243246d8f59654f708b738&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=3729c628d4e20 
+
+2017/07/11 22:24:47 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/07/11 22:24:47 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 4 images
+2017/07/11 22:24:47 [debug] [paypal] 
+ Item number :oc_1986475af36c24c02f553e7243246d8f59654f708b738
+2017/07/11 22:24:47 [debug] [paypal] 
+ quantity :1
+2017/07/11 22:24:47 [debug] [paypal] 
+ Payment Status :Pending
+2017/07/11 22:24:47 [debug] [paypal] 
+ Payment amount :84.75
+2017/07/11 22:24:47 [debug] [paypal] 
+ Txn Id :7G412045BN691712U
+2017/07/11 22:24:47 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/07/11 22:24:47 [debug] [paypal] 
+ custom :2484
+2017/07/11 22:24:47 [debug] [paypal] 
+ mc gross :84.75
+2017/07/11 22:24:47 [debug] [paypal] 
+ verify_sign :An5ns1Kso7MWUdW4ErQKJJJ4qi4-AMR2qPQCx6OGH3-RYXs8K0DWgbAL
+2017/07/13 17:07:49 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 920
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=10%3A07%3A40+Jul+13%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2490&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=ADmhMw5gqASpvy.X38.nDdwooKz7AlgVQBOPAJfVcgN37ao7q61hXveH&payer_email=sandbox%402gom.com.mx&txn_id=80838168CX016504T&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_84ac300ee453c8de7cf10e28cd044c885967a8a84e0c0&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=13fd2dc44b7ba
+
+2017/07/13 17:07:49 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Thu, 13 Jul 2017 17:07:49 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=DnPvqjBvqPWf7x0C5vD5YkBheNvUszo0HvXfFwKEuYNQlouwzwooVxmld6mP5ozXciKAmAYCRF_akHSw5VDyce6PG4IfTjQCkII-wIX0LjJQ-tTF8L2oOosKC-3uxIp8quKNVdNJCu8mtDs8Cv_acef8vOIPjMMC_ZgOWbvmDxNtDuDJyD_aagPfs7KBUOdj5irqdywcHJJdRzAVI2yvdIgGTvPG1r55sryVo_Efldq-mZjokU8vNgpYtMZvrwSpq015zDzfbFarcBbz8ifMQa6MUu5ek128tAS7k9Kho-77WuOmcOS4z5-oa6InbtXsR1GGIBh_C1pkM5jFm7RoeFGQ0WeVvcK6M2KggPzWguG1dRU0mxapuoLUdrsDjOuGPaH8zL0eiTcTe-F_emkHl89zUPmqzXSXamAOR-1qdrsPJGTQbisPWJg6UE0; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 11-Jul-2027 17:07:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 13-Jul-2019 17:07:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1499965669676851; path=/; expires=Sat, 06-Jul-47 17:07:49 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 5e7ecbe0a21eb
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3853018969%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Thu, 13 Jul 2017 17:37:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/07/13 17:07:49 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=10%3A07%3A40+Jul+13%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2490&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=ADmhMw5gqASpvy.X38.nDdwooKz7AlgVQBOPAJfVcgN37ao7q61hXveH&payer_email=sandbox%402gom.com.mx&txn_id=80838168CX016504T&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_84ac300ee453c8de7cf10e28cd044c885967a8a84e0c0&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=13fd2dc44b7ba 
+
+2017/07/13 17:07:49 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/07/13 17:07:49 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 4 images
+2017/07/13 17:07:49 [debug] [paypal] 
+ Item number :oc_84ac300ee453c8de7cf10e28cd044c885967a8a84e0c0
+2017/07/13 17:07:49 [debug] [paypal] 
+ quantity :1
+2017/07/13 17:07:49 [debug] [paypal] 
+ Payment Status :Pending
+2017/07/13 17:07:49 [debug] [paypal] 
+ Payment amount :84.75
+2017/07/13 17:07:49 [debug] [paypal] 
+ Txn Id :80838168CX016504T
+2017/07/13 17:07:49 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/07/13 17:07:49 [debug] [paypal] 
+ custom :2490
+2017/07/13 17:07:49 [debug] [paypal] 
+ mc gross :84.75
+2017/07/13 17:07:49 [debug] [paypal] 
+ verify_sign :ADmhMw5gqASpvy.X38.nDdwooKz7AlgVQBOPAJfVcgN37ao7q61hXveH
+2017/07/13 17:08:50 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 920
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=10%3A08%3A47+Jul+13%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2487&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AWkT50gtrA0iXnh55b939tXXlAFYAcx1-DAe7zvjZJR0T5-hMwss7Os1&payer_email=sandbox%402gom.com.mx&txn_id=37P679322C708720H&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_07f06753be7684b176192e4ae6d4c9125967a903cfef2&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=6ca0780e2448f
+
+2017/07/13 17:08:50 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Thu, 13 Jul 2017 17:08:51 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=ubllef9RYRRfaYCpAfmsqklG8YO_QxEbutGoGIqZb1a2ZF7dtmOpsDMItWoVHUMW-qfuGx2xhpNDy8h5oPgZ4YvV6rjryhRq-C_-sgk_jCL6iv6sizGCeEVB1yhuPmztdejKKhfo-ap3irtBh8OW7fNeMNVfvh33DO_oqNImJKWl9393JKu12xY-dO3mNGMT5H_esNjoiq5cLxu0cjZssQe2fQ9OcFJP4dfR_sw2lI1Gcx9Eoj4cfRXyW-xZkPOt3d1ZU3TlBK190tGfA_J6wJG5iZVU91asHbZrOVmyEOY4adzCmgTvX7Ua4CMVCi_BGZ9nHSDBhUPOKKNQkq8bvBzsLaT9o0j_hSDsdMeOo1iDLyoz_VRnC2PhrpwRZ5S3diBOjtXbqtQ5GOn_VZRF6R9Ka97tNmAHRR89jma7jMAYHuUwayu8ik71NCm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 11-Jul-2027 17:08:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 13-Jul-2019 17:08:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1499965731131522; path=/; expires=Sat, 06-Jul-47 17:08:51 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: a3c331bc1ccab
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D598304601%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Thu, 13 Jul 2017 17:38:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/07/13 17:08:50 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=10%3A08%3A47+Jul+13%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2487&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AWkT50gtrA0iXnh55b939tXXlAFYAcx1-DAe7zvjZJR0T5-hMwss7Os1&payer_email=sandbox%402gom.com.mx&txn_id=37P679322C708720H&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_07f06753be7684b176192e4ae6d4c9125967a903cfef2&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=6ca0780e2448f 
+
+2017/07/13 17:08:50 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/07/13 17:08:50 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 4 images
+2017/07/13 17:08:50 [debug] [paypal] 
+ Item number :oc_07f06753be7684b176192e4ae6d4c9125967a903cfef2
+2017/07/13 17:08:50 [debug] [paypal] 
+ quantity :1
+2017/07/13 17:08:50 [debug] [paypal] 
+ Payment Status :Pending
+2017/07/13 17:08:50 [debug] [paypal] 
+ Payment amount :84.75
+2017/07/13 17:08:50 [debug] [paypal] 
+ Txn Id :37P679322C708720H
+2017/07/13 17:08:50 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/07/13 17:08:50 [debug] [paypal] 
+ custom :2487
+2017/07/13 17:08:50 [debug] [paypal] 
+ mc gross :84.75
+2017/07/13 17:08:50 [debug] [paypal] 
+ verify_sign :AWkT50gtrA0iXnh55b939tXXlAFYAcx1-DAe7zvjZJR0T5-hMwss7Os1
+2017/07/26 16:42:32 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 920
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A42%3A25+Jul+26%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2492&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AQYTgL3v31I0V8X0-w0FFi87o1FAATjKp-pbqK0Yy5kDkRcVWP.Klcfu&payer_email=sandbox%402gom.com.mx&txn_id=0E4408532H6700058&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_fa47af2db60abb54b27184a2a694dfbb5978c4375cf76&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=3ab4450b86cee
+
+2017/07/26 16:42:32 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 26 Jul 2017 16:42:32 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=MdNoYdYEdOFWIUjW3onIbeuk0g1DuHmFIsRAOgnby_M4THfe2d5QNlDsMOMQ5FVKv3bgzk63U1n90m1AQzz-vs_fTEy4240fE7p92d5HV_jX4zbOg8yCFZdYX0WVQNNHkImGmojevPCD0g7boqDt9OYRROI8k-88nUii9cPyPnJ1SfXS3bCzck4drjGv5dRAGmBzla5exTA-VeuGrcy5AzLsKqKAytfigGkMk4hX8wC8LTs_uZBXOv6G7ldvo0b6INsKSt0_5oHQPfWyHVdjXT1GnGZCOqYkoH8alRfaR83JRsl90edqPeMwfa-EX8KjIolE6hppq_AincOmj6mxlabKgG1myD1V6u_Z3UtIx1jOpyTzLVemcMF1qb2hl0NTAlI05VWcnWHuyyhs3bZ1YvXslFNREDGqk6QbI1986AijV6dL9mtnazKaq_G; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 24-Jul-2027 16:42:32 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 26-Jul-2019 16:42:32 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1501087352377962; path=/; expires=Fri, 19-Jul-47 16:42:32 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 37c6e89959215
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2026272857%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 26 Jul 2017 17:12:32 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/07/26 16:42:32 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=09%3A42%3A25+Jul+26%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2492&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AQYTgL3v31I0V8X0-w0FFi87o1FAATjKp-pbqK0Yy5kDkRcVWP.Klcfu&payer_email=sandbox%402gom.com.mx&txn_id=0E4408532H6700058&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_fa47af2db60abb54b27184a2a694dfbb5978c4375cf76&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=3ab4450b86cee 
+
+2017/07/26 16:42:32 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/07/26 16:42:32 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 4 images
+2017/07/26 16:42:32 [debug] [paypal] 
+ Item number :oc_fa47af2db60abb54b27184a2a694dfbb5978c4375cf76
+2017/07/26 16:42:32 [debug] [paypal] 
+ quantity :1
+2017/07/26 16:42:32 [debug] [paypal] 
+ Payment Status :Pending
+2017/07/26 16:42:32 [debug] [paypal] 
+ Payment amount :84.75
+2017/07/26 16:42:32 [debug] [paypal] 
+ Txn Id :0E4408532H6700058
+2017/07/26 16:42:32 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/07/26 16:42:32 [debug] [paypal] 
+ custom :2492
+2017/07/26 16:42:32 [debug] [paypal] 
+ mc gross :84.75
+2017/07/26 16:42:32 [debug] [paypal] 
+ verify_sign :AQYTgL3v31I0V8X0-w0FFi87o1FAATjKp-pbqK0Yy5kDkRcVWP.Klcfu
+2017/08/02 15:37:50 [debug] [paypal] 
+ HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 920
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=08%3A37%3A29+Aug+02%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2493&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AipzpiML256w9-akHONKruBmK6ovAeA8A9jl8fUdWTkbm1sPOtxdfzg8&payer_email=sandbox%402gom.com.mx&txn_id=9DM329601L5999030&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_261412279c8a72ebae0468ec94a3ce105981f12f9278b&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=6d826269cc997
+
+2017/08/02 15:37:50 [debug] [paypal] 
+ HTTP response of validation request: HTTP/1.1 200 OK
+Date: Wed, 02 Aug 2017 15:37:45 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=J0zSpFbi7SI2EbiujumlWF2NLQjzh33MHE47JG8EhaZUe3dJrtuW6klvVuj6x59EDCNHjmHA-wIaObCPHd6os-Iy8qeABv4M3COFfOFcpVdu3WRwMkPfuquRdYq_hPdyLHDfsrT6rRl-EmAyJv3k9t4q64EFz4PofRvGUH6ckxSmApQPEW700md8q7RFCpSTWFGMVChJ6MZlhOUnUEHeMCptslKWmbQ6JutJmlk5QinPdz6HiawXpXV992HmO8EogQcHD2cObZpTfc98VQvCYqDDJz4uW0vJjeSPE31CfvCpyvDp6JYSiNj4fExMlV6b7LXTqB1zQB9J0WV2eU5axRFCRRqHc5rofncDtnjIPJl8SY__FqsrmqomqbY_bJPckMSQZePpnMHPPHF2z4A-6zrXlsU9ssKZV1fN_VIf6G4tmZ_28UdpUWWKu0i; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 31-Jul-2027 15:37:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 02-Aug-2019 15:37:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1501688265441978; path=/; expires=Fri, 26-Jul-47 15:37:45 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: c1d42ba3688a4
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3388047705%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Wed, 02 Aug 2017 16:07:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+2017/08/02 15:37:50 [debug] [paypal] 
+ Verified IPN: cmd=_notify-validate&mc_gross=84.75&protection_eligibility=Ineligible&address_status=confirmed&payer_id=LQFUT7FHS5W3S&address_street=1+Main+St+%E9le+%F1&payment_date=08%3A37%3A29+Aug+02%2C+2017+PDT&payment_status=Pending&charset=windows-1252&address_zip=95131&first_name=Sandbox&address_country_code=US&address_name=Sandbox++Test&notify_version=3.8&custom=2493&payer_status=verified&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AipzpiML256w9-akHONKruBmK6ovAeA8A9jl8fUdWTkbm1sPOtxdfzg8&payer_email=sandbox%402gom.com.mx&txn_id=9DM329601L5999030&payment_type=instant&last_name=Test&address_state=CA&receiver_email=beto%402gom.com.mx&pending_reason=unilateral&txn_type=web_accept&item_name=5044-001-Entry+Fee+for+4+images&mc_currency=CAD&item_number=oc_261412279c8a72ebae0468ec94a3ce105981f12f9278b&residence_country=US&test_ipn=1&transaction_subject=&payment_gross=&ipn_track_id=6d826269cc997 
+
+2017/08/02 15:37:50 [debug] [paypal] 
+ A procesar el pago y guardar.
+2017/08/02 15:37:50 [debug] [paypal] 
+ Item name:5044-001-Entry Fee for 4 images
+2017/08/02 15:37:50 [debug] [paypal] 
+ Item number :oc_261412279c8a72ebae0468ec94a3ce105981f12f9278b
+2017/08/02 15:37:50 [debug] [paypal] 
+ quantity :1
+2017/08/02 15:37:50 [debug] [paypal] 
+ Payment Status :Pending
+2017/08/02 15:37:50 [debug] [paypal] 
+ Payment amount :84.75
+2017/08/02 15:37:50 [debug] [paypal] 
+ Txn Id :9DM329601L5999030
+2017/08/02 15:37:50 [debug] [paypal] 
+ receiver email :beto@2gom.com.mx
+2017/08/02 15:37:50 [debug] [paypal] 
+ custom :2493
+2017/08/02 15:37:50 [debug] [paypal] 
+ mc gross :84.75
+2017/08/02 15:37:50 [debug] [paypal] 
+ verify_sign :AipzpiML256w9-akHONKruBmK6ovAeA8A9jl8fUdWTkbm1sPOtxdfzg8

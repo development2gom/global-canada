@@ -1,0 +1,9 @@
+[05-Jul-2017 20:01:44 UTC] PHP Fatal error:  Cannot redeclare UsrUsuariosController::sendEmail() in /home/gomcommx/public_html/www2geeksonemonkey.com/qa/global_judging/canada/community/protected/controllers/UsrUsuariosController.php on line 882
+[05-Jul-2017 23:43:12 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/gomcommx/public_html/www2geeksonemonkey.com/qa/global_judging/canada/community/protected/components/UserIdentity.php on line 42
+[05-Jul-2017 23:43:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/gomcommx/public_html/www2geeksonemonkey.com/qa/global_judging/canada/community/protected/components/UserIdentity.php on line 42
+[05-Jul-2017 23:43:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/gomcommx/public_html/www2geeksonemonkey.com/qa/global_judging/canada/community/protected/controllers/SiteController.php on line 390
+[05-Jul-2017 23:44:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/gomcommx/public_html/www2geeksonemonkey.com/qa/global_judging/canada/community/protected/components/UserIdentity.php on line 42
+[05-Jul-2017 23:45:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/gomcommx/public_html/www2geeksonemonkey.com/qa/global_judging/canada/community/protected/components/UserIdentity.php on line 42
+[05-Jul-2017 23:45:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/gomcommx/public_html/www2geeksonemonkey.com/qa/global_judging/canada/community/protected/components/UserIdentity.php on line 42
+[05-Jul-2017 23:46:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/gomcommx/public_html/www2geeksonemonkey.com/qa/global_judging/canada/community/protected/components/UserIdentity.php on line 42
+[05-Jul-2017 23:48:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/gomcommx/public_html/www2geeksonemonkey.com/qa/global_judging/canada/community/protected/components/UserIdentity.php on line 42
